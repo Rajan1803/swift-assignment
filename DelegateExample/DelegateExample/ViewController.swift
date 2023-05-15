@@ -8,10 +8,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    // MARK: - Variables And Declarations
+    var customView: CustomView = CustomView()
+    
+    // MARK: - IBOutlets
     @IBOutlet weak var label: UILabel!
     
-    var customView: CustomView = CustomView()
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -20,6 +23,7 @@ class ViewController: UIViewController {
         
     }
 
+    // MARK: - IBActions
     @IBAction func presentCustomView(_ sender: UIButton) {
         customView.center = self.view.center
         customView.delegate = self
@@ -28,6 +32,7 @@ class ViewController: UIViewController {
 
 }
 
+// MARK: Extension
 extension ViewController: TextTransferProtocol {
     func transferText(text: String) {
         if text != "" {
