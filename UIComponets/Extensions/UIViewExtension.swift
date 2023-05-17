@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-// MARK: - Extensions for new attributes of view like corner radius , border color etc...
+// MARK: - Extension for new attributes of view like corner radius , border color etc...
 extension UIView {
     
         @IBInspectable
@@ -94,14 +94,14 @@ extension UIView {
         self.layer.addSublayer(gradientLayer)
     }
     
-    func applyCornerRadius(radius: Int){
+    func applyCornerRadius(radius: Int) {
         layer.cornerRadius = CGFloat(radius)
         clipsToBounds = true
     }
     
-    func applyBorderColor(borderColor: CGColor, borderWidth: Float){
-        
+    func applyBorderColor(borderColor: CGColor, borderWidth: Float) {
         layer.borderColor = borderColor
         layer.borderWidth = CGFloat(borderWidth)
     }
+    
 }

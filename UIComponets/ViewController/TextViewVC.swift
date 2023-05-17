@@ -12,6 +12,7 @@ class TextViewVC: BaseViewController {
     // MARK: - IBOutlets
     @IBOutlet private var txtvAddress: UITextView!
     
+    // MARK: - Life cycle Method
     override func viewDidLoad() {
         super.viewDidLoad()
         txtvAddress.adjustUITextViewHeight()
@@ -59,8 +60,10 @@ extension TextViewVC: UITextViewDelegate {
 
 // MARK: - Extensions
 extension UITextField {
+    
     // MARK: - FUNCTION
     open override func endEditing(_ force: Bool) -> Bool {
         resignFirstResponder()
     }
+    
 }

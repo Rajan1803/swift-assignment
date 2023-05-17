@@ -19,6 +19,8 @@ class TextFieldValidateVC: BaseViewController {
     @IBOutlet private weak var lblUserNameInvalid: UILabel!
     @IBOutlet private weak var lblPasswordInvalid: UIView!
     @IBOutlet private weak var lblEmailInvalid: UILabel!
+    
+    // MARK: - Life cycle Method
     override func viewDidLoad() {
         super.viewDidLoad()
         lblEmailInvalid.isHidden = true
@@ -35,7 +37,7 @@ class TextFieldValidateVC: BaseViewController {
     
     // MARK: - IBActions
     @IBAction func txtfEmailChange(_ sender: UITextField) {
-        if Validator.shared.isEmailValid(email: sender.text){
+        if Validator.shared.isEmailValid(email: sender.text) {
             lblEmailInvalid.isHidden = true
         }else {
             lblEmailInvalid.isHidden = false
@@ -56,7 +58,7 @@ class TextFieldValidateVC: BaseViewController {
     
     // MARK: - IBActions
     @IBAction func txtfPincodeChange(_ sender: UITextField) {
-        if Validator.shared.isPincodeValid(pincode: sender.text ){
+        if Validator.shared.isPincodeValid(pincode: sender.text ) {
             lblPincodeInvalid.isHidden = true
         }else{
             lblPincodeInvalid.isHidden = false
@@ -67,7 +69,7 @@ class TextFieldValidateVC: BaseViewController {
 
     // MARK: - IBActions
     @IBAction func txtfPasswordChange(_ sender: UITextField) {
-        if Validator.shared.isPasswordValid(password: sender.text ){
+        if Validator.shared.isPasswordValid(password: sender.text ) {
             lblPasswordInvalid.isHidden = true
         }else {
             lblPasswordInvalid.isHidden = false
@@ -92,5 +94,6 @@ class TextFieldValidateVC: BaseViewController {
             return false
         }
     }
+    
 }
 

@@ -17,6 +17,7 @@ class UIButtonViewController: BaseViewController {
     @IBOutlet private weak var btnSubmit: UIButton!
     @IBOutlet private weak var btnSubmitLeading: NSLayoutConstraint!
     
+    // MARK: - Life cycle Method
     override func viewDidLoad() {
         super.viewDidLoad()
         btnSubmit.configuration?.titleAlignment = .center

@@ -11,6 +11,8 @@ class FrameBoundVC: BaseViewController {
 
     // MARK: - IBOutlets
     @IBOutlet private weak var blue: UIButton!
+    
+    // MARK: - Life cycle Method
     override func viewDidLoad() {
         printDetails()
     }
@@ -61,4 +63,5 @@ class FrameBoundVC: BaseViewController {
         print("frame: x: \(blue.frame.origin.x)  y: \(blue.frame.origin.x) height: \(blue.frame.height)  width: \(blue.frame.width)")
         print("bounds: x: \(blue.bounds.origin.x)  y: \(blue.frame.origin.y) height: \(blue.bounds.height) width: \(blue.bounds.width)")
     }
+    
 }

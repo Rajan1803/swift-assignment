@@ -9,7 +9,10 @@ import UIKit
 
 class SegmentedControllVC: BaseViewController {
     
+    // MARK: - Variables And Declarations
     private let lblPage = UILabel()
+    
+    // MARK: - Life cycle Method
     override func viewDidLoad() {
         super.viewDidLoad()
         let languageSegment = getLanguageSegmentedControl()
@@ -46,4 +49,5 @@ class SegmentedControllVC: BaseViewController {
     @objc func segmentLanguageOnClick(_ sender: UISegmentedControl) {
         print(LanguageSegmentTypes(rawValue: sender.selectedSegmentIndex)?.getValue() ?? "")
     }
+    
 }

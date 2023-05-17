@@ -13,6 +13,8 @@ class PHPickerVC: BaseViewController {
     private var phPickerHelper = PHPickerHelper()
     // MARK: - IBOutlets
     @IBOutlet private weak var imgView: UIImageView!
+    
+    // MARK: - Life cycle Method
     override func viewDidLoad() {
         super.viewDidLoad()
     }

@@ -17,6 +17,7 @@ class UITextFieldVC: BaseViewController {
     @IBOutlet private weak var txtAddress: UITextField!
     @IBOutlet private weak var txtEmail: UITextField!
     
+    // MARK: - Life cycle Method
     override func viewDidLoad() {
         super.viewDidLoad()
         setDelegates()
@@ -24,20 +25,22 @@ class UITextFieldVC: BaseViewController {
         setRightImage(textField: txtPassword)
     }
     
-    private func setDelegates(){
+    // MARK: - Set up
+    private func setDelegates() {
         txtUserName.delegate = self
         txtAddress.delegate = self
         txtPassword.delegate = self
         txtPincode.delegate = self
         txtEmail.delegate = self
     }
+    
     // MARK: - Set up
     private func setTextFieldImage() {
-        txtUserName.setTextFieldPadding(image: Constants.Img.userName)
-        txtPassword.setTextFieldPadding(image: Constants.Img.password)
-        txtAddress.setTextFieldPadding(image: Constants.Img.location)
-        txtPincode.setTextFieldPadding( image: Constants.Img.pincode)
-        txtEmail.setTextFieldPadding( image: Constants.Img.email)
+        txtUserName.setTextFieldLeftImage(image: UIImage(named: Constants.Img.userName))
+        txtPassword.setTextFieldLeftImage(image: UIImage(named: Constants.Img.password))
+        txtAddress.setTextFieldLeftImage(image: UIImage(named: Constants.Img.location))
+        txtPincode.setTextFieldLeftImage(image: UIImage(named: Constants.Img.pincode))
+        txtEmail.setTextFieldLeftImage(image: UIImage(named: Constants.Img.email))
     }
     
     // MARK: - Set up
@@ -60,7 +63,7 @@ class UITextFieldVC: BaseViewController {
     }
     
     // MARK: - Set up
-    private func setRightImage(textField: UITextField){
+    private func setRightImage(textField: UITextField) {
         let rightView = UIView(frame: CGRect(x: 0, y: 0, width: 30, height: textField.frame.size.height))
         let button = UIButton(frame: CGRect(x: 5, y: 5, width: 20, height: textField.frame.height - 10))
         button.setImage(UIImage(named: Constants.Img.solidEye), for: .normal)
@@ -71,7 +74,7 @@ class UITextFieldVC: BaseViewController {
     }
     
     // MARK: - Action
-    @objc private func passwordImageTouch(_ sender: UIButton){
+    @objc private func passwordImageTouch(_ sender: UIButton) {
         if txtPassword.isSecureTextEntry {
             sender.setImage(UIImage(named: Constants.Img.hidePassword), for: .normal)
         }else {
@@ -87,10 +90,6 @@ class UITextFieldVC: BaseViewController {
         print(#function)
     }
     
-    
-    
-  
-
 }
 
 // MARK: - Extensions
@@ -148,4 +147,5 @@ extension UITextFieldVC: UITextFieldDelegate {
         }
         return true
     }
+    
 }

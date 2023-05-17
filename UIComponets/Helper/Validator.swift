@@ -32,4 +32,5 @@ class Validator {
         let predicate = NSPredicate(format: "SELF MATCHES %@",  regulaerExpression)
         return predicate.evaluate(with: password ?? "")
     }
+    
 }
