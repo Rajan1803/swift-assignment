@@ -12,6 +12,8 @@ class UIStepperVC: BaseViewController {
     // MARK: - IBOutlets
     @IBOutlet private weak var stepper: UIStepper!
     @IBOutlet private weak var lblValue: UILabel!
+    
+    // MARK: - Life cycle Method
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpStepper()
@@ -36,4 +38,5 @@ class UIStepperVC: BaseViewController {
     @IBAction func stepperValueChage(_ sender: UIStepper) {
         lblValue.text = "\(sender.value)"
     }
+    
 }

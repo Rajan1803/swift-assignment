@@ -13,11 +13,13 @@ class ExtendFunctionsVC: BaseViewController {
     @IBOutlet private weak var lblName: UILabel!
     @IBOutlet private weak var btnSubmit: UIButton!
     
+    // MARK: - Life cycle Method
     override func viewDidLoad() {
         super.viewDidLoad()
         btnSubmit.applyCornerRadius(radius: 20)
         btnSubmit.applyBorderColor(borderColor: .init(red: 1, green: 0, blue: 0, alpha: 1),borderWidth: 2)
         
     }
+    
 }
 

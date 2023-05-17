@@ -15,6 +15,7 @@ class MainPageViewController: UIPageViewController {
     private var currentIndex = 0
     private let pageControl = UIPageControl()
     
+    // MARK: - Life cycle Method
     override func viewDidLoad() {
         super.viewDidLoad()
         setFirstViewController()
@@ -40,7 +41,7 @@ class MainPageViewController: UIPageViewController {
     }
     
     // MARK: - Action
-    @objc func pageControlTap(_ sender: UIPageControl){
+    @objc func pageControlTap(_ sender: UIPageControl) {
         print(#function)
     }
    

@@ -21,6 +21,7 @@ enum SegmentedTypes : Int {
             
         }
     }
+    
 }
 
 
@@ -35,5 +36,6 @@ enum LanguageSegmentTypes: Int {
         case .swift: return "Swift"
         }
     }
+    
 }
 

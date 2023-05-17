@@ -13,6 +13,7 @@ class SwitchVC: BaseViewController {
     @IBOutlet private var uiSlider: UISlider!
     @IBOutlet private var uiSwitch: UISwitch!
     
+    // MARK: - Life cycle Method
     override func viewDidLoad() {
         super.viewDidLoad()
         createUiSwitch()
@@ -60,5 +61,4 @@ class SwitchVC: BaseViewController {
         view.addSubview(newSwitch)
     }
    
-
 }
