@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionReusableView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="JobHeader" id="U6b-Vx-4bR" customClass="JobHeader" customModule="UIComponets" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="302" height="110"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recommended Jobs" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RUp-wq-qB4">
+                    <rect key="frame" x="24" y="70.666666666666671" width="157.66666666666666" height="19.333333333333329"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dFR-PR-HAU">
+                    <rect key="frame" x="227.33333333333334" y="66" width="64.666666666666657" height="29"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="See All">
+                        <fontDescription key="titleFontDescription" name="Helvetica" family="Helvetica" pointSize="13"/>
+                        <color key="baseForegroundColor" name="SeeAllLblColor"/>
+                    </buttonConfiguration>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qME-wA-vkg">
+                    <rect key="frame" x="0.0" y="-6.3333333333333321" width="302" height="57"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="293 Jobs Found" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cgb-Ka-2X9">
+                            <rect key="frame" x="24" y="24" width="105" height="17"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" name="JobsFoundColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="greenFilter" translatesAutoresizingMaskIntoConstraints="NO" id="gpc-Jk-ev6">
+                            <rect key="frame" x="268" y="24.666666666666664" width="14" height="16"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="14" id="qM0-ET-aFM"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" name="NavBarBackground"/>
+                    <constraints>
+                        <constraint firstItem="gpc-Jk-ev6" firstAttribute="centerY" secondItem="cgb-Ka-2X9" secondAttribute="centerY" id="8rS-Sw-QxI"/>
+                        <constraint firstItem="cgb-Ka-2X9" firstAttribute="top" secondItem="qME-wA-vkg" secondAttribute="top" constant="24" id="GR3-Wu-P71"/>
+                        <constraint firstAttribute="trailing" secondItem="gpc-Jk-ev6" secondAttribute="trailing" constant="20" id="JI7-1f-N9O"/>
+                        <constraint firstItem="cgb-Ka-2X9" firstAttribute="leading" secondItem="qME-wA-vkg" secondAttribute="leading" constant="24" id="S0u-fT-o2N"/>
+                        <constraint firstAttribute="bottom" secondItem="cgb-Ka-2X9" secondAttribute="bottom" constant="16" id="nRB-77-hNr"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="VXr-Tz-HHm"/>
+            <color key="backgroundColor" name="BackgroundColor"/>
+            <constraints>
+                <constraint firstItem="VXr-Tz-HHm" firstAttribute="bottom" secondItem="RUp-wq-qB4" secondAttribute="bottom" constant="20" id="7CH-cG-gfu"/>
+                <constraint firstItem="qME-wA-vkg" firstAttribute="leading" secondItem="VXr-Tz-HHm" secondAttribute="leading" id="KD6-mC-Mkd"/>
+                <constraint firstItem="dFR-PR-HAU" firstAttribute="centerY" secondItem="RUp-wq-qB4" secondAttribute="centerY" id="RLz-aD-EcX"/>
+                <constraint firstItem="VXr-Tz-HHm" firstAttribute="trailing" secondItem="dFR-PR-HAU" secondAttribute="trailing" constant="10" id="Szz-L3-QYj"/>
+                <constraint firstItem="VXr-Tz-HHm" firstAttribute="trailing" secondItem="qME-wA-vkg" secondAttribute="trailing" id="VQr-ym-cZq"/>
+                <constraint firstItem="RUp-wq-qB4" firstAttribute="top" secondItem="qME-wA-vkg" secondAttribute="bottom" constant="20" id="Yoi-CR-Yhd"/>
+                <constraint firstItem="RUp-wq-qB4" firstAttribute="leading" secondItem="VXr-Tz-HHm" secondAttribute="leading" constant="24" id="e8x-AH-Cmd"/>
+            </constraints>
+            <connections>
+                <outlet property="btnSeeAll" destination="dFR-PR-HAU" id="lOQ-IH-Kx3"/>
+                <outlet property="lblHeaderTitle" destination="RUp-wq-qB4" id="39y-Lo-y54"/>
+            </connections>
+            <point key="canvasLocation" x="9.1603053435114496" y="52.816901408450704"/>
+        </collectionReusableView>
+    </objects>
+    <resources>
+        <image name="greenFilter" width="15" height="16"/>
+        <namedColor name="BackgroundColor">
+            <color red="0.98000001907348633" green="0.97899997234344482" blue="0.99400001764297485" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="JobsFoundColor">
+            <color red="0.11699999868869781" green="0.63899999856948853" blue="0.38400000333786011" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="NavBarBackground">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </namedColor>
+        <namedColor name="SeeAllLblColor">
+            <color red="0.63599997758865356" green="0.63999998569488525" blue="0.66299998760223389" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

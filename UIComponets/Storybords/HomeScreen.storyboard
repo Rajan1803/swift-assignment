@@ -123,7 +123,7 @@ Baptista</string>
                                                     <rect key="frame" x="0.0" y="10" width="353" height="176"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="745AF6" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Im4-FA-q2o">
-                                                            <rect key="frame" x="20.000000000000004" y="15" width="59.333333333333343" height="20"/>
+                                                            <rect key="frame" x="20.000000000000004" y="15" width="59.333333333333343" height="17"/>
                                                             <fontDescription key="fontDescription" name="AvenirLTStd-Roman" family="Avenir LT Std" pointSize="17"/>
                                                             <color key="textColor" red="0.48363023999999999" green="0.48363023999999999" blue="0.48363023999999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
@@ -141,37 +141,37 @@ Baptista</string>
                                                             </connections>
                                                         </button>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ET8-3N-IL6">
-                                                            <rect key="frame" x="281.66666666666669" y="70" width="29.333333333333314" height="16.333333333333329"/>
+                                                            <rect key="frame" x="281.66666666666669" y="64" width="29.333333333333314" height="14"/>
                                                             <fontDescription key="fontDescription" name="AvenirLTStd-Light" family="Avenir LT Std" pointSize="14"/>
                                                             <color key="textColor" red="0.62886941429999998" green="0.66364240649999995" blue="0.76148802039999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CiH-JE-hGw">
-                                                            <rect key="frame" x="281.66666666666669" y="94.333333333333329" width="41.333333333333314" height="20"/>
+                                                            <rect key="frame" x="281.66666666666669" y="86" width="41.333333333333314" height="17"/>
                                                             <fontDescription key="fontDescription" name="AvenirLTStd-Roman" family="Avenir LT Std" pointSize="17"/>
                                                             <color key="textColor" red="0.1202389672" green="0.20195144409999999" blue="0.43655109409999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jan 01, 2020" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eAl-ck-xrB">
-                                                            <rect key="frame" x="20" y="149.66666666666666" width="81" height="16.333333333333343"/>
+                                                            <rect key="frame" x="20" y="152" width="76.666666666666671" height="14"/>
                                                             <fontDescription key="fontDescription" name="AvenirLTStd-Light" family="Avenir LT Std" pointSize="14"/>
                                                             <color key="textColor" red="0.66938716170000001" green="0.71143954990000002" blue="0.79666382069999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DavisBaptista@domain.name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wkl-GF-RmO">
-                                                            <rect key="frame" x="20" y="91.333333333333329" width="222" height="21"/>
+                                                            <rect key="frame" x="20" y="83" width="222" height="21"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <color key="textColor" red="0.1202389672" green="0.20195144409999999" blue="0.43655109409999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Submitted By" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LTF-EA-sLc">
-                                                            <rect key="frame" x="20" y="70" width="85.333333333333329" height="16.333333333333329"/>
+                                                            <rect key="frame" x="20" y="64" width="84.333333333333329" height="14"/>
                                                             <fontDescription key="fontDescription" name="AvenirLTStd-Light" family="Avenir LT Std" pointSize="14"/>
                                                             <color key="textColor" red="0.64746207" green="0.68192392589999995" blue="0.78308695549999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test Request Compliance Approval" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hDD-fN-Cim">
-                                                            <rect key="frame" x="20" y="40" width="267.33333333333331" height="20"/>
+                                                            <rect key="frame" x="20" y="37" width="268" height="17"/>
                                                             <fontDescription key="fontDescription" name="AvenirLTStd-Roman" family="Avenir LT Std" pointSize="17"/>
                                                             <color key="textColor" red="0.32049587369999999" green="0.3160648942" blue="0.3206132948" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
@@ -185,7 +185,6 @@ Baptista</string>
                                                         <constraint firstItem="hDD-fN-Cim" firstAttribute="leading" secondItem="Im4-FA-q2o" secondAttribute="leading" id="DR4-AW-nCP"/>
                                                         <constraint firstItem="wkl-GF-RmO" firstAttribute="leading" secondItem="LTF-EA-sLc" secondAttribute="leading" id="EEe-jT-vZk"/>
                                                         <constraint firstItem="eAl-ck-xrB" firstAttribute="leading" secondItem="wkl-GF-RmO" secondAttribute="leading" id="KGB-OT-61Q"/>
-                                                        <constraint firstItem="eAl-ck-xrB" firstAttribute="top" secondItem="wkl-GF-RmO" secondAttribute="bottom" constant="37.333333333333329" id="Mr4-QA-vhR"/>
                                                         <constraint firstItem="CiH-JE-hGw" firstAttribute="top" secondItem="ET8-3N-IL6" secondAttribute="bottom" constant="8" id="Pn2-xx-LIn"/>
                                                         <constraint firstItem="LTF-EA-sLc" firstAttribute="top" secondItem="hDD-fN-Cim" secondAttribute="bottom" constant="10" id="QLb-ve-8dQ"/>
                                                         <constraint firstItem="hDD-fN-Cim" firstAttribute="top" secondItem="Im4-FA-q2o" secondAttribute="bottom" constant="5" id="RXa-2v-2nr"/>
@@ -194,6 +193,7 @@ Baptista</string>
                                                         <constraint firstItem="Im4-FA-q2o" firstAttribute="leading" secondItem="i2v-Gq-Ojr" secondAttribute="leading" constant="20" id="hot-sP-tEK"/>
                                                         <constraint firstAttribute="bottom" secondItem="8Jj-qZ-C94" secondAttribute="bottom" constant="1" id="ico-Ir-LqG"/>
                                                         <constraint firstAttribute="bottom" secondItem="eAl-ck-xrB" secondAttribute="bottom" constant="10" id="kBQ-w0-daa"/>
+                                                        <constraint firstItem="eAl-ck-xrB" firstAttribute="top" secondItem="wkl-GF-RmO" secondAttribute="bottom" constant="48" id="mgG-jh-2Db"/>
                                                         <constraint firstItem="Im4-FA-q2o" firstAttribute="top" secondItem="i2v-Gq-Ojr" secondAttribute="top" constant="15" id="p5p-Lx-ozc"/>
                                                         <constraint firstItem="ET8-3N-IL6" firstAttribute="centerY" secondItem="LTF-EA-sLc" secondAttribute="centerY" id="xQx-pR-nDr"/>
                                                     </constraints>
