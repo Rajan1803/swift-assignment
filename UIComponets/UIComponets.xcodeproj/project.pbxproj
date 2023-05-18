@@ -28,6 +28,8 @@
 		E532843929F7EE8C005F8AF1 /* UIButtons.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E532843829F7EE8C005F8AF1 /* UIButtons.storyboard */; };
 		E532843B29F7EEBA005F8AF1 /* UIButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E532843A29F7EEBA005F8AF1 /* UIButtonViewController.swift */; };
 		E5454DB22A0921AF00A84098 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5454DB12A0921AF00A84098 /* CustomButton.swift */; };
+		E555A6782A18D5330000F142 /* JobHomeScreenEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E555A6772A18D5330000F142 /* JobHomeScreenEnum.swift */; };
+		E555A67A2A18DEA30000F142 /* FeaturedJobModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E555A6792A18DEA30000F142 /* FeaturedJobModel.swift */; };
 		E557181929FBEFDA00705C56 /* TextViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E557181829FBEFDA00705C56 /* TextViewVC.swift */; };
 		E5709C6A2A127CCC00129DDE /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5709C692A127CCC00129DDE /* Colors.xcassets */; };
 		E5709C6C2A1359BB00129DDE /* Font in Resources */ = {isa = PBXBuildFile; fileRef = E5709C6B2A1359BB00129DDE /* Font */; };
@@ -36,17 +38,34 @@
 		E5710EEA2A139A9400E10408 /* ExpandableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5710EE92A139A9400E10408 /* ExpandableVC.swift */; };
 		E5710EEC2A139AB000E10408 /* ExpandableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5710EEB2A139AB000E10408 /* ExpandableCell.swift */; };
 		E5710EEE2A13A08900E10408 /* Animals.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5710EED2A13A08900E10408 /* Animals.swift */; };
-		E5738C342A153455003AC81A /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5738C332A153455003AC81A /* BaseTableViewCell.swift */; };
+		E57FF9512A1515C70030E30A /* JobHeaderRV.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57FF9502A1515C70030E30A /* JobHeaderRV.swift */; };
+		E57FF9562A152B0D0030E30A /* JobHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57FF9542A152B0D0030E30A /* JobHeader.swift */; };
+		E57FF9572A152B0D0030E30A /* JobHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = E57FF9552A152B0D0030E30A /* JobHeader.xib */; };
 		E5844C382A0A9B3A009AFCAD /* CustomButton.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5844C372A0A9B3A009AFCAD /* CustomButton.xib */; };
 		E585D7AF29F96ED000CAEF40 /* RadioButtonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E585D7AE29F96ED000CAEF40 /* RadioButtonVC.swift */; };
 		E585D7B129FA431B00CAEF40 /* FrameBound.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E585D7B029FA431B00CAEF40 /* FrameBound.storyboard */; };
 		E585D7B329FA433700CAEF40 /* FrameBoundVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E585D7B229FA433700CAEF40 /* FrameBoundVC.swift */; };
 		E585D7B529FA88E200CAEF40 /* UITextFieldVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E585D7B429FA88E200CAEF40 /* UITextFieldVC.swift */; };
+		E59E8F292A178B4600956D09 /* JobTblVHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = E59E8F282A178B4600956D09 /* JobTblVHeader.xib */; };
+		E59E8F2B2A178CCA00956D09 /* JobTblViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59E8F2A2A178CCA00956D09 /* JobTblViewHeader.swift */; };
+		E59E8F2D2A17908A00956D09 /* JobTblVHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59E8F2C2A17908A00956D09 /* JobTblVHeader.swift */; };
+		E59E8F322A18D37C00956D09 /* ScrollViewUI.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E59E8F312A18D37C00956D09 /* ScrollViewUI.storyboard */; };
+		E5B8E53C2A14D8290013E231 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B8E53B2A14D8290013E231 /* CollectionViewCell.swift */; };
+		E5B8E53E2A14D85F0013E231 /* CollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B8E53D2A14D85F0013E231 /* CollectionVC.swift */; };
+		E5B8E5442A14F2DD0013E231 /* JobModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B8E5432A14F2DD0013E231 /* JobModel.swift */; };
+		E5B8E5472A14F4AC0013E231 /* JobCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B8E5452A14F4AC0013E231 /* JobCollectionCell.swift */; };
+		E5B8E5482A14F4AC0013E231 /* JobCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5B8E5462A14F4AC0013E231 /* JobCollectionCell.xib */; };
+		E5B8E54A2A14F77F0013E231 /* JobScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5B8E5492A14F77F0013E231 /* JobScreen.storyboard */; };
+		E5B8E54C2A14F7B70013E231 /* JobCollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B8E54B2A14F7B70013E231 /* JobCollectionVC.swift */; };
 		E5C5B59C2A0E9A0D0084F576 /* TextViewSelectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C5B59B2A0E9A0D0084F576 /* TextViewSelectionVC.swift */; };
 		E5C5B59E2A11FCE80084F576 /* HomeScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5C5B59D2A11FCE80084F576 /* HomeScreen.storyboard */; };
 		E5C5B5A12A11FE590084F576 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C5B5A02A11FE590084F576 /* Document.swift */; };
 		E5C5B5A32A11FF660084F576 /* HomeScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C5B5A22A11FF660084F576 /* HomeScreenVC.swift */; };
 		E5CC771129FA890900354058 /* UITextField.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5CC771029FA890900354058 /* UITextField.storyboard */; };
+		E5CD55B02A164EB60090BB81 /* JobScreenHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CD55AF2A164EB60090BB81 /* JobScreenHomeVC.swift */; };
+		E5CD55B32A166CB50090BB81 /* JobHomeScreenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CD55B12A166CB50090BB81 /* JobHomeScreenCell.swift */; };
+		E5CD55B42A166CB50090BB81 /* JobHomeScreenCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E5CD55B22A166CB50090BB81 /* JobHomeScreenCell.xib */; };
+		E5CD55B62A167C4F0090BB81 /* JobHomeScreenTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CD55B52A167C4F0090BB81 /* JobHomeScreenTableCell.swift */; };
 		E5D269562A0A1C1F00DD5184 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D269552A0A1C1F00DD5184 /* MainPageViewController.swift */; };
 		E5D269582A0A6B5F00DD5184 /* TextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D269572A0A6B5F00DD5184 /* TextFieldExtension.swift */; };
 		E5D2695A2A0A6DF200DD5184 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D269592A0A6DF200DD5184 /* BaseViewController.swift */; };
@@ -56,6 +75,8 @@
 		E5D7D24C2A08D29E004B8922 /* UIStepperVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D7D24B2A08D29E004B8922 /* UIStepperVC.swift */; };
 		E5D7D24F2A08FD54004B8922 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D7D24E2A08FD54004B8922 /* UIViewExtension.swift */; };
 		E5D7D2512A0911A0004B8922 /* UIImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D7D2502A0911A0004B8922 /* UIImageVC.swift */; };
+		E5DF70BD2A15E848007F4ABC /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5DF70BC2A15E848007F4ABC /* BaseTableViewCell.swift */; };
+		E5E7338E2A160568009DE927 /* JobSectionEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E7338D2A160568009DE927 /* JobSectionEnum.swift */; };
 		E5ED9A572A03824900F002D0 /* UISwitchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5ED9A562A03824900F002D0 /* UISwitchVC.swift */; };
 		E5ED9A592A03B3E700F002D0 /* SegmentedControllVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5ED9A582A03B3E700F002D0 /* SegmentedControllVC.swift */; };
 		E5ED9A5B2A040F4000F002D0 /* TextFieldValidateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5ED9A5A2A040F4000F002D0 /* TextFieldValidateVC.swift */; };
@@ -104,6 +125,8 @@
 		E532843829F7EE8C005F8AF1 /* UIButtons.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UIButtons.storyboard; sourceTree = "<group>"; };
 		E532843A29F7EEBA005F8AF1 /* UIButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonViewController.swift; sourceTree = "<group>"; };
 		E5454DB12A0921AF00A84098 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		E555A6772A18D5330000F142 /* JobHomeScreenEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobHomeScreenEnum.swift; sourceTree = "<group>"; };
+		E555A6792A18DEA30000F142 /* FeaturedJobModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedJobModel.swift; sourceTree = "<group>"; };
 		E557181829FBEFDA00705C56 /* TextViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewVC.swift; sourceTree = "<group>"; };
 		E5709C692A127CCC00129DDE /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		E5709C6B2A1359BB00129DDE /* Font */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Font; sourceTree = "<group>"; };
@@ -112,17 +135,34 @@
 		E5710EE92A139A9400E10408 /* ExpandableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableVC.swift; sourceTree = "<group>"; };
 		E5710EEB2A139AB000E10408 /* ExpandableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableCell.swift; sourceTree = "<group>"; };
 		E5710EED2A13A08900E10408 /* Animals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animals.swift; sourceTree = "<group>"; };
-		E5738C332A153455003AC81A /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		E57FF9502A1515C70030E30A /* JobHeaderRV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobHeaderRV.swift; sourceTree = "<group>"; };
+		E57FF9542A152B0D0030E30A /* JobHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobHeader.swift; sourceTree = "<group>"; };
+		E57FF9552A152B0D0030E30A /* JobHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JobHeader.xib; sourceTree = "<group>"; };
 		E5844C372A0A9B3A009AFCAD /* CustomButton.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomButton.xib; sourceTree = "<group>"; };
 		E585D7AE29F96ED000CAEF40 /* RadioButtonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonVC.swift; sourceTree = "<group>"; };
 		E585D7B029FA431B00CAEF40 /* FrameBound.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FrameBound.storyboard; sourceTree = "<group>"; };
 		E585D7B229FA433700CAEF40 /* FrameBoundVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameBoundVC.swift; sourceTree = "<group>"; };
 		E585D7B429FA88E200CAEF40 /* UITextFieldVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldVC.swift; sourceTree = "<group>"; };
+		E59E8F282A178B4600956D09 /* JobTblVHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JobTblVHeader.xib; sourceTree = "<group>"; };
+		E59E8F2A2A178CCA00956D09 /* JobTblViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobTblViewHeader.swift; sourceTree = "<group>"; };
+		E59E8F2C2A17908A00956D09 /* JobTblVHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobTblVHeader.swift; sourceTree = "<group>"; };
+		E59E8F312A18D37C00956D09 /* ScrollViewUI.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScrollViewUI.storyboard; sourceTree = "<group>"; };
+		E5B8E53B2A14D8290013E231 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		E5B8E53D2A14D85F0013E231 /* CollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionVC.swift; sourceTree = "<group>"; };
+		E5B8E5432A14F2DD0013E231 /* JobModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobModel.swift; sourceTree = "<group>"; };
+		E5B8E5452A14F4AC0013E231 /* JobCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = JobCollectionCell.swift; path = JobScreens/JobScreenCell/JobCollectionCell.swift; sourceTree = SOURCE_ROOT; };
+		E5B8E5462A14F4AC0013E231 /* JobCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = JobCollectionCell.xib; path = JobScreens/JobScreenCell/JobCollectionCell.xib; sourceTree = SOURCE_ROOT; };
+		E5B8E5492A14F77F0013E231 /* JobScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = JobScreen.storyboard; sourceTree = "<group>"; };
+		E5B8E54B2A14F7B70013E231 /* JobCollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobCollectionVC.swift; sourceTree = "<group>"; };
 		E5C5B59B2A0E9A0D0084F576 /* TextViewSelectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewSelectionVC.swift; sourceTree = "<group>"; };
 		E5C5B59D2A11FCE80084F576 /* HomeScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeScreen.storyboard; sourceTree = "<group>"; };
 		E5C5B5A02A11FE590084F576 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
 		E5C5B5A22A11FF660084F576 /* HomeScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenVC.swift; sourceTree = "<group>"; };
 		E5CC771029FA890900354058 /* UITextField.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UITextField.storyboard; sourceTree = "<group>"; };
+		E5CD55AF2A164EB60090BB81 /* JobScreenHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobScreenHomeVC.swift; sourceTree = "<group>"; };
+		E5CD55B12A166CB50090BB81 /* JobHomeScreenCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobHomeScreenCell.swift; sourceTree = "<group>"; };
+		E5CD55B22A166CB50090BB81 /* JobHomeScreenCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JobHomeScreenCell.xib; sourceTree = "<group>"; };
+		E5CD55B52A167C4F0090BB81 /* JobHomeScreenTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobHomeScreenTableCell.swift; sourceTree = "<group>"; };
 		E5D269552A0A1C1F00DD5184 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
 		E5D269572A0A6B5F00DD5184 /* TextFieldExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExtension.swift; sourceTree = "<group>"; };
 		E5D269592A0A6DF200DD5184 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
@@ -132,6 +172,8 @@
 		E5D7D24B2A08D29E004B8922 /* UIStepperVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStepperVC.swift; sourceTree = "<group>"; };
 		E5D7D24E2A08FD54004B8922 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		E5D7D2502A0911A0004B8922 /* UIImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageVC.swift; sourceTree = "<group>"; };
+		E5DF70BC2A15E848007F4ABC /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		E5E7338D2A160568009DE927 /* JobSectionEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobSectionEnum.swift; sourceTree = "<group>"; };
 		E5ED9A562A03824900F002D0 /* UISwitchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISwitchVC.swift; sourceTree = "<group>"; };
 		E5ED9A582A03B3E700F002D0 /* SegmentedControllVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentedControllVC.swift; sourceTree = "<group>"; };
 		E5ED9A5A2A040F4000F002D0 /* TextFieldValidateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldValidateVC.swift; sourceTree = "<group>"; };
@@ -165,6 +207,7 @@
 		E53283FB29F7EA77005F8AF1 = {
 			isa = PBXGroup;
 			children = (
+				E54C8FF82A18EC37005A05DE /* JobScreens */,
 				E5C5B5A62A11FFB70084F576 /* Cell */,
 				E5C5B59F2A11FE310084F576 /* Model */,
 				E5844C3A2A0AAD3A009AFCAD /* BaseViewController */,
@@ -209,11 +252,12 @@
 				E5D7D24B2A08D29E004B8922 /* UIStepperVC.swift */,
 				E5D7D2502A0911A0004B8922 /* UIImageVC.swift */,
 				E5D269552A0A1C1F00DD5184 /* MainPageViewController.swift */,
-				E5D269652A0A7CEB00DD5184 /* PHPickerVC.swift */,
 				E52F36BE2A0E46B80022663A /* TableViewVC.swift */,
 				E5C5B59B2A0E9A0D0084F576 /* TextViewSelectionVC.swift */,
 				E5C5B5A22A11FF660084F576 /* HomeScreenVC.swift */,
+				E5D269652A0A7CEB00DD5184 /* PHPickerVC.swift */,
 				E5710EE92A139A9400E10408 /* ExpandableVC.swift */,
+				E5B8E53D2A14D85F0013E231 /* CollectionVC.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -227,14 +271,88 @@
 				E585D7B029FA431B00CAEF40 /* FrameBound.storyboard */,
 				E5CC771029FA890900354058 /* UITextField.storyboard */,
 				E5C5B59D2A11FCE80084F576 /* HomeScreen.storyboard */,
+				E5B8E5492A14F77F0013E231 /* JobScreen.storyboard */,
+				E59E8F312A18D37C00956D09 /* ScrollViewUI.storyboard */,
 			);
 			path = Storybords;
+			sourceTree = "<group>";
+		};
+		E54C8FF82A18EC37005A05DE /* JobScreens */ = {
+			isa = PBXGroup;
+			children = (
+				E54C8FFF2A18EF6E005A05DE /* Models */,
+				E54C8FFE2A18EF4C005A05DE /* Enumeration */,
+				E54C8FFD2A18EE7A005A05DE /* HeaderViews */,
+				E54C8FFC2A18EE3F005A05DE /* ViewController */,
+				E54C8FF92A18ED9D005A05DE /* JobScreenCell */,
+			);
+			path = JobScreens;
+			sourceTree = "<group>";
+		};
+		E54C8FF92A18ED9D005A05DE /* JobScreenCell */ = {
+			isa = PBXGroup;
+			children = (
+				E54C8FFA2A18EDE0005A05DE /* JobHomeScreenCell */,
+				E5B8E5452A14F4AC0013E231 /* JobCollectionCell.swift */,
+				E5B8E5462A14F4AC0013E231 /* JobCollectionCell.xib */,
+			);
+			path = JobScreenCell;
+			sourceTree = "<group>";
+		};
+		E54C8FFA2A18EDE0005A05DE /* JobHomeScreenCell */ = {
+			isa = PBXGroup;
+			children = (
+				E5CD55B52A167C4F0090BB81 /* JobHomeScreenTableCell.swift */,
+				E5CD55B12A166CB50090BB81 /* JobHomeScreenCell.swift */,
+				E5CD55B22A166CB50090BB81 /* JobHomeScreenCell.xib */,
+			);
+			path = JobHomeScreenCell;
+			sourceTree = "<group>";
+		};
+		E54C8FFC2A18EE3F005A05DE /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E5B8E54B2A14F7B70013E231 /* JobCollectionVC.swift */,
+				E5CD55AF2A164EB60090BB81 /* JobScreenHomeVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E54C8FFD2A18EE7A005A05DE /* HeaderViews */ = {
+			isa = PBXGroup;
+			children = (
+				E57FF9542A152B0D0030E30A /* JobHeader.swift */,
+				E57FF9552A152B0D0030E30A /* JobHeader.xib */,
+				E59E8F282A178B4600956D09 /* JobTblVHeader.xib */,
+				E59E8F2C2A17908A00956D09 /* JobTblVHeader.swift */,
+				E57FF9502A1515C70030E30A /* JobHeaderRV.swift */,
+			);
+			path = HeaderViews;
+			sourceTree = "<group>";
+		};
+		E54C8FFE2A18EF4C005A05DE /* Enumeration */ = {
+			isa = PBXGroup;
+			children = (
+				E5E7338D2A160568009DE927 /* JobSectionEnum.swift */,
+				E555A6772A18D5330000F142 /* JobHomeScreenEnum.swift */,
+			);
+			path = Enumeration;
+			sourceTree = "<group>";
+		};
+		E54C8FFF2A18EF6E005A05DE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E555A6792A18DEA30000F142 /* FeaturedJobModel.swift */,
+				E5B8E5432A14F2DD0013E231 /* JobModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		E5844C392A0AAD09009AFCAD /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
 				E5844C372A0A9B3A009AFCAD /* CustomButton.xib */,
+				E59E8F2A2A178CCA00956D09 /* JobTblViewHeader.swift */,
 			);
 			path = CustomView;
 			sourceTree = "<group>";
@@ -243,7 +361,7 @@
 			isa = PBXGroup;
 			children = (
 				E5D269592A0A6DF200DD5184 /* BaseViewController.swift */,
-				E5738C332A153455003AC81A /* BaseTableViewCell.swift */,
+				E5DF70BC2A15E848007F4ABC /* BaseTableViewCell.swift */,
 			);
 			path = BaseViewController;
 			sourceTree = "<group>";
@@ -264,6 +382,7 @@
 				E526E48B2A0E648400C6E597 /* TableViewCell.swift */,
 				E52407332A12278D006353BF /* HomeScreenCell.swift */,
 				E5710EEB2A139AB000E10408 /* ExpandableCell.swift */,
+				E5B8E53B2A14D8290013E231 /* CollectionViewCell.swift */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -416,16 +535,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5CD55B42A166CB50090BB81 /* JobHomeScreenCell.xib in Resources */,
+				E59E8F292A178B4600956D09 /* JobTblVHeader.xib in Resources */,
 				E5709C6A2A127CCC00129DDE /* Colors.xcassets in Resources */,
 				E532843929F7EE8C005F8AF1 /* UIButtons.storyboard in Resources */,
 				E5C5B59E2A11FCE80084F576 /* HomeScreen.storyboard in Resources */,
 				E585D7B129FA431B00CAEF40 /* FrameBound.storyboard in Resources */,
+				E59E8F322A18D37C00956D09 /* ScrollViewUI.storyboard in Resources */,
+				E5B8E5482A14F4AC0013E231 /* JobCollectionCell.xib in Resources */,
 				E532841429F7EA79005F8AF1 /* LaunchScreen.storyboard in Resources */,
 				E5709C6C2A1359BB00129DDE /* Font in Resources */,
 				E532841129F7EA79005F8AF1 /* Assets.xcassets in Resources */,
 				E5844C382A0A9B3A009AFCAD /* CustomButton.xib in Resources */,
 				E5CC771129FA890900354058 /* UITextField.storyboard in Resources */,
+				E5B8E54A2A14F77F0013E231 /* JobScreen.storyboard in Resources */,
 				E532840F29F7EA77005F8AF1 /* Main.storyboard in Resources */,
+				E57FF9572A152B0D0030E30A /* JobHeader.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,17 +575,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5B8E53E2A14D85F0013E231 /* CollectionVC.swift in Sources */,
 				E516069D2A0B6DB6002E654C /* UIImageViewExtension.swift in Sources */,
+				E5CD55B62A167C4F0090BB81 /* JobHomeScreenTableCell.swift in Sources */,
 				E5D7D2482A08D07B004B8922 /* Validator.swift in Sources */,
 				E5710EEE2A13A08900E10408 /* Animals.swift in Sources */,
 				E5D269562A0A1C1F00DD5184 /* MainPageViewController.swift in Sources */,
-				E5738C342A153455003AC81A /* BaseTableViewCell.swift in Sources */,
 				E532843B29F7EEBA005F8AF1 /* UIButtonViewController.swift in Sources */,
 				E5D2695A2A0A6DF200DD5184 /* BaseViewController.swift in Sources */,
 				E5D7D24C2A08D29E004B8922 /* UIStepperVC.swift in Sources */,
+				E5CD55B02A164EB60090BB81 /* JobScreenHomeVC.swift in Sources */,
+				E5B8E54C2A14F7B70013E231 /* JobCollectionVC.swift in Sources */,
+				E5CD55B32A166CB50090BB81 /* JobHomeScreenCell.swift in Sources */,
 				E532840C29F7EA77005F8AF1 /* ViewController.swift in Sources */,
 				E557181929FBEFDA00705C56 /* TextViewVC.swift in Sources */,
+				E5DF70BD2A15E848007F4ABC /* BaseTableViewCell.swift in Sources */,
 				E531EE0C2A055A49007F6A8E /* ExtendFunctionsVC.swift in Sources */,
+				E59E8F2B2A178CCA00956D09 /* JobTblViewHeader.swift in Sources */,
+				E5B8E5442A14F2DD0013E231 /* JobModel.swift in Sources */,
 				E5D7D24F2A08FD54004B8922 /* UIViewExtension.swift in Sources */,
 				E5709C6E2A13658500129DDE /* Color.swift in Sources */,
 				E51427EE2A0A91250069656F /* UISliderExtention.swift in Sources */,
@@ -470,13 +602,17 @@
 				E516069B2A0B6AED002E654C /* PHPickerHelper.swift in Sources */,
 				E5710EE42A138E0E00E10408 /* StatusEnum.swift in Sources */,
 				E5D269662A0A7CEB00DD5184 /* PHPickerVC.swift in Sources */,
+				E57FF9512A1515C70030E30A /* JobHeaderRV.swift in Sources */,
 				E52407342A12278D006353BF /* HomeScreenCell.swift in Sources */,
 				E5710EEC2A139AB000E10408 /* ExpandableCell.swift in Sources */,
 				E5ED9A592A03B3E700F002D0 /* SegmentedControllVC.swift in Sources */,
 				E5710EEA2A139A9400E10408 /* ExpandableVC.swift in Sources */,
 				E526E48C2A0E648400C6E597 /* TableViewCell.swift in Sources */,
+				E555A67A2A18DEA30000F142 /* FeaturedJobModel.swift in Sources */,
 				E5C5B5A32A11FF660084F576 /* HomeScreenVC.swift in Sources */,
+				E59E8F2D2A17908A00956D09 /* JobTblVHeader.swift in Sources */,
 				E5ED9A572A03824900F002D0 /* UISwitchVC.swift in Sources */,
+				E57FF9562A152B0D0030E30A /* JobHeader.swift in Sources */,
 				E5ED9A5B2A040F4000F002D0 /* TextFieldValidateVC.swift in Sources */,
 				E5D2695C2A0A70EE00DD5184 /* TextViewExtension.swift in Sources */,
 				E531EE042A0513B8007F6A8E /* SwitchVC.swift in Sources */,
@@ -489,8 +625,12 @@
 				E5D7D2512A0911A0004B8922 /* UIImageVC.swift in Sources */,
 				E531EE062A052F78007F6A8E /* UIPageControlVC.swift in Sources */,
 				E5C5B5A12A11FE590084F576 /* Document.swift in Sources */,
+				E5B8E53C2A14D8290013E231 /* CollectionViewCell.swift in Sources */,
 				E5C5B59C2A0E9A0D0084F576 /* TextViewSelectionVC.swift in Sources */,
+				E555A6782A18D5330000F142 /* JobHomeScreenEnum.swift in Sources */,
+				E5E7338E2A160568009DE927 /* JobSectionEnum.swift in Sources */,
 				E5454DB22A0921AF00A84098 /* CustomButton.swift in Sources */,
+				E5B8E5472A14F4AC0013E231 /* JobCollectionCell.swift in Sources */,
 				E51606972A0B6112002E654C /* Enumeration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -671,7 +811,7 @@
 				INFOPLIST_FILE = Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = JobScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -698,7 +838,7 @@
 				INFOPLIST_FILE = Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = JobScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

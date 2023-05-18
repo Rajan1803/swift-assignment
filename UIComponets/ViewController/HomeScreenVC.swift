@@ -32,9 +32,9 @@ class HomeScreenVC: BaseViewController {
         tblVDocuments.delegate = self
         tblVDocuments.dataSource = self
         topView.applyCornerRadius(radius: 20)
-        imgUser.applyCornerRadius(radius: imgUser.frame.size.height/2)
-        btnNotification.applyCornerRadius(radius: btnNotification.frame.height / 2)
-        btnFilter.applyCornerRadius(radius: btnFilter.frame.height / 2)
+        imgUser.applyCornerRadius(radius: Int(imgUser.frame.size.height)/2)
+        btnNotification.applyCornerRadius(radius: Int(btnNotification.frame.height) / 2)
+        btnFilter.applyCornerRadius(radius: Int(btnFilter.frame.height) / 2)
         txtfSearch.setTextFieldLeftImage(padding: 40, image: UIImage(named: Constants.Img.search)!)
         txtfSearch.applyCornerRadius(radius: 20)
         txtfSearch.clipsToBounds = true

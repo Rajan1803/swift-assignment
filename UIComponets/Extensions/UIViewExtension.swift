@@ -8,10 +8,9 @@
 import Foundation
 import UIKit
 
-// MARK: - Extension for new attributes of view like corner radius , border color etc...
+ //MARK: - Extension for new attributes of view like corner radius , border color etc...
 extension UIView {
-    
-        @IBInspectable
+
         var cornerRadius: CGFloat {
             get {
                 return layer.cornerRadius
@@ -20,8 +19,7 @@ extension UIView {
                 layer.cornerRadius = newValue
             }
         }
-    
-    @IBInspectable
+
     var borderColor: UIColor? {
         get {
             if let color = layer.borderColor {
@@ -37,8 +35,7 @@ extension UIView {
             }
         }
     }
-    
-    @IBInspectable
+
         var borderWidth: CGFloat {
             get {
                 return layer.borderWidth
@@ -47,8 +44,7 @@ extension UIView {
                 layer.borderWidth = newValue
             }
         }
-    
-    @IBInspectable
+
        var shadowRadius: CGFloat {
            get {
                return layer.shadowRadius
@@ -57,8 +53,7 @@ extension UIView {
                layer.shadowRadius = newValue
            }
        }
-       
-    @IBInspectable
+
         var shadowOpacity: Float {
             get {
                 return layer.shadowOpacity/10
@@ -67,8 +62,7 @@ extension UIView {
                 layer.shadowOpacity = newValue/10
             }
         }
-    
-       @IBInspectable
+
        var shadowColor: UIColor? {
            get {
                if let color = layer.shadowColor {
@@ -84,24 +78,24 @@ extension UIView {
                }
            }
        }
-    
+
     func applyGradient() {
         let gradientLayer = CAGradientLayer()
         gradientLayer.colors = [UIColor.red.cgColor,UIColor.green.cgColor]
         gradientLayer.cornerRadius = layer.cornerRadius
-        
+
         gradientLayer.frame = self.bounds
         self.layer.addSublayer(gradientLayer)
     }
-    
+
     func applyCornerRadius(radius: Int) {
         layer.cornerRadius = CGFloat(radius)
         clipsToBounds = true
     }
-    
+
     func applyBorderColor(borderColor: CGColor, borderWidth: Float) {
         layer.borderColor = borderColor
         layer.borderWidth = CGFloat(borderWidth)
     }
-    
+
 }
