@@ -29,6 +29,9 @@ struct Constants {
         static let swiftLogo = "swift"
         static let python =  "python"
         static let javaScript = "js"
+        static let Arrow = "NavArrow"
+        static let cross = "NavCross"
+        static let ellipse = "Ellipse"
         
     }
     
@@ -63,6 +66,8 @@ struct Constants {
         static let deleteAction = "Delete"
         static let moreAction = "More"
         static let tableViewPlaceholder = "Enter New Text"
+        static let pageControl = "pageControl"
+        
         
     }
     
@@ -77,7 +82,10 @@ struct Constants {
     struct Nib {
         
         static let customButton = "CustomButton"
-    
+        static let jobCollectionCell = "JobCollectionCell"
+        static let jobHeader = "JobHeader"
+        static let jobHomeTblHeader = "JobTblVHeader"
+        static let JobTblVHeader = "JobTblVHeader"
     }
     
     static let standardBorderWidth: CGFloat = 2
@@ -87,7 +95,9 @@ struct Constants {
         static let homeScreenCell = "homeScreenCell"
         static let ExpandableCell = "expandCell"
         static let practiceCell = "practiceCell"
-        
+        static let jobHomeScreenCell = "JobHomeScreenCell"
+        static let JobHomeScreenTableCell = "JobHomeScreenTableCell"
+        static let collectionCell = "Collectioncell"
     }
     
     struct MediaTypes {
@@ -97,4 +107,13 @@ struct Constants {
         
     }
     
+    struct dictionaryKeys {
+        static let recomendedJobs = "Recomended Jobs"
+        static let populerJobs = "Popular"
+    }
+    
+    struct JobHeader {
+        static let populerHeaderTitle = "Populer Jobs"
+        static let RecomendedHeaderTitle = "Recomended Jobs"
+    }
 }

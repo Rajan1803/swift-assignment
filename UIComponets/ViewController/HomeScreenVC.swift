@@ -9,6 +9,14 @@ import UIKit
 
 class HomeScreenVC: BaseViewController {
     
+    // MARK: - Enum for table view constants
+    private enum TableViewConstants {
+        
+        static let radius = 20
+        static let heightForHeader: CGFloat = 40
+        
+    }
+    
    // MARK: - IBOutlets
     @IBOutlet weak var btnFilter: UIButton!
     @IBOutlet weak var btnNotification: UIButton!
@@ -31,17 +39,16 @@ class HomeScreenVC: BaseViewController {
     func setViews() {
         tblVDocuments.delegate = self
         tblVDocuments.dataSource = self
-        topView.applyCornerRadius(radius: 20)
-        imgUser.applyCornerRadius(radius: imgUser.frame.size.height/2)
-        btnNotification.applyCornerRadius(radius: btnNotification.frame.height / 2)
-        btnFilter.applyCornerRadius(radius: btnFilter.frame.height / 2)
+        topView.applyCornerRadius(radius: TableViewConstants.radius)
+        imgUser.applyCornerRadius(radius: Int(imgUser.frame.size.height)/2)
+        btnNotification.applyCornerRadius(radius: Int(btnNotification.frame.height) / 2)
+        btnFilter.applyCornerRadius(radius: Int(btnFilter.frame.height) / 2)
         txtfSearch.setTextFieldLeftImage(padding: 40, image: UIImage(named: Constants.Img.search)!)
-        txtfSearch.applyCornerRadius(radius: 20)
+        txtfSearch.applyCornerRadius(radius: TableViewConstants.radius)
         txtfSearch.clipsToBounds = true
         txtfSearch.backgroundColor = UIColor(named: Color.searchBar)
         txtfSearch.attributedPlaceholder = NSAttributedString(string: Constants.String.searchDocument, attributes: [.foregroundColor: UIColor(named: Color.placeholderTextColor)!])
         tblVDocuments.backgroundColor = UIColor(named: Color.cellColor)
-
     }
   
 }
@@ -70,7 +77,7 @@ extension HomeScreenVC: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 40
+        return TableViewConstants.heightForHeader
     }
     
 }

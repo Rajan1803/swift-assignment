@@ -13,5 +13,5 @@ struct Color {
     static let cellColor = "viewBackground"
     static let placeholderTextColor = "placeholderTxtColor"
     static let statusBtnBackground = "lightOrange"
-    
+    static let SeeAllBtnColor = "SeeAllLblColor"
 }
