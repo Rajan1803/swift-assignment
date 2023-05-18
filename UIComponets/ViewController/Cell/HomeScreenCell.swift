@@ -16,7 +16,7 @@ protocol StatusBtnDelegate: AnyObject {
 
 class HomeScreenCell: BaseTableViewCell {
 
-    // MARK: - Variables And Declarations
+    // MARK: - Variables And Declaration
     weak var delegate: StatusBtnDelegate? = nil
     
     // MARK: - IBOutlets
@@ -34,7 +34,7 @@ class HomeScreenCell: BaseTableViewCell {
     }
     
     // MARK: - Set up
-    func setUpViews() {
+    private func setUpViews() {
         btnStatus.cornerRadius = 10
         btnStatus.layer.maskedCorners = [.layerMinXMinYCorner, .layerMaxXMaxYCorner]
         containerView.cornerRadius = 10
