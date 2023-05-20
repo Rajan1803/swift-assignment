@@ -11,6 +11,8 @@ class UISwitchVC: BaseViewController {
 
     // MARK: - IBOutlets
     @IBOutlet private weak var lblCounter: UILabel!
+    
+    // MARK: - Life cycle Method
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpSwitch()
@@ -72,4 +74,5 @@ class UISwitchVC: BaseViewController {
             print(sender.value)
         lblCounter.text = String(sender.value)
         }
+    
 }

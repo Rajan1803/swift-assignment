@@ -14,6 +14,7 @@ class RadioButtonVC: BaseViewController {
     @IBOutlet private var btnCheckboxArray: [UIButton]!
     @IBOutlet private var btnRadioArray: [UIButton]!
     
+    // MARK: - Life cycle Method
     override func viewDidLoad() {
         super.viewDidLoad()
         setBtnIcon(buttons: btnCheckboxArray)
@@ -43,4 +44,5 @@ class RadioButtonVC: BaseViewController {
             button.isSelected = false
         }
     }
+    
 }

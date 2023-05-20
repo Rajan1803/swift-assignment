@@ -13,6 +13,8 @@ class UIPageControlVC: BaseViewController {
     private var currentPage = 0
     // MARK: - IBOutlets
     @IBOutlet private var pageControl: UIPageControl!
+    
+    // MARK: - Life cycle Method
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpPageControl()
@@ -45,4 +47,5 @@ class UIPageControlVC: BaseViewController {
     private func updatePageControl() {
         pageControl.currentPage = currentPage
     }
+    
 }

@@ -12,6 +12,7 @@ class UIImageVC: BaseViewController {
     // MARK: - IBOutlets
     @IBOutlet private weak var imgLocation: UIImageView!
     
+    // MARK: - Life cycle Method
     override func viewDidLoad() {
         super.viewDidLoad()
         setImgGesture()
@@ -19,7 +20,7 @@ class UIImageVC: BaseViewController {
     }
     
     // MARK: - Set up
-    private func setImgGesture(){
+    private func setImgGesture() {
         let tap = UITapGestureRecognizer()
         tap.addTarget(self, action: #selector(imgClickEvent))
         imgLocation.isUserInteractionEnabled = true
@@ -44,6 +45,7 @@ class UIImageVC: BaseViewController {
         self.present(alertController, animated: true)
         print("image clicked")
     }
+    
 }
 
 // MARK: - Extensions

@@ -70,38 +70,9 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E54DDA352A121040009F2BCA /* AppDelegate */ = {
-			isa = PBXGroup;
-			children = (
-				E56CD19B2A04C79D00317FA8 /* AppDelegate.swift */,
-				E56CD19D2A04C79D00317FA8 /* SceneDelegate.swift */,
-			);
-			path = AppDelegate;
-			sourceTree = "<group>";
-		};
-		E54DDA362A121067009F2BCA /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				E56CD19F2A04C79D00317FA8 /* ViewController.swift */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		E54DDA372A12107C009F2BCA /* Storyboards */ = {
-			isa = PBXGroup;
-			children = (
-				E56CD1A12A04C79D00317FA8 /* Main.storyboard */,
-				E56CD1A62A04C79F00317FA8 /* LaunchScreen.storyboard */,
-			);
-			path = Storyboards;
-			sourceTree = "<group>";
-		};
 		E56CD18F2A04C79D00317FA8 = {
 			isa = PBXGroup;
 			children = (
-				E54DDA372A12107C009F2BCA /* Storyboards */,
-				E54DDA362A121067009F2BCA /* ViewControllers */,
-				E54DDA352A121040009F2BCA /* AppDelegate */,
 				E56CD19A2A04C79D00317FA8 /* UITextFieldValidate */,
 				E56CD1992A04C79D00317FA8 /* Products */,
 			);
@@ -120,7 +91,12 @@
 		E56CD19A2A04C79D00317FA8 /* UITextFieldValidate */ = {
 			isa = PBXGroup;
 			children = (
+				E56CD19B2A04C79D00317FA8 /* AppDelegate.swift */,
+				E56CD19D2A04C79D00317FA8 /* SceneDelegate.swift */,
+				E56CD19F2A04C79D00317FA8 /* ViewController.swift */,
+				E56CD1A12A04C79D00317FA8 /* Main.storyboard */,
 				E56CD1A42A04C79F00317FA8 /* Assets.xcassets */,
+				E56CD1A62A04C79F00317FA8 /* LaunchScreen.storyboard */,
 				E56CD1A92A04C79F00317FA8 /* Info.plist */,
 			);
 			path = UITextFieldValidate;

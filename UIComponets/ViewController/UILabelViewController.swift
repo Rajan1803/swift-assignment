@@ -11,8 +11,9 @@ class UILabelViewController: BaseViewController {
 
     // MARK: - IBOutlets
     @IBOutlet private  weak var lblUserName: UILabel!
-    private weak var lblFirstName: UILabel!
+    private var lblFirstName: UILabel!
     
+    // MARK: - Life cycle Method
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpFirstNameLabel()
@@ -74,4 +75,5 @@ class UILabelViewController: BaseViewController {
         lblFirstName.isUserInteractionEnabled = true
         lblFirstName.addGestureRecognizer(tap)
     }
+    
 }

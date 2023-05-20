@@ -41,7 +41,5 @@ import UIKit
              btnSubmit.backgroundColor = newValue
          }
      }
-     
-    
 
 }

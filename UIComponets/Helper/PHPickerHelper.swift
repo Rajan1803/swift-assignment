@@ -24,11 +24,11 @@ class PHPickerHelper {
         viewController.present(phPickerVC, animated: true)
     }
     
-    
 }
 
 // MARK: Extension
 extension PHPickerHelper: PHPickerViewControllerDelegate {
+    
     func picker(_ picker: PHPickerViewController, didFinishPicking results: [PHPickerResult]) {
         picker.dismiss(animated: true, completion: .none)
         results.forEach { result in
@@ -41,4 +41,5 @@ extension PHPickerHelper: PHPickerViewControllerDelegate {
             })
         }
     }
+    
 }
