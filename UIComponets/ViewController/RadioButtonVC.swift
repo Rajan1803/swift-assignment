@@ -19,7 +19,43 @@ class RadioButtonVC: BaseViewController {
         super.viewDidLoad()
         setBtnIcon(buttons: btnCheckboxArray)
         setBtnIcon(buttons: btnRadioArray)
+        print(2,#function)
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        print(2,#function)
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        print(2,#function)
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        print(2,#function)
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        print(2,#function)
+    }
+    
+    override func loadView() {
+        super.loadView()
+        print(2,#function)
+    }
+    
+//    override func viewWillLayoutSubviews() {
+//        super.viewWillLayoutSubviews()
+//        print(2,#function)
+//    }
+//    override func viewDidLayoutSubviews() {
+//        super.viewDidLayoutSubviews()
+//        print(2,#function)
+//    }
+//    
     
     // MARK: - Set up
     private func setBtnIcon(buttons: Array<UIButton>) {
