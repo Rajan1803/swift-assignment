@@ -41,6 +41,9 @@ struct Constants {
         
         static let redViewController = "redViewController"
         static let blueViewController = "blueViewController"
+        static let JobScreenHomeVC = "JobScreenHomeVC"
+        static let JobCollectionVC = "JobCollectionVC"
+        static let HomeScreenVC = "HomeScreenVC"
         
     }
     
@@ -88,6 +91,7 @@ struct Constants {
         static let jobHeader = "JobHeader"
         static let jobHomeTblHeader = "JobTblVHeader"
         static let JobTblVHeader = "JobTblVHeader"
+        
     }
     
     static let standardBorderWidth: CGFloat = 2
@@ -100,6 +104,7 @@ struct Constants {
         static let jobHomeScreenCell = "JobHomeScreenCell"
         static let JobHomeScreenTableCell = "JobHomeScreenTableCell"
         static let collectionCell = "Collectioncell"
+        
     }
     
     struct MediaTypes {
@@ -110,12 +115,25 @@ struct Constants {
     }
     
     struct dictionaryKeys {
+        
         static let recomendedJobs = "Recomended Jobs"
         static let populerJobs = "Popular"
+        
+    }
+    
+    struct Storybords {
+        
+        static let Main = "Main"
+        static let JobScreen = "JobScreen"
+        static let HomeScreen = "HomeScreen"
+        
     }
     
     struct JobHeader {
+        
         static let populerHeaderTitle = "Populer Jobs"
         static let RecomendedHeaderTitle = "Recomended Jobs"
+        
     }
+    
 }

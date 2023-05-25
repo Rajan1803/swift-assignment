@@ -35,6 +35,7 @@ class JobCollectionVC: BaseViewController {
     private func setUpViews() {
         collectionViewJob.delegate = self
         collectionViewJob.dataSource = self
+        txtfSearch.delegate = self
         let nibCell = UINib(nibName: Constants.Nib.jobCollectionCell, bundle: nil)
         collectionViewJob.register(nibCell, forCellWithReuseIdentifier: Constants.Nib.jobCollectionCell)
         collectionViewJob.register(UINib(nibName: Constants.Nib.jobHeader, bundle: nil), forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: Constants.Nib.jobHeader)
@@ -101,4 +102,12 @@ extension JobCollectionVC: UICollectionViewDelegateFlowLayout , UICollectionView
         return UIEdgeInsets(top: CollectionConstants.insetTop, left: CollectionConstants.insetLeft, bottom: CollectionConstants.insetBottom, right: CollectionConstants.insetRight)
     }
     
+}
+
+// MARK: Extension of job CollectionVC for UITextFieldDelegate
+extension JobCollectionVC: UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
 }

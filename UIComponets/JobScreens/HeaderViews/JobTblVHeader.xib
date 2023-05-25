@@ -34,6 +34,9 @@
                             </fragment>
                         </attributedString>
                     </buttonConfiguration>
+                    <connections>
+                        <action selector="btnSeeAllClicked:" destination="-2" eventType="touchUpInside" id="wr2-7p-TuN"/>
+                    </connections>
                 </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>

@@ -28,4 +28,11 @@ class JobTblVHeader: UITableViewHeaderFooterView {
         super.init(coder: coder)
     }
     
+    // MARK: - IBActions
+    @IBAction func btnSeeAllClicked(_ sender: UIButton) {
+        let viewController = UIStoryboard(name: "HomeScreen", bundle: nil).instantiateViewController(withIdentifier: "HomeScreenVC")
+        let navigationController = UINavigationController()
+        navigationController.pushViewController(viewController, animated: true)
+    }
+    
 }
