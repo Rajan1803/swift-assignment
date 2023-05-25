@@ -10,6 +10,7 @@ import UIKit
 class TableViewVC: BaseViewController {
     
     // MARK: - Variables And Declarations
+    let numberOfSections = 1
     var txtfNames: UITextField?
     var names = ["rajan","sagar","priyanshu"]
     var images = [UIImage(named: Constants.Img.swiftLogo),UIImage(named: Constants.Img.javaScript),UIImage(named: Constants.Img.python)]
@@ -23,6 +24,11 @@ class TableViewVC: BaseViewController {
         setUpViews()
     }
     
+    @IBAction func btnAddItemClicked(_ sender: UIButton) {
+        names.append("rajan")
+        images.append(UIImage(named: Constants.Img.swiftLogo))
+        tableView.reloadData()
+    }
     // MARK: - Set up
     func setUpViews() {
         tableView.delegate = self
@@ -60,7 +66,7 @@ class TableViewVC: BaseViewController {
 extension TableViewVC: UITableViewDelegate {
     
     func numberOfSections(in tableView: UITableView) -> Int {
-        5
+        numberOfSections
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
