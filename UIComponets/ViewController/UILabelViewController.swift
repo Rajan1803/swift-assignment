@@ -11,6 +11,8 @@ class UILabelViewController: BaseViewController {
 
     // MARK: - IBOutlets
     @IBOutlet private  weak var lblUserName: UILabel!
+    
+    // MARK: - Variables And Declarations
     private var lblFirstName: UILabel!
     
     // MARK: - Life cycle Method

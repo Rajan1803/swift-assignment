@@ -23,6 +23,7 @@ class Document {
         self.emailID = emailID
         self.type = type
         self.date = date
+        
     }
     
     static var data = [Document(id: "745AF6,", title: "Test Request Compliance Approval", emailID: "DavisBaptista@domain.name", type: "Request",date: "Jan 01, 2020"),Document(id: "745AF6,", title: "Test Request Compliance Approval", emailID: "DavisBaptista@domain.name", type: "Request",date: "Jan 01, 2020"),Document(id: "745AF6,", title: "Test Request Compliance Approval", emailID: "DavisBaptista@domain.name", type: "Request",date: "Jan 01, 2020"),Document(id: "745AF6,", title: "Test Request Compliance Approval", emailID: "DavisBaptista@domain.name", type: "Request",date: "Jan 01, 2020"),Document(id: "745AF6,", title: "Test Request Compliance Approval", emailID: "DavisBaptista@domain.name", type: "Request",date: "Jan 01, 2020"),Document(id: "745AF6,", title: "Test Request Compliance Approval", emailID: "DavisBaptista@domain.name", type: "Request",date: "Jan 01, 2020")]

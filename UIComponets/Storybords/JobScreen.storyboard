@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Job Screen HomeVC-->
+        <!--Item-->
         <scene sceneID="bMk-uG-wqb">
             <objects>
-                <viewController id="la5-fz-4Vb" customClass="JobScreenHomeVC" customModule="UIComponets" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="JobScreenHomeVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="la5-fz-4Vb" customClass="JobScreenHomeVC" customModule="UIComponets" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kgY-Cl-fYi">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -63,7 +63,7 @@
                                                 <constraint firstAttribute="height" constant="48" id="F6z-2q-i8a"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                            <textInputTraits key="textInputTraits"/>
+                                            <textInputTraits key="textInputTraits" returnKeyType="search"/>
                                         </textField>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t0F-dH-dQu">
                                             <rect key="frame" x="334" y="-2" width="39" height="48"/>
@@ -151,6 +151,7 @@
                             <constraint firstItem="dN3-Bk-BBE" firstAttribute="trailing" secondItem="wOD-oY-lpu" secondAttribute="trailing" id="odY-5d-Cwg"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="z9M-a2-rnV"/>
                     <connections>
                         <outlet property="btnFilter" destination="t0F-dH-dQu" id="BT2-eO-qlH"/>
                         <outlet property="imgBusinessMan" destination="ZlR-f0-fF4" id="d1g-WO-8x8"/>
@@ -163,10 +164,10 @@
             </objects>
             <point key="canvasLocation" x="-2210" y="-527"/>
         </scene>
-        <!--Job CollectionVC-->
+        <!--Item-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController id="Y6W-OH-hqX" customClass="JobCollectionVC" customModule="UIComponets" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="JobCollectionVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="JobCollectionVC" customModule="UIComponets" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -185,7 +186,7 @@
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="42y-Ym-DPm">
                                 <rect key="frame" x="24" y="64" width="345" height="34"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="search"/>
                             </textField>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MGP-5P-dNj">
                                 <rect key="frame" x="24" y="108" width="345" height="1"/>
@@ -211,6 +212,7 @@
                             <constraint firstItem="3f2-Kw-ieP" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="n2M-xD-2iW"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="IyU-vW-E2G"/>
                     <navigationItem key="navigationItem" id="q5M-7f-GkG"/>
                     <connections>
                         <outlet property="collectionViewJob" destination="3f2-Kw-ieP" id="vL3-eo-7xU"/>

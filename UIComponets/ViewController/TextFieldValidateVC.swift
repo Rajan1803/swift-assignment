@@ -39,7 +39,7 @@ class TextFieldValidateVC: BaseViewController {
     @IBAction func txtfEmailChange(_ sender: UITextField) {
         if Validator.shared.isEmailValid(email: sender.text) {
             lblEmailInvalid.isHidden = true
-        }else {
+        } else {
             lblEmailInvalid.isHidden = false
         }
         isSubmitBtnEnable()
@@ -49,7 +49,7 @@ class TextFieldValidateVC: BaseViewController {
     @IBAction func txtfUserNameChange(_ sender: UITextField) {
         if sender.text != nil && sender.text != ""{
             lblUserNameInvalid.isHidden = true
-        }else {
+        } else {
             lblUserNameInvalid.isHidden = false
         }
         isSubmitBtnEnable()
@@ -60,11 +60,10 @@ class TextFieldValidateVC: BaseViewController {
     @IBAction func txtfPincodeChange(_ sender: UITextField) {
         if Validator.shared.isPincodeValid(pincode: sender.text ) {
             lblPincodeInvalid.isHidden = true
-        }else{
+        } else {
             lblPincodeInvalid.isHidden = false
         }
          isSubmitBtnEnable()
-            
         }
 
     // MARK: - IBActions
@@ -81,7 +80,7 @@ class TextFieldValidateVC: BaseViewController {
     private func isSubmitBtnEnable() {
         if isAllInputValid() {
             btnSubmit.isEnabled = true
-        }else {
+        } else {
             btnSubmit.isEnabled = false
         }
     }

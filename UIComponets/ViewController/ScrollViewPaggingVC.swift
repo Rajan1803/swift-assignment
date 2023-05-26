@@ -10,13 +10,11 @@ import UIKit
 class ScrollViewPaggingVC: UIViewController {
 
     private enum Constant {
-            static let numberOfPages = 5
+            static let numberOfPages = 20
             static let padding: CGFloat = 10
             static let innerViewHeightOffset: CGFloat = 150
         }
-    // MARK: - Variables And Declarations
    
-
     // MARK: - IBOutlets
     @IBOutlet weak var pageControl: UIPageControl!
     @IBOutlet weak var scrollView: UIScrollView!

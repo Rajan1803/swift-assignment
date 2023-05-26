@@ -36,6 +36,7 @@ class JobScreenHomeVC: BaseViewController {
     private func setUpViews() {
         tblViewJobHome.delegate = self
         tblViewJobHome.dataSource = self
+        txtfSearch.delegate = self
         imgBusinessMan.applyCornerRadius(radius: 10)
         let dotImageView = UIImageView(frame: CGRect(x: imgBusinessMan.bounds.width - 15, y: 0, width: 15, height: 15))
         dotImageView.applyCornerRadius(radius: Int(dotImageView.frame.size.height)/2)
@@ -74,10 +75,6 @@ extension JobScreenHomeVC: UITableViewDelegate, UITableViewDataSource {
          JobTypes(rawValue: indexPath.row)?.getHeightForRow() ?? 0
     }
     
-    func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
-        TableViewConstants.tableRowHeight
-    }
-    
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         guard let headerView = tblViewJobHome.dequeueReusableHeaderFooterView(withIdentifier: Constants.Nib.JobTblVHeader) as? JobTblVHeader else {return UIView()}
         headerView.lblTblSectionHeader.text = JobTypes(rawValue: section)?.getHeaderTitle()
@@ -86,6 +83,16 @@ extension JobScreenHomeVC: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         TableViewConstants.heightForHeaderInSection
+    }
+    
+}
+
+// MARK: Extension of JobScreenHomeVc for UITextFieldDelegate
+extension JobScreenHomeVC: UITextFieldDelegate {
+    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
     }
     
 }
