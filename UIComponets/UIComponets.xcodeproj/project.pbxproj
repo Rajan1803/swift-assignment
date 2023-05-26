@@ -24,6 +24,11 @@
 		E532840C29F7EA77005F8AF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E532840B29F7EA77005F8AF1 /* ViewController.swift */; };
 		E532841129F7EA79005F8AF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E532841029F7EA79005F8AF1 /* Assets.xcassets */; };
 		E532843B29F7EEBA005F8AF1 /* UIButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E532843A29F7EEBA005F8AF1 /* UIButtonViewController.swift */; };
+		E53774A82A2107D60062130E /* TextFiledDatePickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53774A72A2107D50062130E /* TextFiledDatePickerVC.swift */; };
+		E54083D22A208CBA006A0E93 /* PickerViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54083D12A208CBA006A0E93 /* PickerViewData.swift */; };
+		E54083D42A209114006A0E93 /* PickerViewEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54083D32A209114006A0E93 /* PickerViewEnum.swift */; };
+		E54083D62A20F546006A0E93 /* DatePicker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E54083D52A20F546006A0E93 /* DatePicker.storyboard */; };
+		E54083D82A20F55F006A0E93 /* DatePickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54083D72A20F55F006A0E93 /* DatePickerVC.swift */; };
 		E5454DB22A0921AF00A84098 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5454DB12A0921AF00A84098 /* CustomButton.swift */; };
 		E546655D2A1F3D0500823ABA /* UITextField.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E546654E2A1F3D0500823ABA /* UITextField.storyboard */; };
 		E546655E2A1F3D0500823ABA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E546654F2A1F3D0500823ABA /* LaunchScreen.storyboard */; };
@@ -39,6 +44,8 @@
 		E555A6782A18D5330000F142 /* JobHomeScreenEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E555A6772A18D5330000F142 /* JobHomeScreenEnum.swift */; };
 		E555A67A2A18DEA30000F142 /* FeaturedJobModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E555A6792A18DEA30000F142 /* FeaturedJobModel.swift */; };
 		E557181929FBEFDA00705C56 /* TextViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E557181829FBEFDA00705C56 /* TextViewVC.swift */; };
+		E566C9002A1FC23D009D8BA6 /* PickerView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E566C8FF2A1FC23D009D8BA6 /* PickerView.storyboard */; };
+		E566C9022A1FC2A9009D8BA6 /* PickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E566C9012A1FC2A9009D8BA6 /* PickerVC.swift */; };
 		E5709C6A2A127CCC00129DDE /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5709C692A127CCC00129DDE /* Colors.xcassets */; };
 		E5709C6C2A1359BB00129DDE /* Font in Resources */ = {isa = PBXBuildFile; fileRef = E5709C6B2A1359BB00129DDE /* Font */; };
 		E5709C6E2A13658500129DDE /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5709C6D2A13658500129DDE /* Color.swift */; };
@@ -128,6 +135,11 @@
 		E532841A29F7EA79005F8AF1 /* UIComponetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIComponetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E532842429F7EA79005F8AF1 /* UIComponetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIComponetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E532843A29F7EEBA005F8AF1 /* UIButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonViewController.swift; sourceTree = "<group>"; };
+		E53774A72A2107D50062130E /* TextFiledDatePickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFiledDatePickerVC.swift; sourceTree = "<group>"; };
+		E54083D12A208CBA006A0E93 /* PickerViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewData.swift; sourceTree = "<group>"; };
+		E54083D32A209114006A0E93 /* PickerViewEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewEnum.swift; sourceTree = "<group>"; };
+		E54083D52A20F546006A0E93 /* DatePicker.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DatePicker.storyboard; sourceTree = "<group>"; };
+		E54083D72A20F55F006A0E93 /* DatePickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerVC.swift; sourceTree = "<group>"; };
 		E5454DB12A0921AF00A84098 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		E546654E2A1F3D0500823ABA /* UITextField.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = UITextField.storyboard; sourceTree = "<group>"; };
 		E54665502A1F3D0500823ABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -143,6 +155,8 @@
 		E555A6772A18D5330000F142 /* JobHomeScreenEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobHomeScreenEnum.swift; sourceTree = "<group>"; };
 		E555A6792A18DEA30000F142 /* FeaturedJobModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedJobModel.swift; sourceTree = "<group>"; };
 		E557181829FBEFDA00705C56 /* TextViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewVC.swift; sourceTree = "<group>"; };
+		E566C8FF2A1FC23D009D8BA6 /* PickerView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PickerView.storyboard; sourceTree = "<group>"; };
+		E566C9012A1FC2A9009D8BA6 /* PickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerVC.swift; sourceTree = "<group>"; };
 		E5709C692A127CCC00129DDE /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		E5709C6B2A1359BB00129DDE /* Font */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Font; sourceTree = "<group>"; };
 		E5709C6D2A13658500129DDE /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
@@ -277,6 +291,9 @@
 				E5CFC9122A1E6E2F00AA3248 /* ScrollToTopVC.swift */,
 				E546656A2A1F56E000823ABA /* UITabBarVC.swift */,
 				E546656C2A1F576900823ABA /* TabBarWithCodeVC.swift */,
+				E566C9012A1FC2A9009D8BA6 /* PickerVC.swift */,
+				E54083D72A20F55F006A0E93 /* DatePickerVC.swift */,
+				E53774A72A2107D50062130E /* TextFiledDatePickerVC.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -293,6 +310,8 @@
 				E54665562A1F3D0500823ABA /* ScrollViewUI.storyboard */,
 				E54665572A1F3D0500823ABA /* TabBarUI.storyboard */,
 				E54665582A1F3D0500823ABA /* JobScreen.storyboard */,
+				E566C8FF2A1FC23D009D8BA6 /* PickerView.storyboard */,
+				E54083D52A20F546006A0E93 /* DatePicker.storyboard */,
 			);
 			path = Storybords;
 			sourceTree = "<group>";
@@ -355,6 +374,7 @@
 			children = (
 				E5E7338D2A160568009DE927 /* JobSectionEnum.swift */,
 				E555A6772A18D5330000F142 /* JobHomeScreenEnum.swift */,
+				E54083D32A209114006A0E93 /* PickerViewEnum.swift */,
 			);
 			path = Enumeration;
 			sourceTree = "<group>";
@@ -389,6 +409,7 @@
 		E5C5B59F2A11FE310084F576 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E54083D12A208CBA006A0E93 /* PickerViewData.swift */,
 				E5C5B5A02A11FE590084F576 /* Document.swift */,
 				E5710EE32A138E0E00E10408 /* StatusEnum.swift */,
 				E5710EED2A13A08900E10408 /* Animals.swift */,
@@ -564,6 +585,7 @@
 				E546655E2A1F3D0500823ABA /* LaunchScreen.storyboard in Resources */,
 				E5B8E5482A14F4AC0013E231 /* JobCollectionCell.xib in Resources */,
 				E54665622A1F3D0500823ABA /* HomeScreen.storyboard in Resources */,
+				E566C9002A1FC23D009D8BA6 /* PickerView.storyboard in Resources */,
 				E54665602A1F3D0500823ABA /* FrameBound.storyboard in Resources */,
 				E54665612A1F3D0500823ABA /* UIButtons.storyboard in Resources */,
 				E5709C6C2A1359BB00129DDE /* Font in Resources */,
@@ -573,6 +595,7 @@
 				E54665652A1F3D0500823ABA /* JobScreen.storyboard in Resources */,
 				E57FF9572A152B0D0030E30A /* JobHeader.xib in Resources */,
 				E54665632A1F3D0500823ABA /* ScrollViewUI.storyboard in Resources */,
+				E54083D62A20F546006A0E93 /* DatePicker.storyboard in Resources */,
 				E546655D2A1F3D0500823ABA /* UITextField.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -606,6 +629,7 @@
 				E5710EEE2A13A08900E10408 /* Animals.swift in Sources */,
 				E5D269562A0A1C1F00DD5184 /* MainPageViewController.swift in Sources */,
 				E532843B29F7EEBA005F8AF1 /* UIButtonViewController.swift in Sources */,
+				E53774A82A2107D60062130E /* TextFiledDatePickerVC.swift in Sources */,
 				E5CFC9112A1E4C7F00AA3248 /* ScrollViewPaggingVC.swift in Sources */,
 				E5D2695A2A0A6DF200DD5184 /* BaseViewController.swift in Sources */,
 				E5D7D24C2A08D29E004B8922 /* UIStepperVC.swift in Sources */,
@@ -624,18 +648,21 @@
 				E532840829F7EA77005F8AF1 /* AppDelegate.swift in Sources */,
 				E585D7B529FA88E200CAEF40 /* UITextFieldVC.swift in Sources */,
 				E51F0AF329F7FA37009A660F /* UILabelViewController.swift in Sources */,
+				E54083D82A20F55F006A0E93 /* DatePickerVC.swift in Sources */,
 				E516069B2A0B6AED002E654C /* PHPickerHelper.swift in Sources */,
 				E5710EE42A138E0E00E10408 /* StatusEnum.swift in Sources */,
 				E546656B2A1F56E000823ABA /* UITabBarVC.swift in Sources */,
 				E5D269662A0A7CEB00DD5184 /* PHPickerVC.swift in Sources */,
 				E57FF9512A1515C70030E30A /* JobHeaderRV.swift in Sources */,
 				E52407342A12278D006353BF /* HomeScreenCell.swift in Sources */,
+				E566C9022A1FC2A9009D8BA6 /* PickerVC.swift in Sources */,
 				E5710EEC2A139AB000E10408 /* ExpandableCell.swift in Sources */,
 				E5ED9A592A03B3E700F002D0 /* SegmentedControllVC.swift in Sources */,
 				E5710EEA2A139A9400E10408 /* ExpandableVC.swift in Sources */,
 				E526E48C2A0E648400C6E597 /* TableViewCell.swift in Sources */,
 				E555A67A2A18DEA30000F142 /* FeaturedJobModel.swift in Sources */,
 				E5C5B5A32A11FF660084F576 /* HomeScreenVC.swift in Sources */,
+				E54083D42A209114006A0E93 /* PickerViewEnum.swift in Sources */,
 				E546656D2A1F576900823ABA /* TabBarWithCodeVC.swift in Sources */,
 				E59E8F2D2A17908A00956D09 /* JobTblVHeader.swift in Sources */,
 				E5CFC9132A1E6E2F00AA3248 /* ScrollToTopVC.swift in Sources */,
@@ -643,6 +670,7 @@
 				E57FF9562A152B0D0030E30A /* JobHeader.swift in Sources */,
 				E5ED9A5B2A040F4000F002D0 /* TextFieldValidateVC.swift in Sources */,
 				E5D2695C2A0A70EE00DD5184 /* TextViewExtension.swift in Sources */,
+				E54083D22A208CBA006A0E93 /* PickerViewData.swift in Sources */,
 				E531EE042A0513B8007F6A8E /* SwitchVC.swift in Sources */,
 				E5CFC90D2A1E3DC000AA3248 /* ScrollScreenVC.swift in Sources */,
 				E51427F12A0A951D0069656F /* AppConstants.swift in Sources */,

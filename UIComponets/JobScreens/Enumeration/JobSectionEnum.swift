@@ -6,6 +6,7 @@
 //
 
 import Foundation
+
 // MARK: - Enum for Section Selection
 enum Sections: Int {
     

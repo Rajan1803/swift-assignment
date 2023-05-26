@@ -23,10 +23,10 @@ class SwitchVC: BaseViewController {
     }
     
     // MARK: - IBActions
-    @IBAction func uiSliderValueChange(_ sender: UISlider) {
+    @IBAction func uiSliderValueChanged(_ sender: UISlider) {
         print(sender.value)
     }
-    @IBAction func uiSwitchClick(_ sender: UISwitch) {
+    @IBAction func uiSwitchClicked(_ sender: UISwitch) {
         print(sender.isOn)
     }
     

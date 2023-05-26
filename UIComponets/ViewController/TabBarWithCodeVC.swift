@@ -19,22 +19,31 @@ class TabBarWithCodeVC: UITabBarController {
     private func setUpTabBarController() {
         
         let homeVC = UIStoryboard(name: Constants.Storybords.JobScreen, bundle: nil).instantiateViewController(withIdentifier: Constants.ViewController.JobScreenHomeVC)
-        homeVC.tabBarItem =  UITabBarItem(title: "Home", image: UIImage(named: Constants.Img.circle), selectedImage: UIImage(named: Constants.Img.checkmarkCircle))
+       
+        let homeNav = UINavigationController(rootViewController: homeVC)
+        homeNav.tabBarItem =  UITabBarItem(title: "", image: UIImage(named: Constants.Img.HomeNav), selectedImage: UIImage(named: Constants.Img.HomeNav))
+        homeNav.isNavigationBarHidden = true
         
         let emailVC = UIStoryboard(name: Constants.Storybords.JobScreen, bundle: nil).instantiateViewController(withIdentifier: Constants.ViewController.JobCollectionVC)
-        emailVC.tabBarItem = UITabBarItem(title: "Email", image: UIImage(named: Constants.Img.circle), selectedImage: UIImage(named: Constants.Img.checkmarkCircle))
+        
+        let emailNav = UINavigationController(rootViewController: emailVC)
+        emailNav.tabBarItem = UITabBarItem(title: "", image: UIImage(named: Constants.Img.Message), selectedImage: UIImage(named: Constants.Img.Message))
+        emailNav.isNavigationBarHidden = true
         
         let bookMarkVC = UIStoryboard(name: Constants.Storybords.HomeScreen, bundle: nil).instantiateViewController(withIdentifier: Constants.ViewController.HomeScreenVC)
-        bookMarkVC.tabBarItem = UITabBarItem(title: "BookMarks", image: UIImage(named: Constants.Img.circle), selectedImage: UIImage(named: Constants.Img.checkmarkCircle))
+        let bookNav = UINavigationController(rootViewController: bookMarkVC)
+        bookNav.tabBarItem = UITabBarItem(title: "", image: UIImage(named: Constants.Img.bookmark), selectedImage: UIImage(named: Constants.Img.bookmark))
+        bookNav.isNavigationBarHidden = true
         
-        let profileVC = UIViewController()
-        profileVC.view.backgroundColor = .red
-        profileVC.tabBarItem = UITabBarItem(title: "Profile", image: UIImage(named: Constants.Img.circle), selectedImage: UIImage(named: Constants.Img.checkmarkCircle))
+        let profileVC = UIStoryboard(name: Constants.Storybords.DatePicker, bundle: nil).instantiateViewController(withIdentifier: Constants.ViewController.DatePickerVC)
+        let profileNav = UINavigationController(rootViewController: profileVC)
+        profileNav.tabBarItem = UITabBarItem(title: "", image: UIImage(named: Constants.Img.Category), selectedImage: UIImage(named: Constants.Img.Category))
+        profileNav.isNavigationBarHidden = true
         
         selectedIndex = 1
-        tabBar.tintColor = .blue
+        tabBar.tintColor = .green
         tabBar.backgroundColor = .white
-        setViewControllers([homeVC,emailVC,bookMarkVC,profileVC], animated: true)
+        setViewControllers([homeNav,emailNav,bookNav,profileNav], animated: true)
         
     }
     

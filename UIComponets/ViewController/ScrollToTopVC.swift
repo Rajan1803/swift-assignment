@@ -18,7 +18,7 @@ class ScrollToTopVC: UIViewController {
     }
     
     // MARK: - IBActions
-    @IBAction func scrollToTopSclicked(_ sender: UIButton) {
+    @IBAction func scrollToTopClicked(_ sender: UIButton) {
         scrollView.setContentOffset(CGPoint(x: 0, y: 0), animated: true)
     }
 

@@ -20,7 +20,7 @@ class PHPickerVC: BaseViewController {
     }
     
     // MARK: - IBActions
-    @IBAction func chooseBtnClick(_ sender: UIButton) {
+    @IBAction func btnChooseClicked(_ sender: UIButton) {
         phPickerHelper.imageView = imgView
         phPickerHelper.setPHPicker(viewController: self)
         //        setPHPicker()

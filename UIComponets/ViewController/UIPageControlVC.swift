@@ -30,14 +30,14 @@ class UIPageControlVC: BaseViewController {
         updatePageControl()
     }
     // MARK: - IBActions
-    @IBAction func btnNext(_ sender: Any) {
+    @IBAction func btnNextClicked(_ sender: Any) {
         if currentPage < pageControl.numberOfPages-1 {
             currentPage+=1
             updatePageControl()
         }
     }
     // MARK: - IBActions
-    @IBAction func btnPrevious(_ sender: UIButton) {
+    @IBAction func btnPreviousClicked(_ sender: UIButton) {
         if currentPage > 0 {
             currentPage-=1
             updatePageControl()

@@ -24,7 +24,7 @@ class UILabelViewController: BaseViewController {
     }
     
      // MARK: - Action
-    @objc private func firstNameLblClick(_ sender: UITapGestureRecognizer) {
+    @objc private func lblFirstNameClicked(_ sender: UITapGestureRecognizer) {
         print("clicked")
     }
     
@@ -73,7 +73,7 @@ class UILabelViewController: BaseViewController {
         lblFirstName.textAlignment = .center
         lblFirstName.backgroundColor = .black
         let tap = UITapGestureRecognizer()
-        tap.addTarget(self, action: #selector(UILabelViewController.firstNameLblClick))
+        tap.addTarget(self, action: #selector(UILabelViewController.lblFirstNameClicked))
         lblFirstName.isUserInteractionEnabled = true
         lblFirstName.addGestureRecognizer(tap)
     }

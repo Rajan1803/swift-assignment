@@ -84,8 +84,8 @@ extension HomeScreenVC: UITableViewDataSource, UITableViewDelegate {
 
 // MARK: Extensions For HomeScreenVC
 extension HomeScreenVC: StatusBtnDelegate {
-    
-    func statusBtnClick(cell: HomeScreenCell) {
+   
+    func statusButtonClicked(cell: HomeScreenCell) {
         guard let indexPath = tblVDocuments.indexPath(for: cell) else {return}
         Document.data[indexPath.row].status.switchStatus()
         tblVDocuments.reloadRows(at: [indexPath], with: .automatic)

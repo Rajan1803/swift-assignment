@@ -10,7 +10,7 @@ import UIKit
 // MARK: - protocol for statusButtonClick Event handling
 protocol StatusBtnDelegate: AnyObject {
     
-    func statusBtnClick(cell: HomeScreenCell)
+    func statusButtonClicked(cell: HomeScreenCell)
     
 }
 
@@ -43,8 +43,8 @@ class HomeScreenCell: BaseTableViewCell {
     }
 
     // MARK: - IBActions
-    @IBAction func statusButtonClick(_ sender: UIButton) {
-        delegate?.statusBtnClick(cell: self)
+    @IBAction func btnStatusClicked(_ sender: UIButton) {
+        delegate?.statusButtonClicked(cell: self)
     }
         
     override func setSelected(_ selected: Bool, animated: Bool) {
