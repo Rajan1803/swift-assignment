@@ -11,7 +11,7 @@ import UIKit
 // MARK: - protocol for buttonClick Event handling
 protocol ExpandButtonDelegate: AnyObject {
     
-    func expandButtonClick(cell: ExpandableCell)
+    func expandButtonClicked(cell: ExpandableCell)
     
 }
 
@@ -34,8 +34,8 @@ class ExpandableCell: BaseTableViewCell {
     }
     
     // MARK: - IBAction
-    @IBAction func expandBtnClick(_ sender: UIButton) {
-        delegate?.expandButtonClick(cell: self)
+    @IBAction func btnExpandClicked(_ sender: UIButton) {
+        delegate?.expandButtonClicked(cell: self)
     }
     
     // MARK: - Set up

@@ -49,7 +49,7 @@ extension ExpandableVC: UITableViewDelegate, UITableViewDataSource {
 // MARK: Extension implimenting Protocol Method
 extension ExpandableVC: ExpandButtonDelegate {
     
-    func expandButtonClick(cell: ExpandableCell) {
+    func expandButtonClicked(cell: ExpandableCell) {
         guard let indexPath = tblExpand.indexPath(for: cell) else {return}
         Animals.data[indexPath.row].isExpanded = !Animals.data[indexPath.row].isExpanded
         tblExpand.reloadRows(at: [indexPath], with: .automatic)

@@ -72,7 +72,7 @@ class UIButtonViewController: BaseViewController {
         btnState.setTitle(Constants.String.highlighed, for: .highlighted)
         btnState.setTitle(Constants.String.disabled, for: .disabled)
         btnState.setTitle(Constants.String.focused, for: .focused)
-        btnState.addTarget(self, action: #selector(greenBtnClick(_:)), for: .touchUpInside)
+        btnState.addTarget(self, action: #selector(btnGreenClicked(_:)), for: .touchUpInside)
         btnState.setTitleColor(.green, for: .highlighted)
         view.addSubview(btnState)
     }
@@ -85,7 +85,7 @@ class UIButtonViewController: BaseViewController {
         greenButton.backgroundColor = .green
         greenButton.isUserInteractionEnabled = true
         greenButton.setTitleColor(.white, for: .normal)
-        greenButton.addTarget(self, action: #selector(greenBtnClick(_:)), for: .touchUpInside)
+        greenButton.addTarget(self, action: #selector(btnGreenClicked(_:)), for: .touchUpInside)
         greenButton.layer.cornerRadius = 20
         greenButton.layer.borderColor = UIColor.blue.cgColor
         greenButton.layer.borderWidth = Constants.standardBorderWidth
@@ -93,12 +93,12 @@ class UIButtonViewController: BaseViewController {
     }
     
     // MARK: - IBActions
-    @IBAction func submitBtnClick(_ sender: UIButton) {
+    @IBAction func btnSubmitClicked(_ sender: UIButton) {
         print("submit button clicked")
     }
     
     // MARK: - Action
-    @objc private func greenBtnClick(_ sender: UIButton!) {
+    @objc private func btnGreenClicked(_ sender: UIButton!) {
         print(btnState.isFocused)
         btnSubmitLeading.constant =  isButtonLeadingDecreased ? 100 : 10
         isButtonLeadingDecreased = !isButtonLeadingDecreased

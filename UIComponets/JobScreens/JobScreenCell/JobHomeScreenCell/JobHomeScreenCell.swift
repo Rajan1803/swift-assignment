@@ -22,6 +22,7 @@ class JobHomeScreenCell: UICollectionViewCell {
     @IBOutlet weak var lblLocation: UILabel!
     @IBOutlet weak var lblPackage: UILabel!
     
+    @IBOutlet var btnCollection: [UIButton]!
     // MARK: - Life cycle Methods
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -30,11 +31,11 @@ class JobHomeScreenCell: UICollectionViewCell {
     
     // MARK: - Set up
     private func setUpViews() {
+        btnCollection.forEach {
+            $0.applyCornerRadius(radius: 13)
+        }
         outerView.applyCornerRadius(radius: 24)
-        btnAdmin.applyCornerRadius(radius: 15)
-        btnFullTime.applyCornerRadius(radius: 15)
-        btnJunior.applyCornerRadius(radius: 15)
-        imgShellLogo.applyCornerRadius(radius: 12)
+        imgShellLogo.applyCornerRadius(radius: 13)
     }
     
     func setData(indexPath: IndexPath) {
@@ -45,5 +46,4 @@ class JobHomeScreenCell: UICollectionViewCell {
         lblLocation.text = FeaturedJob.jobData[indexPath.row].location
     }
     
-   
 }

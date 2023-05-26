@@ -86,7 +86,7 @@ class UITextFieldVC: BaseViewController {
     }
 
     // MARK: - IBActions
-    @IBAction private func submitClick(_ sender: UIButton) {
+    @IBAction private func btnSubmitClicked(_ sender: UIButton) {
         print(#function)
     }
     
@@ -128,7 +128,7 @@ extension UITextFieldVC: UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         print(#function)
         if textField == txtPassword {
-            submitClick(btnSubmit)
+            btnSubmitClicked(btnSubmit)
         }
         textField.resignFirstResponder()
         textField.superview?.viewWithTag(textField.tag+1)?.becomeFirstResponder()

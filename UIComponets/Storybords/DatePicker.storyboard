@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="oPN-ql-Iij">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Date PickerVC-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="DatePickerVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Y6W-OH-hqX" customClass="DatePickerVC" customModule="UIComponets" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Emz-OD-nXz">
+                                <rect key="frame" x="83" y="157" width="227" height="32"/>
+                                <segments>
+                                    <segment title="Wheel"/>
+                                    <segment title="Compact"/>
+                                    <segment title="Inline"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segmentSelected:" destination="Y6W-OH-hqX" eventType="valueChanged" id="yF0-RJ-o90"/>
+                                </connections>
+                            </segmentedControl>
+                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="Sc2-Kt-v9M">
+                                <rect key="frame" x="20" y="238" width="353" height="34.333333333333314"/>
+                            </datePicker>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jPv-aW-kb8">
+                                <rect key="frame" x="175.66666666666666" y="747" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Sc2-Kt-v9M" firstAttribute="top" secondItem="Emz-OD-nXz" secondAttribute="bottom" constant="50" id="ABo-Eg-pqe"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Sc2-Kt-v9M" secondAttribute="trailing" constant="20" id="B4O-sP-1k6"/>
+                            <constraint firstItem="jPv-aW-kb8" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Sc2-Kt-v9M" secondAttribute="bottom" constant="10" id="E5B-OS-oBC"/>
+                            <constraint firstItem="Emz-OD-nXz" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="LCc-p1-kK5"/>
+                            <constraint firstItem="jPv-aW-kb8" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="cst-6e-WP4"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="jPv-aW-kb8" secondAttribute="bottom" constant="50" id="dGS-DI-T5Q"/>
+                            <constraint firstItem="Sc2-Kt-v9M" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="l3I-uD-iNu"/>
+                            <constraint firstItem="Emz-OD-nXz" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="98" id="wrN-t1-RXX"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="datePicker" destination="Sc2-Kt-v9M" id="jFN-Y5-UdV"/>
+                        <outlet property="lblDate" destination="jPv-aW-kb8" id="gvr-Oc-cHZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9.9236641221374047" y="-55.633802816901408"/>
+        </scene>
+        <!--Text Filed Date PickerVC-->
+        <scene sceneID="sHQ-O7-sCl">
+            <objects>
+                <viewController id="oPN-ql-Iij" customClass="TextFiledDatePickerVC" customModule="UIComponets" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ado-kO-jxP">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XJC-Rk-gFs">
+                                <rect key="frame" x="20" y="159" width="353" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="2wJ-l9-ZJa"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="XJC-Rk-gFs" firstAttribute="top" secondItem="2wJ-l9-ZJa" secondAttribute="top" constant="100" id="dJI-gE-HBY"/>
+                            <constraint firstItem="XJC-Rk-gFs" firstAttribute="leading" secondItem="2wJ-l9-ZJa" secondAttribute="leading" constant="20" id="jRb-kf-7z1"/>
+                            <constraint firstItem="2wJ-l9-ZJa" firstAttribute="trailing" secondItem="XJC-Rk-gFs" secondAttribute="trailing" constant="20" id="nik-6d-D2u"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="txtfDate" destination="XJC-Rk-gFs" id="clv-Zf-Xru"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xa6-D2-t22" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-343" y="-732"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
