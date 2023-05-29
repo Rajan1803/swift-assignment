@@ -34,6 +34,10 @@ struct Constants {
         static let ellipse = "Ellipse"
         static let FaceBookLogo = "FaceBookLogo"
         static let googleLogo = "googleLogo"
+        static let HomeNav = "homeNav"
+        static let Message = "Message"
+        static let bookmark = "bookmark"
+        static let Category = "Category"
         
     }
     
@@ -44,6 +48,7 @@ struct Constants {
         static let JobScreenHomeVC = "JobScreenHomeVC"
         static let JobCollectionVC = "JobCollectionVC"
         static let HomeScreenVC = "HomeScreenVC"
+        static let DatePickerVC = "DatePickerVC"
         
     }
     
@@ -126,6 +131,7 @@ struct Constants {
         static let Main = "Main"
         static let JobScreen = "JobScreen"
         static let HomeScreen = "HomeScreen"
+        static let DatePicker = "DatePicker"
         
     }
     

@@ -35,7 +35,7 @@
                         </attributedString>
                     </buttonConfiguration>
                     <connections>
-                        <action selector="btnSeeAllClicked:" destination="-2" eventType="touchUpInside" id="wr2-7p-TuN"/>
+                        <action selector="btnSeeAllClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="fH8-Ty-oRB"/>
                     </connections>
                 </button>
             </subviews>

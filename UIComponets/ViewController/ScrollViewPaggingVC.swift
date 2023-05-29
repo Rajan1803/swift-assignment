@@ -27,7 +27,7 @@ class ScrollViewPaggingVC: UIViewController {
     }
     
     // MARK: - IBActions
-    @IBAction func pageControlValueChange(_ sender: UIPageControl) {
+    @IBAction func pageControlValueChanged(_ sender: UIPageControl) {
         let offSet = CGFloat(sender.currentPage) * scrollView.frame.width
         scrollView.setContentOffset(CGPoint(x: offSet, y: 0), animated: true)
     }

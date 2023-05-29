@@ -66,12 +66,12 @@ class RadioButtonVC: BaseViewController {
     }
     
     // MARK: - IBActions
-    @IBAction func checkboxBtnClick(_ sender: UIButton) {
+    @IBAction func btnCheckboxClicked(_ sender: UIButton) {
                 sender.isSelected = !sender.isSelected
     }
     
     // MARK: - IBActions
-    @IBAction func radioBtnClick(_ sender: UIButton) {
+    @IBAction func btnRadioClicked(_ sender: UIButton) {
         for button in btnRadioArray {
             if button == sender {
                 button.isSelected = true

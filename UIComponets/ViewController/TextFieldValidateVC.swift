@@ -31,7 +31,7 @@ class TextFieldValidateVC: BaseViewController {
     }
     
     // MARK: - IBActions
-    @IBAction func btnSubmitClick(_ sender: Any) {
+    @IBAction func btnSubmitClicked(_ sender: Any) {
         print("submit Button Clicked")
     }
     

@@ -41,12 +41,12 @@ class SegmentedControllVC: BaseViewController {
         segmentLanguage.insertSegment(withTitle: "swift", at: 2, animated: true)
         segmentLanguage.setWidth(200, forSegmentAt: 1)
         segmentLanguage.selectedSegmentIndex = 0
-        segmentLanguage.addTarget(self, action: #selector(segmentLanguageOnClick), for: .valueChanged)
+        segmentLanguage.addTarget(self, action: #selector(segmentLanguageOnClicked), for: .valueChanged)
         return segmentLanguage
     }
     
     // MARK: - Action
-    @objc func segmentLanguageOnClick(_ sender: UISegmentedControl) {
+    @objc func segmentLanguageOnClicked(_ sender: UISegmentedControl) {
         print(LanguageSegmentTypes(rawValue: sender.selectedSegmentIndex)?.getValue() ?? "")
     }
     

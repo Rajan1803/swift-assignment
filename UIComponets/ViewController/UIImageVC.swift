@@ -22,14 +22,13 @@ class UIImageVC: BaseViewController {
     // MARK: - Set up
     private func setImgGesture() {
         let tap = UITapGestureRecognizer()
-        tap.addTarget(self, action: #selector(imgClickEvent))
-        imgLocation.isUserInteractionEnabled = true
+        tap.addTarget(self, action: #selector(imgLocationClicked))
         imgLocation.addGestureRecognizer(tap)
     }
     
     
     // MARK: - Action
-    @objc func imgClickEvent(_ sender: UITapGestureRecognizer) {
+    @objc func imgLocationClicked(_ sender: UITapGestureRecognizer) {
         imgLocation.startAnimating()
         let alertController = UIAlertController(title: "select", message: "select any one", preferredStyle: .actionSheet)
         let cameraAlert = UIAlertAction(title: "camera", style: .default) {_  in
