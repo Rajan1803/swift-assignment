@@ -25,6 +25,9 @@
 		E532841129F7EA79005F8AF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E532841029F7EA79005F8AF1 /* Assets.xcassets */; };
 		E532843B29F7EEBA005F8AF1 /* UIButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E532843A29F7EEBA005F8AF1 /* UIButtonViewController.swift */; };
 		E53774A82A2107D60062130E /* TextFiledDatePickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53774A72A2107D50062130E /* TextFiledDatePickerVC.swift */; };
+		E53774AA2A21B9BA0062130E /* CLLocation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53774A92A21B9BA0062130E /* CLLocation.storyboard */; };
+		E53774AC2A21B9F20062130E /* CLLocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53774AB2A21B9F20062130E /* CLLocationVC.swift */; };
+		E53774AF2A21BACA0062130E /* Location.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53774AE2A21BACA0062130E /* Location.storyboard */; };
 		E54083D22A208CBA006A0E93 /* PickerViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54083D12A208CBA006A0E93 /* PickerViewData.swift */; };
 		E54083D42A209114006A0E93 /* PickerViewEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54083D32A209114006A0E93 /* PickerViewEnum.swift */; };
 		E54083D62A20F546006A0E93 /* DatePicker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E54083D52A20F546006A0E93 /* DatePicker.storyboard */; };
@@ -53,6 +56,10 @@
 		E5710EEA2A139A9400E10408 /* ExpandableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5710EE92A139A9400E10408 /* ExpandableVC.swift */; };
 		E5710EEC2A139AB000E10408 /* ExpandableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5710EEB2A139AB000E10408 /* ExpandableCell.swift */; };
 		E5710EEE2A13A08900E10408 /* Animals.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5710EED2A13A08900E10408 /* Animals.swift */; };
+		E57A35A72A221003007F8B88 /* MapViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57A35A62A221003007F8B88 /* MapViewVC.swift */; };
+		E57A35A92A223FEA007F8B88 /* MapViewPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57A35A82A223FEA007F8B88 /* MapViewPicker.swift */; };
+		E57A35AB2A224208007F8B88 /* LocationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57A35AA2A224208007F8B88 /* LocationHelper.swift */; };
+		E57A35AD2A22458C007F8B88 /* LocationsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57A35AC2A22458C007F8B88 /* LocationsModel.swift */; };
 		E57FF9512A1515C70030E30A /* JobHeaderRV.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57FF9502A1515C70030E30A /* JobHeaderRV.swift */; };
 		E57FF9562A152B0D0030E30A /* JobHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57FF9542A152B0D0030E30A /* JobHeader.swift */; };
 		E57FF9572A152B0D0030E30A /* JobHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = E57FF9552A152B0D0030E30A /* JobHeader.xib */; };
@@ -136,6 +143,9 @@
 		E532842429F7EA79005F8AF1 /* UIComponetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIComponetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E532843A29F7EEBA005F8AF1 /* UIButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonViewController.swift; sourceTree = "<group>"; };
 		E53774A72A2107D50062130E /* TextFiledDatePickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFiledDatePickerVC.swift; sourceTree = "<group>"; };
+		E53774A92A21B9BA0062130E /* CLLocation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CLLocation.storyboard; sourceTree = "<group>"; };
+		E53774AB2A21B9F20062130E /* CLLocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLLocationVC.swift; sourceTree = "<group>"; };
+		E53774AE2A21BACA0062130E /* Location.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Location.storyboard; sourceTree = "<group>"; };
 		E54083D12A208CBA006A0E93 /* PickerViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewData.swift; sourceTree = "<group>"; };
 		E54083D32A209114006A0E93 /* PickerViewEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewEnum.swift; sourceTree = "<group>"; };
 		E54083D52A20F546006A0E93 /* DatePicker.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DatePicker.storyboard; sourceTree = "<group>"; };
@@ -164,6 +174,10 @@
 		E5710EE92A139A9400E10408 /* ExpandableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableVC.swift; sourceTree = "<group>"; };
 		E5710EEB2A139AB000E10408 /* ExpandableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableCell.swift; sourceTree = "<group>"; };
 		E5710EED2A13A08900E10408 /* Animals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animals.swift; sourceTree = "<group>"; };
+		E57A35A62A221003007F8B88 /* MapViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewVC.swift; sourceTree = "<group>"; };
+		E57A35A82A223FEA007F8B88 /* MapViewPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewPicker.swift; sourceTree = "<group>"; };
+		E57A35AA2A224208007F8B88 /* LocationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHelper.swift; sourceTree = "<group>"; };
+		E57A35AC2A22458C007F8B88 /* LocationsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsModel.swift; sourceTree = "<group>"; };
 		E57FF9502A1515C70030E30A /* JobHeaderRV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobHeaderRV.swift; sourceTree = "<group>"; };
 		E57FF9542A152B0D0030E30A /* JobHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobHeader.swift; sourceTree = "<group>"; };
 		E57FF9552A152B0D0030E30A /* JobHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JobHeader.xib; sourceTree = "<group>"; };
@@ -294,6 +308,9 @@
 				E566C9012A1FC2A9009D8BA6 /* PickerVC.swift */,
 				E54083D72A20F55F006A0E93 /* DatePickerVC.swift */,
 				E53774A72A2107D50062130E /* TextFiledDatePickerVC.swift */,
+				E53774AB2A21B9F20062130E /* CLLocationVC.swift */,
+				E57A35A62A221003007F8B88 /* MapViewVC.swift */,
+				E57A35A82A223FEA007F8B88 /* MapViewPicker.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -312,6 +329,8 @@
 				E54665582A1F3D0500823ABA /* JobScreen.storyboard */,
 				E566C8FF2A1FC23D009D8BA6 /* PickerView.storyboard */,
 				E54083D52A20F546006A0E93 /* DatePicker.storyboard */,
+				E53774A92A21B9BA0062130E /* CLLocation.storyboard */,
+				E53774AE2A21BACA0062130E /* Location.storyboard */,
 			);
 			path = Storybords;
 			sourceTree = "<group>";
@@ -413,6 +432,7 @@
 				E5C5B5A02A11FE590084F576 /* Document.swift */,
 				E5710EE32A138E0E00E10408 /* StatusEnum.swift */,
 				E5710EED2A13A08900E10408 /* Animals.swift */,
+				E57A35AC2A22458C007F8B88 /* LocationsModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -436,6 +456,7 @@
 				E51606962A0B6112002E654C /* Enumeration.swift */,
 				E516069A2A0B6AED002E654C /* PHPickerHelper.swift */,
 				E5709C6D2A13658500129DDE /* Color.swift */,
+				E57A35AA2A224208007F8B88 /* LocationHelper.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -586,6 +607,7 @@
 				E5B8E5482A14F4AC0013E231 /* JobCollectionCell.xib in Resources */,
 				E54665622A1F3D0500823ABA /* HomeScreen.storyboard in Resources */,
 				E566C9002A1FC23D009D8BA6 /* PickerView.storyboard in Resources */,
+				E53774AA2A21B9BA0062130E /* CLLocation.storyboard in Resources */,
 				E54665602A1F3D0500823ABA /* FrameBound.storyboard in Resources */,
 				E54665612A1F3D0500823ABA /* UIButtons.storyboard in Resources */,
 				E5709C6C2A1359BB00129DDE /* Font in Resources */,
@@ -595,6 +617,7 @@
 				E54665652A1F3D0500823ABA /* JobScreen.storyboard in Resources */,
 				E57FF9572A152B0D0030E30A /* JobHeader.xib in Resources */,
 				E54665632A1F3D0500823ABA /* ScrollViewUI.storyboard in Resources */,
+				E53774AF2A21BACA0062130E /* Location.storyboard in Resources */,
 				E54083D62A20F546006A0E93 /* DatePicker.storyboard in Resources */,
 				E546655D2A1F3D0500823ABA /* UITextField.storyboard in Resources */,
 			);
@@ -637,6 +660,8 @@
 				E5B8E54C2A14F7B70013E231 /* JobCollectionVC.swift in Sources */,
 				E5CD55B32A166CB50090BB81 /* JobHomeScreenCell.swift in Sources */,
 				E532840C29F7EA77005F8AF1 /* ViewController.swift in Sources */,
+				E57A35AD2A22458C007F8B88 /* LocationsModel.swift in Sources */,
+				E57A35AB2A224208007F8B88 /* LocationHelper.swift in Sources */,
 				E557181929FBEFDA00705C56 /* TextViewVC.swift in Sources */,
 				E5DF70BD2A15E848007F4ABC /* BaseTableViewCell.swift in Sources */,
 				E531EE0C2A055A49007F6A8E /* ExtendFunctionsVC.swift in Sources */,
@@ -660,6 +685,8 @@
 				E5ED9A592A03B3E700F002D0 /* SegmentedControllVC.swift in Sources */,
 				E5710EEA2A139A9400E10408 /* ExpandableVC.swift in Sources */,
 				E526E48C2A0E648400C6E597 /* TableViewCell.swift in Sources */,
+				E57A35A72A221003007F8B88 /* MapViewVC.swift in Sources */,
+				E53774AC2A21B9F20062130E /* CLLocationVC.swift in Sources */,
 				E555A67A2A18DEA30000F142 /* FeaturedJobModel.swift in Sources */,
 				E5C5B5A32A11FF660084F576 /* HomeScreenVC.swift in Sources */,
 				E54083D42A209114006A0E93 /* PickerViewEnum.swift in Sources */,
@@ -671,6 +698,7 @@
 				E5ED9A5B2A040F4000F002D0 /* TextFieldValidateVC.swift in Sources */,
 				E5D2695C2A0A70EE00DD5184 /* TextViewExtension.swift in Sources */,
 				E54083D22A208CBA006A0E93 /* PickerViewData.swift in Sources */,
+				E57A35A92A223FEA007F8B88 /* MapViewPicker.swift in Sources */,
 				E531EE042A0513B8007F6A8E /* SwitchVC.swift in Sources */,
 				E5CFC90D2A1E3DC000AA3248 /* ScrollScreenVC.swift in Sources */,
 				E51427F12A0A951D0069656F /* AppConstants.swift in Sources */,
@@ -866,6 +894,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Resources/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "location permission";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "location permission";
+				INFOPLIST_KEY_NSLocationUsageDescription = "location permission";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "location permission";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -893,6 +925,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Resources/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "location permission";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "location permission";
+				INFOPLIST_KEY_NSLocationUsageDescription = "location permission";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "location permission";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

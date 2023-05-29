@@ -2,12 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSLocationUsageDescription</key>
+	<string>Allow Location</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Allow Location</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Allow Location</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Allow Location</string>
 	<key>UIAppFonts</key>
 	<array>
 		<string></string>
 	</array>
-	<key>item 0</key>
-	<string>Avenir-Roman.otf</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -22,10 +28,14 @@
 					<key>UISceneDelegateClassName</key>
 					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
 					<key>UISceneStoryboardFile</key>
-					<string>PickerView</string>
+					<string>CLLocation</string>
 				</dict>
 			</array>
 		</dict>
 	</dict>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>location</string>
+	</array>
 </dict>
 </plist>
