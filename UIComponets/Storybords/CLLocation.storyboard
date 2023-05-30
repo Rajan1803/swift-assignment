@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vmQ-rJ-39T">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Map view configurations" minToolsVersion="14.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--LocationVC-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="CLLocationVC" customModule="UIComponets" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oRh-rg-8Ed">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <hybridMapConfiguration key="preferredConfiguration"/>
+                            </mapView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="oRh-rg-8Ed" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="jim-wC-mD7"/>
+                            <constraint firstItem="oRh-rg-8Ed" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="li4-g2-0Dm"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="oRh-rg-8Ed" secondAttribute="bottom" id="poN-br-t5O"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="oRh-rg-8Ed" secondAttribute="trailing" id="yjF-Mu-sZb"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="oRh-rg-8Ed" id="5i8-Cc-nMI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="121" y="-49"/>
+        </scene>
+        <!--Map ViewVC-->
+        <scene sceneID="ifv-ku-Q6Y">
+            <objects>
+                <viewController id="LxR-7X-BVm" customClass="MapViewVC" customModule="UIComponets" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mhU-PK-uRl">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eb3-jF-dBr">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <gestureRecognizers/>
+                                <standardMapConfiguration key="preferredConfiguration"/>
+                            </mapView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="HHF-b9-1AZ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="HHF-b9-1AZ" firstAttribute="bottom" secondItem="eb3-jF-dBr" secondAttribute="bottom" id="8OA-n9-C9R"/>
+                            <constraint firstItem="eb3-jF-dBr" firstAttribute="leading" secondItem="HHF-b9-1AZ" secondAttribute="leading" id="BSn-xw-ngW"/>
+                            <constraint firstItem="HHF-b9-1AZ" firstAttribute="trailing" secondItem="eb3-jF-dBr" secondAttribute="trailing" id="ftR-Dn-QuX"/>
+                            <constraint firstItem="eb3-jF-dBr" firstAttribute="top" secondItem="HHF-b9-1AZ" secondAttribute="top" id="hki-B9-IdP"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="eb3-jF-dBr" id="QUA-NW-FYL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mze-jg-lDV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-56" y="-722"/>
+        </scene>
+        <!--Map View Picker-->
+        <scene sceneID="j78-9f-ReO">
+            <objects>
+                <viewController id="vmQ-rJ-39T" customClass="MapViewPicker" customModule="UIComponets" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fSb-wC-Smd">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2If-Ff-QeD">
+                                <rect key="frame" x="0.0" y="59" width="393" height="473"/>
+                                <gestureRecognizers/>
+                                <standardMapConfiguration key="preferredConfiguration"/>
+                                <connections>
+                                    <outlet property="delegate" destination="vmQ-rJ-39T" id="Asb-rN-WMr"/>
+                                </connections>
+                            </mapView>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oBS-Xu-sKC">
+                                <rect key="frame" x="20" y="582" width="353" height="216"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="vmQ-rJ-39T" id="mG5-av-rp1"/>
+                                    <outlet property="delegate" destination="vmQ-rJ-39T" id="K47-eI-2xy"/>
+                                </connections>
+                            </pickerView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ejn-BB-6GS"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="Ejn-BB-6GS" firstAttribute="trailing" secondItem="2If-Ff-QeD" secondAttribute="trailing" id="1SH-YJ-daT"/>
+                            <constraint firstItem="oBS-Xu-sKC" firstAttribute="leading" secondItem="Ejn-BB-6GS" secondAttribute="leading" constant="20" id="Ha3-0y-l4l"/>
+                            <constraint firstItem="oBS-Xu-sKC" firstAttribute="top" secondItem="2If-Ff-QeD" secondAttribute="bottom" constant="50" id="Jp2-sZ-Q2X"/>
+                            <constraint firstItem="2If-Ff-QeD" firstAttribute="leading" secondItem="Ejn-BB-6GS" secondAttribute="leading" id="NfE-N4-Eg6"/>
+                            <constraint firstItem="Ejn-BB-6GS" firstAttribute="trailing" secondItem="oBS-Xu-sKC" secondAttribute="trailing" constant="20" id="ZCk-zy-6nw"/>
+                            <constraint firstItem="2If-Ff-QeD" firstAttribute="top" secondItem="Ejn-BB-6GS" secondAttribute="top" id="pXm-qA-paQ"/>
+                            <constraint firstItem="Ejn-BB-6GS" firstAttribute="bottom" secondItem="oBS-Xu-sKC" secondAttribute="bottom" constant="20" id="uIr-3i-DNv"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="2If-Ff-QeD" id="feA-cj-vdo"/>
+                        <outlet property="pickerVLocation" destination="oBS-Xu-sKC" id="d2R-aw-v5p"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ddf-4R-Aip" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-904.58015267175574" y="-766.19718309859161"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
