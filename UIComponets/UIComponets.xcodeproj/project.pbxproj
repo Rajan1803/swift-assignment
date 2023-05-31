@@ -12,9 +12,14 @@
 		E51606972A0B6112002E654C /* Enumeration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51606962A0B6112002E654C /* Enumeration.swift */; };
 		E516069B2A0B6AED002E654C /* PHPickerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E516069A2A0B6AED002E654C /* PHPickerHelper.swift */; };
 		E516069D2A0B6DB6002E654C /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E516069C2A0B6DB6002E654C /* UIImageViewExtension.swift */; };
+		E517D6BA2A25E39F0061C97A /* GetStartedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E517D6B92A25E39F0061C97A /* GetStartedVC.swift */; };
+		E517D6BC2A25E3AF0061C97A /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E517D6BB2A25E3AF0061C97A /* SignUpVC.swift */; };
+		E517D6BE2A25E3BE0061C97A /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E517D6BD2A25E3BE0061C97A /* LoginVC.swift */; };
+		E517D6C02A25FFF00061C97A /* UserScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E517D6BF2A25FFF00061C97A /* UserScreenVC.swift */; };
 		E51F0AF329F7FA37009A660F /* UILabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51F0AF229F7FA37009A660F /* UILabelViewController.swift */; };
 		E52407342A12278D006353BF /* HomeScreenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52407332A12278D006353BF /* HomeScreenCell.swift */; };
 		E526E48C2A0E648400C6E597 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E526E48B2A0E648400C6E597 /* TableViewCell.swift */; };
+		E52A28A82A265A810020101D /* UserDefaultsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52A28A72A265A810020101D /* UserDefaultsHelper.swift */; };
 		E52F36BF2A0E46B80022663A /* TableViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52F36BE2A0E46B80022663A /* TableViewVC.swift */; };
 		E531EE042A0513B8007F6A8E /* SwitchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E531EE032A0513B8007F6A8E /* SwitchVC.swift */; };
 		E531EE062A052F78007F6A8E /* UIPageControlVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E531EE052A052F78007F6A8E /* UIPageControlVC.swift */; };
@@ -28,6 +33,7 @@
 		E53774AA2A21B9BA0062130E /* CLLocation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53774A92A21B9BA0062130E /* CLLocation.storyboard */; };
 		E53774AC2A21B9F20062130E /* CLLocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53774AB2A21B9F20062130E /* CLLocationVC.swift */; };
 		E53774AF2A21BACA0062130E /* Location.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E53774AE2A21BACA0062130E /* Location.storyboard */; };
+		E53774B12A21BAE00062130E /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53774B02A21BAE00062130E /* LocationVC.swift */; };
 		E54083D22A208CBA006A0E93 /* PickerViewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54083D12A208CBA006A0E93 /* PickerViewData.swift */; };
 		E54083D42A209114006A0E93 /* PickerViewEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E54083D32A209114006A0E93 /* PickerViewEnum.swift */; };
 		E54083D62A20F546006A0E93 /* DatePicker.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E54083D52A20F546006A0E93 /* DatePicker.storyboard */; };
@@ -70,6 +76,13 @@
 		E59E8F292A178B4600956D09 /* JobTblVHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = E59E8F282A178B4600956D09 /* JobTblVHeader.xib */; };
 		E59E8F2B2A178CCA00956D09 /* JobTblViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59E8F2A2A178CCA00956D09 /* JobTblViewHeader.swift */; };
 		E59E8F2D2A17908A00956D09 /* JobTblVHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E59E8F2C2A17908A00956D09 /* JobTblVHeader.swift */; };
+		E5AFC8AF2A2497120088613F /* UINavigationControl.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5AFC8AE2A2497120088613F /* UINavigationControl.storyboard */; };
+		E5AFC8B12A24973D0088613F /* NavigationControlVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AFC8B02A24973D0088613F /* NavigationControlVC.swift */; };
+		E5AFC8B32A2497D30088613F /* SecondNavCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AFC8B22A2497D30088613F /* SecondNavCVC.swift */; };
+		E5AFC8B52A2497E60088613F /* ThirdNavCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AFC8B42A2497E60088613F /* ThirdNavCVC.swift */; };
+		E5AFC8B72A2497F60088613F /* ForthNavCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AFC8B62A2497F60088613F /* ForthNavCVC.swift */; };
+		E5AFC8B92A24DA610088613F /* NavCDataPassVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AFC8B82A24DA610088613F /* NavCDataPassVC.swift */; };
+		E5AFC8BB2A24EFCD0088613F /* SegueDataPassVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AFC8BA2A24EFCD0088613F /* SegueDataPassVC.swift */; };
 		E5B8E53C2A14D8290013E231 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B8E53B2A14D8290013E231 /* CollectionViewCell.swift */; };
 		E5B8E53E2A14D85F0013E231 /* CollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B8E53D2A14D85F0013E231 /* CollectionVC.swift */; };
 		E5B8E5442A14F2DD0013E231 /* JobModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B8E5432A14F2DD0013E231 /* JobModel.swift */; };
@@ -126,9 +139,14 @@
 		E51606962A0B6112002E654C /* Enumeration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enumeration.swift; sourceTree = "<group>"; };
 		E516069A2A0B6AED002E654C /* PHPickerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHPickerHelper.swift; sourceTree = "<group>"; };
 		E516069C2A0B6DB6002E654C /* UIImageViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
+		E517D6B92A25E39F0061C97A /* GetStartedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetStartedVC.swift; sourceTree = "<group>"; };
+		E517D6BB2A25E3AF0061C97A /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		E517D6BD2A25E3BE0061C97A /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		E517D6BF2A25FFF00061C97A /* UserScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserScreenVC.swift; sourceTree = "<group>"; };
 		E51F0AF229F7FA37009A660F /* UILabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelViewController.swift; sourceTree = "<group>"; };
 		E52407332A12278D006353BF /* HomeScreenCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenCell.swift; sourceTree = "<group>"; };
 		E526E48B2A0E648400C6E597 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		E52A28A72A265A810020101D /* UserDefaultsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsHelper.swift; sourceTree = "<group>"; };
 		E52F36BE2A0E46B80022663A /* TableViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewVC.swift; sourceTree = "<group>"; };
 		E531EE032A0513B8007F6A8E /* SwitchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchVC.swift; sourceTree = "<group>"; };
 		E531EE052A052F78007F6A8E /* UIPageControlVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPageControlVC.swift; sourceTree = "<group>"; };
@@ -146,6 +164,7 @@
 		E53774A92A21B9BA0062130E /* CLLocation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CLLocation.storyboard; sourceTree = "<group>"; };
 		E53774AB2A21B9F20062130E /* CLLocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLLocationVC.swift; sourceTree = "<group>"; };
 		E53774AE2A21BACA0062130E /* Location.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Location.storyboard; sourceTree = "<group>"; };
+		E53774B02A21BAE00062130E /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
 		E54083D12A208CBA006A0E93 /* PickerViewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewData.swift; sourceTree = "<group>"; };
 		E54083D32A209114006A0E93 /* PickerViewEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewEnum.swift; sourceTree = "<group>"; };
 		E54083D52A20F546006A0E93 /* DatePicker.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = DatePicker.storyboard; sourceTree = "<group>"; };
@@ -188,6 +207,13 @@
 		E59E8F282A178B4600956D09 /* JobTblVHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JobTblVHeader.xib; sourceTree = "<group>"; };
 		E59E8F2A2A178CCA00956D09 /* JobTblViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobTblViewHeader.swift; sourceTree = "<group>"; };
 		E59E8F2C2A17908A00956D09 /* JobTblVHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobTblVHeader.swift; sourceTree = "<group>"; };
+		E5AFC8AE2A2497120088613F /* UINavigationControl.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UINavigationControl.storyboard; sourceTree = "<group>"; };
+		E5AFC8B02A24973D0088613F /* NavigationControlVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationControlVC.swift; sourceTree = "<group>"; };
+		E5AFC8B22A2497D30088613F /* SecondNavCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondNavCVC.swift; sourceTree = "<group>"; };
+		E5AFC8B42A2497E60088613F /* ThirdNavCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdNavCVC.swift; sourceTree = "<group>"; };
+		E5AFC8B62A2497F60088613F /* ForthNavCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForthNavCVC.swift; sourceTree = "<group>"; };
+		E5AFC8B82A24DA610088613F /* NavCDataPassVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavCDataPassVC.swift; sourceTree = "<group>"; };
+		E5AFC8BA2A24EFCD0088613F /* SegueDataPassVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueDataPassVC.swift; sourceTree = "<group>"; };
 		E5B8E53B2A14D8290013E231 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		E5B8E53D2A14D85F0013E231 /* CollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionVC.swift; sourceTree = "<group>"; };
 		E5B8E5432A14F2DD0013E231 /* JobModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobModel.swift; sourceTree = "<group>"; };
@@ -246,9 +272,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E517D6B82A25E3780061C97A /* LoginSession */ = {
+			isa = PBXGroup;
+			children = (
+				E517D6B92A25E39F0061C97A /* GetStartedVC.swift */,
+				E517D6BB2A25E3AF0061C97A /* SignUpVC.swift */,
+				E517D6BD2A25E3BE0061C97A /* LoginVC.swift */,
+				E517D6BF2A25FFF00061C97A /* UserScreenVC.swift */,
+			);
+			path = LoginSession;
+			sourceTree = "<group>";
+		};
 		E53283FB29F7EA77005F8AF1 = {
 			isa = PBXGroup;
 			children = (
+				E517D6B82A25E3780061C97A /* LoginSession */,
 				E546654D2A1F3D0500823ABA /* Storybords */,
 				E54C8FF82A18EC37005A05DE /* JobScreens */,
 				E5C5B59F2A11FE310084F576 /* Model */,
@@ -309,8 +347,15 @@
 				E54083D72A20F55F006A0E93 /* DatePickerVC.swift */,
 				E53774A72A2107D50062130E /* TextFiledDatePickerVC.swift */,
 				E53774AB2A21B9F20062130E /* CLLocationVC.swift */,
+				E53774B02A21BAE00062130E /* LocationVC.swift */,
 				E57A35A62A221003007F8B88 /* MapViewVC.swift */,
 				E57A35A82A223FEA007F8B88 /* MapViewPicker.swift */,
+				E5AFC8B02A24973D0088613F /* NavigationControlVC.swift */,
+				E5AFC8B22A2497D30088613F /* SecondNavCVC.swift */,
+				E5AFC8B42A2497E60088613F /* ThirdNavCVC.swift */,
+				E5AFC8B62A2497F60088613F /* ForthNavCVC.swift */,
+				E5AFC8B82A24DA610088613F /* NavCDataPassVC.swift */,
+				E5AFC8BA2A24EFCD0088613F /* SegueDataPassVC.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -331,6 +376,7 @@
 				E54083D52A20F546006A0E93 /* DatePicker.storyboard */,
 				E53774A92A21B9BA0062130E /* CLLocation.storyboard */,
 				E53774AE2A21BACA0062130E /* Location.storyboard */,
+				E5AFC8AE2A2497120088613F /* UINavigationControl.storyboard */,
 			);
 			path = Storybords;
 			sourceTree = "<group>";
@@ -457,6 +503,7 @@
 				E516069A2A0B6AED002E654C /* PHPickerHelper.swift */,
 				E5709C6D2A13658500129DDE /* Color.swift */,
 				E57A35AA2A224208007F8B88 /* LocationHelper.swift */,
+				E52A28A72A265A810020101D /* UserDefaultsHelper.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -611,6 +658,7 @@
 				E54665602A1F3D0500823ABA /* FrameBound.storyboard in Resources */,
 				E54665612A1F3D0500823ABA /* UIButtons.storyboard in Resources */,
 				E5709C6C2A1359BB00129DDE /* Font in Resources */,
+				E5AFC8AF2A2497120088613F /* UINavigationControl.storyboard in Resources */,
 				E54665642A1F3D0500823ABA /* TabBarUI.storyboard in Resources */,
 				E532841129F7EA79005F8AF1 /* Assets.xcassets in Resources */,
 				E5844C382A0A9B3A009AFCAD /* CustomButton.xib in Resources */,
@@ -644,8 +692,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E517D6BA2A25E39F0061C97A /* GetStartedVC.swift in Sources */,
 				E5B8E53E2A14D85F0013E231 /* CollectionVC.swift in Sources */,
 				E5CFC90F2A1E402F00AA3248 /* UIButtonExtension.swift in Sources */,
+				E5AFC8B32A2497D30088613F /* SecondNavCVC.swift in Sources */,
+				E5AFC8BB2A24EFCD0088613F /* SegueDataPassVC.swift in Sources */,
 				E516069D2A0B6DB6002E654C /* UIImageViewExtension.swift in Sources */,
 				E5CD55B62A167C4F0090BB81 /* JobHomeScreenTableCell.swift in Sources */,
 				E5D7D2482A08D07B004B8922 /* Validator.swift in Sources */,
@@ -666,6 +717,7 @@
 				E5DF70BD2A15E848007F4ABC /* BaseTableViewCell.swift in Sources */,
 				E531EE0C2A055A49007F6A8E /* ExtendFunctionsVC.swift in Sources */,
 				E59E8F2B2A178CCA00956D09 /* JobTblViewHeader.swift in Sources */,
+				E5AFC8B92A24DA610088613F /* NavCDataPassVC.swift in Sources */,
 				E5B8E5442A14F2DD0013E231 /* JobModel.swift in Sources */,
 				E5D7D24F2A08FD54004B8922 /* UIViewExtension.swift in Sources */,
 				E5709C6E2A13658500129DDE /* Color.swift in Sources */,
@@ -676,13 +728,16 @@
 				E54083D82A20F55F006A0E93 /* DatePickerVC.swift in Sources */,
 				E516069B2A0B6AED002E654C /* PHPickerHelper.swift in Sources */,
 				E5710EE42A138E0E00E10408 /* StatusEnum.swift in Sources */,
+				E517D6BC2A25E3AF0061C97A /* SignUpVC.swift in Sources */,
 				E546656B2A1F56E000823ABA /* UITabBarVC.swift in Sources */,
 				E5D269662A0A7CEB00DD5184 /* PHPickerVC.swift in Sources */,
 				E57FF9512A1515C70030E30A /* JobHeaderRV.swift in Sources */,
 				E52407342A12278D006353BF /* HomeScreenCell.swift in Sources */,
 				E566C9022A1FC2A9009D8BA6 /* PickerVC.swift in Sources */,
+				E53774B12A21BAE00062130E /* LocationVC.swift in Sources */,
 				E5710EEC2A139AB000E10408 /* ExpandableCell.swift in Sources */,
 				E5ED9A592A03B3E700F002D0 /* SegmentedControllVC.swift in Sources */,
+				E517D6C02A25FFF00061C97A /* UserScreenVC.swift in Sources */,
 				E5710EEA2A139A9400E10408 /* ExpandableVC.swift in Sources */,
 				E526E48C2A0E648400C6E597 /* TableViewCell.swift in Sources */,
 				E57A35A72A221003007F8B88 /* MapViewVC.swift in Sources */,
@@ -699,6 +754,7 @@
 				E5D2695C2A0A70EE00DD5184 /* TextViewExtension.swift in Sources */,
 				E54083D22A208CBA006A0E93 /* PickerViewData.swift in Sources */,
 				E57A35A92A223FEA007F8B88 /* MapViewPicker.swift in Sources */,
+				E517D6BE2A25E3BE0061C97A /* LoginVC.swift in Sources */,
 				E531EE042A0513B8007F6A8E /* SwitchVC.swift in Sources */,
 				E5CFC90D2A1E3DC000AA3248 /* ScrollScreenVC.swift in Sources */,
 				E51427F12A0A951D0069656F /* AppConstants.swift in Sources */,
@@ -707,6 +763,7 @@
 				E52F36BF2A0E46B80022663A /* TableViewVC.swift in Sources */,
 				E5D269582A0A6B5F00DD5184 /* TextFieldExtension.swift in Sources */,
 				E532840A29F7EA77005F8AF1 /* SceneDelegate.swift in Sources */,
+				E5AFC8B52A2497E60088613F /* ThirdNavCVC.swift in Sources */,
 				E5D7D2512A0911A0004B8922 /* UIImageVC.swift in Sources */,
 				E531EE062A052F78007F6A8E /* UIPageControlVC.swift in Sources */,
 				E5C5B5A12A11FE590084F576 /* Document.swift in Sources */,
@@ -715,7 +772,10 @@
 				E555A6782A18D5330000F142 /* JobHomeScreenEnum.swift in Sources */,
 				E5E7338E2A160568009DE927 /* JobSectionEnum.swift in Sources */,
 				E5454DB22A0921AF00A84098 /* CustomButton.swift in Sources */,
+				E52A28A82A265A810020101D /* UserDefaultsHelper.swift in Sources */,
+				E5AFC8B12A24973D0088613F /* NavigationControlVC.swift in Sources */,
 				E5B8E5472A14F4AC0013E231 /* JobCollectionCell.swift in Sources */,
+				E5AFC8B72A2497F60088613F /* ForthNavCVC.swift in Sources */,
 				E51606972A0B6112002E654C /* Enumeration.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -894,15 +954,15 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Resources/Info.plist;
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "location permission";
-				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "location permission";
-				INFOPLIST_KEY_NSLocationUsageDescription = "location permission";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "location permission";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Allow Location";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Allow Location";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Allow Location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow Location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -925,15 +985,15 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Resources/Info.plist;
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "location permission";
-				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "location permission";
-				INFOPLIST_KEY_NSLocationUsageDescription = "location permission";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "location permission";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Allow Location";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Allow Location";
+				INFOPLIST_KEY_NSLocationUsageDescription = "Allow Location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Allow Location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
