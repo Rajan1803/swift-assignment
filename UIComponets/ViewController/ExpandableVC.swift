@@ -34,7 +34,7 @@ extension ExpandableVC: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tblExpand.dequeueReusableCell(withIdentifier: Constants.Cell.ExpandableCell, for: indexPath) as? ExpandableCell else { return ExpandableCell() }
+        guard let cell = tblExpand.dequeueReusableCell(withIdentifier: Constants.Cell.expandableCell, for: indexPath) as? ExpandableCell else { return ExpandableCell() }
         cell.delegate = self
         cell.setData(data: Animals.data[indexPath.row])
         return cell

@@ -35,7 +35,7 @@ class UIStepperVC: BaseViewController {
     }
     
     // MARK: - IBActions
-    @IBAction func stepperValueChage(_ sender: UIStepper) {
+    @IBAction func stepperValueChaged(_ sender: UIStepper) {
         lblValue.text = "\(sender.value)"
     }
     

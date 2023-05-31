@@ -49,7 +49,7 @@ class MainPageViewController: UIPageViewController {
    
     // MARK: - FUNCTION
     private func viewControllerWith(name: String) -> UIViewController {
-        return UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: name)
+        return UIStoryboard(name: Constants.Storybords.main, bundle: nil).instantiateViewController(withIdentifier: name)
     }
     
 }

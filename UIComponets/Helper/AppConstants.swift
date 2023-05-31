@@ -29,15 +29,15 @@ struct Constants {
         static let swiftLogo = "swift"
         static let python =  "python"
         static let javaScript = "js"
-        static let Arrow = "NavArrow"
+        static let arrow = "NavArrow"
         static let cross = "NavCross"
         static let ellipse = "Ellipse"
-        static let FaceBookLogo = "FaceBookLogo"
+        static let faceBookLogo = "FaceBookLogo"
         static let googleLogo = "googleLogo"
-        static let HomeNav = "homeNav"
-        static let Message = "Message"
+        static let homeNav = "homeNav"
+        static let message = "Message"
         static let bookmark = "bookmark"
-        static let Category = "Category"
+        static let category = "Category"
         
     }
     
@@ -45,10 +45,18 @@ struct Constants {
         
         static let redViewController = "redViewController"
         static let blueViewController = "blueViewController"
-        static let JobScreenHomeVC = "JobScreenHomeVC"
-        static let JobCollectionVC = "JobCollectionVC"
-        static let HomeScreenVC = "HomeScreenVC"
-        static let DatePickerVC = "DatePickerVC"
+        static let jobScreenHomeVC = "JobScreenHomeVC"
+        static let jobCollectionVC = "JobCollectionVC"
+        static let homeScreenVC = "HomeScreenVC"
+        static let datePickerVC = "DatePickerVC"
+        static let navigationControlVC = "NavigationControlVC"
+        static let secondNavCVC = "SecondNavCVC"
+        static let thirdNavCVC = "ThirdNavCVC"
+        static let forthNavCVC = "ForthNavCVC"
+        static let getStartedVC = "GetStartedVC"
+        static let loginVC = "LoginVC"
+        static let userScreenVC = "UserScreenVC"
+        static let signUpVC = "SignUpVC"
         
     }
     
@@ -77,7 +85,8 @@ struct Constants {
         static let moreAction = "More"
         static let tableViewPlaceholder = "Enter New Text"
         static let pageControl = "pageControl"
-        
+        static let isLogedIn = "isLogedIn"
+        static let dataSegue = "dataSegue"
         
     }
     
@@ -95,7 +104,7 @@ struct Constants {
         static let jobCollectionCell = "JobCollectionCell"
         static let jobHeader = "JobHeader"
         static let jobHomeTblHeader = "JobTblVHeader"
-        static let JobTblVHeader = "JobTblVHeader"
+        static let jobTblHeader = "JobTblVHeader"
         
     }
     
@@ -104,10 +113,10 @@ struct Constants {
     struct Cell {
         
         static let homeScreenCell = "homeScreenCell"
-        static let ExpandableCell = "expandCell"
+        static let expandableCell = "expandCell"
         static let practiceCell = "practiceCell"
         static let jobHomeScreenCell = "JobHomeScreenCell"
-        static let JobHomeScreenTableCell = "JobHomeScreenTableCell"
+        static let jobHomeScreenTableCell = "JobHomeScreenTableCell"
         static let collectionCell = "Collectioncell"
         
     }
@@ -128,17 +137,18 @@ struct Constants {
     
     struct Storybords {
         
-        static let Main = "Main"
-        static let JobScreen = "JobScreen"
-        static let HomeScreen = "HomeScreen"
-        static let DatePicker = "DatePicker"
+        static let main = "Main"
+        static let jobScreen = "JobScreen"
+        static let homeScreen = "HomeScreen"
+        static let datePicker = "DatePicker"
+        static let uiNavigationControl = "UINavigationControl"
         
     }
     
     struct JobHeader {
         
         static let populerHeaderTitle = "Populer Jobs"
-        static let RecomendedHeaderTitle = "Recomended Jobs"
+        static let recomendedHeaderTitle = "Recomended Jobs"
         
     }
     
