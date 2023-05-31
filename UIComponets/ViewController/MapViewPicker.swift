@@ -8,7 +8,7 @@
 import UIKit
 import MapKit
 
-class MapViewPicker: UIViewController {
+class MapViewPicker: BaseViewController {
 
     // MARK: - Enum for constants used in this file
     enum Constant {

@@ -2,14 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>NSLocationUsageDescription</key>
-	<string>Allow Location</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Allow Location</string>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Allow Location</string>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>Allow Location</string>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<true/>
 	<key>UIAppFonts</key>
 	<array>
 		<string></string>
@@ -28,7 +22,7 @@
 					<key>UISceneDelegateClassName</key>
 					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
 					<key>UISceneStoryboardFile</key>
-					<string>CLLocation</string>
+					<string>Main</string>
 				</dict>
 			</array>
 		</dict>

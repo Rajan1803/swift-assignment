@@ -16,7 +16,7 @@ enum Sections: Int {
     func getHeader() -> String {
     
         switch self {
-        case .recommended: return Constants.JobHeader.RecomendedHeaderTitle
+        case .recommended: return Constants.JobHeader.recomendedHeaderTitle
         case .populer: return Constants.JobHeader.populerHeaderTitle
         }
         

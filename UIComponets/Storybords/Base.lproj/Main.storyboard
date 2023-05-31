@@ -101,7 +101,7 @@
         <!--Navigation Controller-->
         <scene sceneID="WHx-Im-2bo">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="yFM-r8-ORh" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="Nav" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="yFM-r8-ORh" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="P5I-VJ-vJN">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -350,7 +350,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Swift"/>
                                 <connections>
-                                    <action selector="btnCheckboxClick:" destination="0ec-pa-yHb" eventType="touchUpInside" id="5Xi-jy-exZ"/>
+                                    <action selector="btnCheckboxClicked:" destination="0ec-pa-yHb" eventType="touchUpInside" id="BqE-82-mW9"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w4a-bg-Z8z">
@@ -358,7 +358,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Java"/>
                                 <connections>
-                                    <action selector="btnCheckboxClick:" destination="0ec-pa-yHb" eventType="touchUpInside" id="fq7-kl-42V"/>
+                                    <action selector="btnCheckboxClicked:" destination="0ec-pa-yHb" eventType="touchUpInside" id="CFa-j4-Utm"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9P3-UH-off">
@@ -366,7 +366,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="tinted" title="Kotlin"/>
                                 <connections>
-                                    <action selector="btnCheckboxClick:" destination="0ec-pa-yHb" eventType="touchUpInside" id="Rym-LA-Ewl"/>
+                                    <action selector="btnCheckboxClicked:" destination="0ec-pa-yHb" eventType="touchUpInside" id="FwA-sG-vud"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Radio Button" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5TU-kK-X96">
@@ -564,7 +564,7 @@ Indigo Flight 6E 958
                                 <color key="onTintColor" systemColor="systemGreenColor"/>
                                 <color key="thumbTintColor" name="AccentColor"/>
                                 <connections>
-                                    <action selector="uiSwitchClick:" destination="8tU-6O-s8d" eventType="valueChanged" id="xMd-0f-7BM"/>
+                                    <action selector="uiSwitchClicked:" destination="8tU-6O-s8d" eventType="valueChanged" id="fYJ-RS-2YW"/>
                                 </connections>
                             </switch>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" continuous="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4CD-Y5-43N">
@@ -575,7 +575,7 @@ Indigo Flight 6E 958
                                 <imageReference key="minimumValueImage" image="square.and.arrow.up.circle.fill" catalog="system" symbolScale="large" renderingMode="original" variableValue="1"/>
                                 <imageReference key="maximumValueImage" image="square.and.arrow.down" catalog="system" symbolScale="large"/>
                                 <connections>
-                                    <action selector="uiSliderValueChange:" destination="8tU-6O-s8d" eventType="valueChanged" id="fUd-ts-3z8"/>
+                                    <action selector="uiSliderValueChanged:" destination="8tU-6O-s8d" eventType="valueChanged" id="rp6-rg-iHr"/>
                                 </connections>
                             </slider>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.29999999999999999" translatesAutoresizingMaskIntoConstraints="NO" id="3zE-St-GmV">
@@ -634,7 +634,7 @@ Indigo Flight 6E 958
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="chooseBtnClick:" destination="Ab1-61-1N2" eventType="touchUpInside" id="MbA-i3-neM"/>
+                                    <action selector="btnChooseClicked:" destination="Ab1-61-1N2" eventType="touchUpInside" id="4rP-AJ-Ief"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -671,7 +671,7 @@ Indigo Flight 6E 958
                                 <color key="onTintColor" systemColor="systemGreenColor"/>
                                 <color key="thumbTintColor" systemColor="systemIndigoColor"/>
                                 <connections>
-                                    <action selector="switchClick:" destination="K16-dA-ZOg" eventType="valueChanged" id="e41-aO-moM"/>
+                                    <action selector="switchClicked:" destination="K16-dA-ZOg" eventType="valueChanged" id="5wz-X3-CjR"/>
                                 </connections>
                             </switch>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="nOc-Ct-YeB">
@@ -707,7 +707,7 @@ Indigo Flight 6E 958
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <action selector="sliderClick:" destination="K16-dA-ZOg" eventType="valueChanged" id="qve-Iq-qsJ"/>
+                                    <action selector="sliderValueChanged:" destination="K16-dA-ZOg" eventType="valueChanged" id="6Xr-tn-HHs"/>
                                 </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ruI-SZ-IpW">
@@ -800,7 +800,7 @@ Indigo Flight 6E 958
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Submit"/>
                                 <connections>
-                                    <action selector="btnSubmitClick:" destination="jNO-8x-eqC" eventType="touchUpInside" id="xbg-ZL-Nvr"/>
+                                    <action selector="btnSubmitClicked:" destination="jNO-8x-eqC" eventType="touchUpInside" id="pMy-9o-f8S"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="s2G-wq-gwN">
@@ -1110,7 +1110,7 @@ Indigo Flight 6E 958
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Previous"/>
                                 <connections>
-                                    <action selector="btnPreviousClicked:" destination="Jdd-Wn-dcZ" eventType="touchUpInside" id="rfb-QB-5GD"/>
+                                    <action selector="btnPreviousClicked:" destination="Jdd-Wn-dcZ" eventType="touchUpInside" id="DdD-jA-tJI"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kuC-mE-6OR">
@@ -1118,7 +1118,7 @@ Indigo Flight 6E 958
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Next"/>
                                 <connections>
-                                    <action selector="btnNextClicked:" destination="Jdd-Wn-dcZ" eventType="touchUpInside" id="6mz-A7-XIL"/>
+                                    <action selector="btnNextClicked:" destination="Jdd-Wn-dcZ" eventType="touchUpInside" id="Ju3-Fy-YjC"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1151,7 +1151,7 @@ Indigo Flight 6E 958
                             <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="kFs-hc-Xk8">
                                 <rect key="frame" x="160" y="193" width="94" height="32"/>
                                 <connections>
-                                    <action selector="stepperValueChage:" destination="e4D-id-LOT" eventType="valueChanged" id="x86-W7-YYn"/>
+                                    <action selector="stepperValueChaged:" destination="e4D-id-LOT" eventType="valueChanged" id="Eus-Kq-XxG"/>
                                 </connections>
                             </stepper>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qqh-aN-Xoi">
@@ -1391,7 +1391,7 @@ Indigo Flight 6E 958
                                                     <state key="normal" title="Button"/>
                                                     <buttonConfiguration key="configuration" style="plain" title="See More"/>
                                                     <connections>
-                                                        <action selector="btnExpandClick:" destination="J6C-Jk-D9w" eventType="touchUpInside" id="Mps-FW-Zyj"/>
+                                                        <action selector="btnExpandClicked:" destination="J6C-Jk-D9w" eventType="touchUpInside" id="zdu-AI-Ufy"/>
                                                     </connections>
                                                 </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GhI-oy-pz3">
