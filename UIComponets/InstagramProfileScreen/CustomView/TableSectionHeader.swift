@@ -7,7 +7,6 @@
 
 import UIKit
 
-// MARK: - Protocol - SegmentContol
 protocol SegmentControl: AnyObject {
     
     func segmentValueChange(value: Int)
@@ -17,8 +16,8 @@ protocol SegmentControl: AnyObject {
 class TableSectionHeader: UIView {
     
     // MARK: - Life cycle Methods
-    @IBOutlet weak var contentView: UIView!
-    @IBOutlet weak var segmentControl: UISegmentedControl!
+    @IBOutlet private weak var contentView: UIView!
+    @IBOutlet private weak var segmentControl: UISegmentedControl!
     
     // MARK: - Variables And Declarations
     weak var delegate: SegmentControl?

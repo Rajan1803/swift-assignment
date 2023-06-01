@@ -20,7 +20,7 @@ class DatePickerVC: BaseViewController {
     }
 
     // MARK: - Life cycle Methods
-    func setUpViews() {
+    private func setUpViews() {
         datePicker.preferredDatePickerStyle = .wheels
         datePicker.addTarget(self, action: #selector(datePickerValueChanged), for: .valueChanged)
         let dateFormater = DateFormatter()

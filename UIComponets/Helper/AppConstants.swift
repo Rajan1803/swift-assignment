@@ -48,6 +48,22 @@ struct Constants {
         static let natureTen = "natureTen"
         static let natureThree = "natureThree"
         static let natureTwo = "natureTwo"
+        static let imgDiscount = "imgDiscount"
+        static let badgeIcon = "badgeIcon"
+        static let food = "food"
+        static let healthy = "healthy"
+        static let nearest = "Nearest"
+        static let newLogo = "newLogo"
+        static let greenImg = "greenImg"
+        static let rectangle = "rectangle"
+        static let recomendationFood = "recomendationFood"
+        static let familyFood = "familyFood"
+        static let familyRestaurant = "familyRestaurant"
+        static let restaurant = "Restaurant"
+        static let percent = "percent"
+        static let chickenFood = "chickenFood"
+        static let thirtyFiveOff = "35%Off"
+        static let fourtyOff = "40%Off"
         
     }
     
@@ -68,6 +84,7 @@ struct Constants {
         static let userScreenVC = "UserScreenVC"
         static let signUpVC = "SignUpVC"
         static let newsDetailVC = "NewsDetailVC"
+        static let recommendationsScreenVC = "RecommendationsScreenVC"
         
     }
     
@@ -101,7 +118,10 @@ struct Constants {
         static let editProfile = "Edit Profile"
         static let doneButtonTitle = "Done"
         static let facebook = "facebook"
-        
+        static let navBackButtonTitle = "Recommendations near you"
+        static let takasimuraaa = "Takasimuraaa"
+        static let cheapFood = "We choose cheap  food for you"
+
     }
     
     struct Regex {
@@ -124,6 +144,15 @@ struct Constants {
         static let statusCollectionVCell = "StatusCollectionVCell"
         static let tableSectionHeader = "TableSectionHeader"
         static let instaCollectionVCell = "InstaCollectionVCell"
+        static let foodTableHeader = "FoodTableHeader"
+        static let foodTableViewCell = "FoodTableViewCell"
+        static let categoriesCell = "CategoriesCell"
+        static let recommendationsClcVCell = "RecommendationsClcVCell"
+        static let tableViewSectionHeader = "TableViewSectionHeader"
+        static let discountSectionHeader = "DiscountSectionHeader"
+        static let discountClcVCell = "DiscountClcVCell"
+        static let recomendScreenTblVCell = "RecomendScreenTblVCell"
+        static let recomendScreenSectionHeader = "RecomendScreenSectionHeader"
         
     }
     
