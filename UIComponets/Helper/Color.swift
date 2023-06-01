@@ -14,4 +14,6 @@ struct Color {
     static let placeholderTextColor = "placeholderTxtColor"
     static let statusBtnBackground = "lightOrange"
     static let SeeAllBtnColor = "SeeAllLblColor"
+    static let tblViewBgr = "tblViewBgr"
+    static let subTitleColor = "subTitleColor"
 }

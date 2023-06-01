@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="dark"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Manrope-Bold.ttf">
+            <string>Manrope-Bold</string>
+        </array>
+        <array key="Manrope-Regular.ttf">
+            <string>Manrope-Regular</string>
+        </array>
+        <array key="Manrope-SemiBold.ttf">
+            <string>Manrope-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="RecomendScreenTblVCell" selectionStyle="default" indentationWidth="10" rowHeight="85" id="KGk-i7-Jjw" customClass="RecomendScreenTblVCell" customModule="UIComponets" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="85"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="85"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NRw-OR-FwJ">
+                        <rect key="frame" x="20" y="0.0" width="279" height="84"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="recomendationFood" translatesAutoresizingMaskIntoConstraints="NO" id="HJt-Fr-0BQ">
+                                <rect key="frame" x="0.0" y="10" width="64" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="64" id="4EW-Da-SwB"/>
+                                    <constraint firstAttribute="width" secondItem="HJt-Fr-0BQ" secondAttribute="height" multiplier="1:1" id="Dsl-cm-0Vf"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="jmS-dy-Cfm">
+                                <rect key="frame" x="70" y="10" width="199" height="64"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Super Family Package" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ky7-JZ-CYP">
+                                        <rect key="frame" x="0.0" y="0.0" width="144.66666666666666" height="20.666666666666668"/>
+                                        <fontDescription key="fontDescription" name="Manrope-SemiBold" family="Manrope" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2 Chicken Wings, 2 Rice, ..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pxC-rx-PXt">
+                                        <rect key="frame" x="0.0" y="21.666666666666664" width="144.33333333333334" height="20.666666666666664"/>
+                                        <fontDescription key="fontDescription" name="Manrope-Regular" family="Manrope" pointSize="12"/>
+                                        <color key="textColor" name="subTitleColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$12.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KbR-l1-lfm">
+                                        <rect key="frame" x="0.0" y="43.333333333333336" width="39.666666666666664" height="20.666666666666664"/>
+                                        <fontDescription key="fontDescription" name="Manrope-Bold" family="Manrope" pointSize="12"/>
+                                        <color key="textColor" red="1" green="0.66666666666666663" blue="0.17254901960784313" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" name="tblViewBgr"/>
+                        <constraints>
+                            <constraint firstItem="jmS-dy-Cfm" firstAttribute="leading" secondItem="HJt-Fr-0BQ" secondAttribute="trailing" constant="6" id="3Mh-PD-27c"/>
+                            <constraint firstItem="jmS-dy-Cfm" firstAttribute="top" secondItem="HJt-Fr-0BQ" secondAttribute="top" id="Pb4-qv-RVY"/>
+                            <constraint firstAttribute="bottom" secondItem="HJt-Fr-0BQ" secondAttribute="bottom" constant="10" id="Vfs-GF-jEX"/>
+                            <constraint firstItem="jmS-dy-Cfm" firstAttribute="bottom" secondItem="HJt-Fr-0BQ" secondAttribute="bottom" id="YzR-CQ-QvL"/>
+                            <constraint firstItem="HJt-Fr-0BQ" firstAttribute="leading" secondItem="NRw-OR-FwJ" secondAttribute="leading" id="bLS-8b-39U"/>
+                            <constraint firstItem="HJt-Fr-0BQ" firstAttribute="top" secondItem="NRw-OR-FwJ" secondAttribute="top" constant="10" id="kIv-wr-okw"/>
+                            <constraint firstAttribute="trailing" secondItem="jmS-dy-Cfm" secondAttribute="trailing" constant="10" id="smU-T6-hLv"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" name="tblViewBgr"/>
+                <constraints>
+                    <constraint firstItem="NRw-OR-FwJ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="HDu-lf-GrY"/>
+                    <constraint firstAttribute="trailing" secondItem="NRw-OR-FwJ" secondAttribute="trailing" constant="21" id="Yi0-Yf-m2r"/>
+                    <constraint firstItem="NRw-OR-FwJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" symbolic="YES" id="buc-JC-gik"/>
+                    <constraint firstAttribute="bottom" secondItem="NRw-OR-FwJ" secondAttribute="bottom" id="uCE-a7-kTn"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imgFood" destination="HJt-Fr-0BQ" id="wj2-1u-jH6"/>
+                <outlet property="lblPrice" destination="KbR-l1-lfm" id="Cwv-zO-cqX"/>
+                <outlet property="lblSubTitles" destination="pxC-rx-PXt" id="e3d-a9-eYV"/>
+                <outlet property="lblTitle" destination="ky7-JZ-CYP" id="Fnu-j2-nMK"/>
+            </connections>
+            <point key="canvasLocation" x="59.541984732824424" y="-17.95774647887324"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="recomendationFood" width="64" height="64"/>
+        <namedColor name="subTitleColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="tblViewBgr">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

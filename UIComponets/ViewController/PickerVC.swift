@@ -20,7 +20,7 @@ class PickerVC: BaseViewController {
     }
     
     // MARK: - Set up
-    func setUpViews() {
+    private func setUpViews() {
         pickerView.delegate = self
         pickerView.dataSource = self
     }

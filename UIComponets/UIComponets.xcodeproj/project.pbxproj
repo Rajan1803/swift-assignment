@@ -88,6 +88,33 @@
 		E57816212A6801EC00DD7F63 /* InstagramStoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57816202A6801EC00DD7F63 /* InstagramStoryModel.swift */; };
 		E57816232A68024300DD7F63 /* InstaSegmentEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57816222A68024300DD7F63 /* InstaSegmentEnum.swift */; };
 		E57816252A68037800DD7F63 /* StackViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57816242A68037800DD7F63 /* StackViewVC.swift */; };
+		E57816472A681ECD00DD7F63 /* FoodAppScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E57816282A681ECD00DD7F63 /* FoodAppScreen.storyboard */; };
+		E57816482A681ECD00DD7F63 /* DiscountSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E578162A2A681ECD00DD7F63 /* DiscountSectionHeader.swift */; };
+		E57816492A681ECD00DD7F63 /* DiscountClcVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E578162B2A681ECD00DD7F63 /* DiscountClcVCell.swift */; };
+		E578164A2A681ECD00DD7F63 /* RecomendScreenSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = E578162C2A681ECD00DD7F63 /* RecomendScreenSectionHeader.xib */; };
+		E578164B2A681ECD00DD7F63 /* RecomendScreenTblVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E578162D2A681ECD00DD7F63 /* RecomendScreenTblVCell.xib */; };
+		E578164C2A681ECD00DD7F63 /* CategoriesCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E578162E2A681ECD00DD7F63 /* CategoriesCell.xib */; };
+		E578164D2A681ECD00DD7F63 /* DiscountSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = E578162F2A681ECD00DD7F63 /* DiscountSectionHeader.xib */; };
+		E578164E2A681ECD00DD7F63 /* FoodTableHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = E57816302A681ECD00DD7F63 /* FoodTableHeader.xib */; };
+		E578164F2A681ECD00DD7F63 /* CategoriesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57816312A681ECD00DD7F63 /* CategoriesCell.swift */; };
+		E57816502A681ECD00DD7F63 /* RecomendScreenSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57816322A681ECD00DD7F63 /* RecomendScreenSectionHeader.swift */; };
+		E57816512A681ECD00DD7F63 /* FoodTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E57816332A681ECD00DD7F63 /* FoodTableViewCell.xib */; };
+		E57816522A681ECD00DD7F63 /* TableViewSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57816342A681ECD00DD7F63 /* TableViewSectionHeader.swift */; };
+		E57816532A681ECD00DD7F63 /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57816352A681ECD00DD7F63 /* FoodTableViewCell.swift */; };
+		E57816542A681ECD00DD7F63 /* DiscountClcVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E57816362A681ECD00DD7F63 /* DiscountClcVCell.xib */; };
+		E57816552A681ECD00DD7F63 /* RecommendationsClcVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57816372A681ECD00DD7F63 /* RecommendationsClcVCell.swift */; };
+		E57816562A681ECD00DD7F63 /* TableViewSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = E57816382A681ECD00DD7F63 /* TableViewSectionHeader.xib */; };
+		E57816572A681ECD00DD7F63 /* RecomendScreenTblVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57816392A681ECD00DD7F63 /* RecomendScreenTblVCell.swift */; };
+		E57816582A681ECD00DD7F63 /* FoodTableHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E578163A2A681ECD00DD7F63 /* FoodTableHeader.swift */; };
+		E57816592A681ECD00DD7F63 /* RecommendationsClcVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E578163B2A681ECD00DD7F63 /* RecommendationsClcVCell.xib */; };
+		E578165A2A681ECD00DD7F63 /* RecomandationSectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E578163D2A681ECD00DD7F63 /* RecomandationSectionModel.swift */; };
+		E578165B2A681ECD00DD7F63 /* EnumForSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = E578163E2A681ECD00DD7F63 /* EnumForSections.swift */; };
+		E578165C2A681ECD00DD7F63 /* CategoriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E578163F2A681ECD00DD7F63 /* CategoriesModel.swift */; };
+		E578165D2A681ECD00DD7F63 /* FoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57816402A681ECD00DD7F63 /* FoodModel.swift */; };
+		E578165E2A681ECD00DD7F63 /* RecomendationScreenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57816412A681ECD00DD7F63 /* RecomendationScreenModel.swift */; };
+		E578165F2A681ECD00DD7F63 /* EnumForRecomandedSections.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57816422A681ECD00DD7F63 /* EnumForRecomandedSections.swift */; };
+		E57816602A681ECD00DD7F63 /* FoodAppScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57816442A681ECD00DD7F63 /* FoodAppScreenVC.swift */; };
+		E57816622A681ECD00DD7F63 /* RecommendationsScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57816462A681ECD00DD7F63 /* RecommendationsScreenVC.swift */; };
 		E579093D2A505ED5001A0F93 /* Alamofire.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E579093C2A505ED5001A0F93 /* Alamofire.storyboard */; };
 		E57909422A505F23001A0F93 /* AlamofireVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57909412A505F23001A0F93 /* AlamofireVC.swift */; };
 		E57909472A52ABCA001A0F93 /* UploadImageAF.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57909462A52ABCA001A0F93 /* UploadImageAF.swift */; };
@@ -285,6 +312,33 @@
 		E57816202A6801EC00DD7F63 /* InstagramStoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramStoryModel.swift; sourceTree = "<group>"; };
 		E57816222A68024300DD7F63 /* InstaSegmentEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstaSegmentEnum.swift; sourceTree = "<group>"; };
 		E57816242A68037800DD7F63 /* StackViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackViewVC.swift; sourceTree = "<group>"; };
+		E57816282A681ECD00DD7F63 /* FoodAppScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FoodAppScreen.storyboard; sourceTree = "<group>"; };
+		E578162A2A681ECD00DD7F63 /* DiscountSectionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscountSectionHeader.swift; sourceTree = "<group>"; };
+		E578162B2A681ECD00DD7F63 /* DiscountClcVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscountClcVCell.swift; sourceTree = "<group>"; };
+		E578162C2A681ECD00DD7F63 /* RecomendScreenSectionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecomendScreenSectionHeader.xib; sourceTree = "<group>"; };
+		E578162D2A681ECD00DD7F63 /* RecomendScreenTblVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecomendScreenTblVCell.xib; sourceTree = "<group>"; };
+		E578162E2A681ECD00DD7F63 /* CategoriesCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoriesCell.xib; sourceTree = "<group>"; };
+		E578162F2A681ECD00DD7F63 /* DiscountSectionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiscountSectionHeader.xib; sourceTree = "<group>"; };
+		E57816302A681ECD00DD7F63 /* FoodTableHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoodTableHeader.xib; sourceTree = "<group>"; };
+		E57816312A681ECD00DD7F63 /* CategoriesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesCell.swift; sourceTree = "<group>"; };
+		E57816322A681ECD00DD7F63 /* RecomendScreenSectionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecomendScreenSectionHeader.swift; sourceTree = "<group>"; };
+		E57816332A681ECD00DD7F63 /* FoodTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoodTableViewCell.xib; sourceTree = "<group>"; };
+		E57816342A681ECD00DD7F63 /* TableViewSectionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewSectionHeader.swift; sourceTree = "<group>"; };
+		E57816352A681ECD00DD7F63 /* FoodTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
+		E57816362A681ECD00DD7F63 /* DiscountClcVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DiscountClcVCell.xib; sourceTree = "<group>"; };
+		E57816372A681ECD00DD7F63 /* RecommendationsClcVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendationsClcVCell.swift; sourceTree = "<group>"; };
+		E57816382A681ECD00DD7F63 /* TableViewSectionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewSectionHeader.xib; sourceTree = "<group>"; };
+		E57816392A681ECD00DD7F63 /* RecomendScreenTblVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecomendScreenTblVCell.swift; sourceTree = "<group>"; };
+		E578163A2A681ECD00DD7F63 /* FoodTableHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodTableHeader.swift; sourceTree = "<group>"; };
+		E578163B2A681ECD00DD7F63 /* RecommendationsClcVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecommendationsClcVCell.xib; sourceTree = "<group>"; };
+		E578163D2A681ECD00DD7F63 /* RecomandationSectionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecomandationSectionModel.swift; sourceTree = "<group>"; };
+		E578163E2A681ECD00DD7F63 /* EnumForSections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumForSections.swift; sourceTree = "<group>"; };
+		E578163F2A681ECD00DD7F63 /* CategoriesModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesModel.swift; sourceTree = "<group>"; };
+		E57816402A681ECD00DD7F63 /* FoodModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodModel.swift; sourceTree = "<group>"; };
+		E57816412A681ECD00DD7F63 /* RecomendationScreenModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecomendationScreenModel.swift; sourceTree = "<group>"; };
+		E57816422A681ECD00DD7F63 /* EnumForRecomandedSections.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumForRecomandedSections.swift; sourceTree = "<group>"; };
+		E57816442A681ECD00DD7F63 /* FoodAppScreenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodAppScreenVC.swift; sourceTree = "<group>"; };
+		E57816462A681ECD00DD7F63 /* RecommendationsScreenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendationsScreenVC.swift; sourceTree = "<group>"; };
 		E579093C2A505ED5001A0F93 /* Alamofire.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Alamofire.storyboard; sourceTree = "<group>"; };
 		E57909412A505F23001A0F93 /* AlamofireVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireVC.swift; sourceTree = "<group>"; };
 		E57909462A52ABCA001A0F93 /* UploadImageAF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadImageAF.swift; sourceTree = "<group>"; };
@@ -436,6 +490,7 @@
 		E53283FB29F7EA77005F8AF1 = {
 			isa = PBXGroup;
 			children = (
+				E57816262A681ECD00DD7F63 /* FoodAppScreen */,
 				E57816042A68014200DD7F63 /* InstagramProfileScreen */,
 				E579093B2A503731001A0F93 /* Almofire */,
 				E5EF22892A4FE3CD0034254C /* Coordinator */,
@@ -660,6 +715,72 @@
 				E57816132A68014200DD7F63 /* StatusCollectionVCell.xib */,
 			);
 			path = CustomView;
+			sourceTree = "<group>";
+		};
+		E57816262A681ECD00DD7F63 /* FoodAppScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E57816272A681ECD00DD7F63 /* Storybords */,
+				E57816292A681ECD00DD7F63 /* CustomViews */,
+				E578163C2A681ECD00DD7F63 /* Model */,
+				E57816432A681ECD00DD7F63 /* ViewController */,
+			);
+			path = FoodAppScreen;
+			sourceTree = "<group>";
+		};
+		E57816272A681ECD00DD7F63 /* Storybords */ = {
+			isa = PBXGroup;
+			children = (
+				E57816282A681ECD00DD7F63 /* FoodAppScreen.storyboard */,
+			);
+			path = Storybords;
+			sourceTree = "<group>";
+		};
+		E57816292A681ECD00DD7F63 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				E578162A2A681ECD00DD7F63 /* DiscountSectionHeader.swift */,
+				E578162B2A681ECD00DD7F63 /* DiscountClcVCell.swift */,
+				E578162C2A681ECD00DD7F63 /* RecomendScreenSectionHeader.xib */,
+				E578162D2A681ECD00DD7F63 /* RecomendScreenTblVCell.xib */,
+				E578162E2A681ECD00DD7F63 /* CategoriesCell.xib */,
+				E578162F2A681ECD00DD7F63 /* DiscountSectionHeader.xib */,
+				E57816302A681ECD00DD7F63 /* FoodTableHeader.xib */,
+				E57816312A681ECD00DD7F63 /* CategoriesCell.swift */,
+				E57816322A681ECD00DD7F63 /* RecomendScreenSectionHeader.swift */,
+				E57816332A681ECD00DD7F63 /* FoodTableViewCell.xib */,
+				E57816342A681ECD00DD7F63 /* TableViewSectionHeader.swift */,
+				E57816352A681ECD00DD7F63 /* FoodTableViewCell.swift */,
+				E57816362A681ECD00DD7F63 /* DiscountClcVCell.xib */,
+				E57816372A681ECD00DD7F63 /* RecommendationsClcVCell.swift */,
+				E57816382A681ECD00DD7F63 /* TableViewSectionHeader.xib */,
+				E57816392A681ECD00DD7F63 /* RecomendScreenTblVCell.swift */,
+				E578163A2A681ECD00DD7F63 /* FoodTableHeader.swift */,
+				E578163B2A681ECD00DD7F63 /* RecommendationsClcVCell.xib */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		E578163C2A681ECD00DD7F63 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E578163D2A681ECD00DD7F63 /* RecomandationSectionModel.swift */,
+				E578163E2A681ECD00DD7F63 /* EnumForSections.swift */,
+				E578163F2A681ECD00DD7F63 /* CategoriesModel.swift */,
+				E57816402A681ECD00DD7F63 /* FoodModel.swift */,
+				E57816412A681ECD00DD7F63 /* RecomendationScreenModel.swift */,
+				E57816422A681ECD00DD7F63 /* EnumForRecomandedSections.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E57816432A681ECD00DD7F63 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E57816442A681ECD00DD7F63 /* FoodAppScreenVC.swift */,
+				E57816462A681ECD00DD7F63 /* RecommendationsScreenVC.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 		E579093B2A503731001A0F93 /* Almofire */ = {
@@ -1056,10 +1177,13 @@
 				E5CD55B42A166CB50090BB81 /* JobHomeScreenCell.xib in Resources */,
 				E578161A2A68014300DD7F63 /* TableViewHeader.xib in Resources */,
 				E59E8F292A178B4600956D09 /* JobTblVHeader.xib in Resources */,
+				E57816562A681ECD00DD7F63 /* TableViewSectionHeader.xib in Resources */,
 				E5709C6A2A127CCC00129DDE /* Colors.xcassets in Resources */,
 				E5704A5E2A276009000A2373 /* WebView.storyboard in Resources */,
 				E546655F2A1F3D0500823ABA /* Main.storyboard in Resources */,
 				E546655E2A1F3D0500823ABA /* LaunchScreen.storyboard in Resources */,
+				E578164B2A681ECD00DD7F63 /* RecomendScreenTblVCell.xib in Resources */,
+				E57816472A681ECD00DD7F63 /* FoodAppScreen.storyboard in Resources */,
 				E5B8E5482A14F4AC0013E231 /* JobCollectionCell.xib in Resources */,
 				E57816192A68014300DD7F63 /* InstaCollectionVCell.xib in Resources */,
 				E579093D2A505ED5001A0F93 /* Alamofire.storyboard in Resources */,
@@ -1067,13 +1191,17 @@
 				E54665622A1F3D0500823ABA /* HomeScreen.storyboard in Resources */,
 				E566C9002A1FC23D009D8BA6 /* PickerView.storyboard in Resources */,
 				E5E989CD2A4C5A7F0007AEC4 /* DownloadImage.storyboard in Resources */,
+				E57816512A681ECD00DD7F63 /* FoodTableViewCell.xib in Resources */,
 				E53774AA2A21B9BA0062130E /* CLLocation.storyboard in Resources */,
 				E578161F2A68014300DD7F63 /* StatusCollectionVCell.xib in Resources */,
 				E54665602A1F3D0500823ABA /* FrameBound.storyboard in Resources */,
+				E578164A2A681ECD00DD7F63 /* RecomendScreenSectionHeader.xib in Resources */,
 				E57816162A68014300DD7F63 /* InstaTableViewCell.xib in Resources */,
 				E5E989BE2A4C0A7D0007AEC4 /* News.storyboard in Resources */,
 				E54665612A1F3D0500823ABA /* UIButtons.storyboard in Resources */,
+				E578164C2A681ECD00DD7F63 /* CategoriesCell.xib in Resources */,
 				E53B1F6B2A28627800B3C4F5 /* CustomActivityIndicatorView.xib in Resources */,
+				E57816542A681ECD00DD7F63 /* DiscountClcVCell.xib in Resources */,
 				E578161B2A68014300DD7F63 /* TableSectionHeader.xib in Resources */,
 				E5709C6C2A1359BB00129DDE /* Font in Resources */,
 				E5704A642A277B75000A2373 /* ActivityIndicator.storyboard in Resources */,
@@ -1086,7 +1214,10 @@
 				E54665652A1F3D0500823ABA /* JobScreen.storyboard in Resources */,
 				E57FF9572A152B0D0030E30A /* JobHeader.xib in Resources */,
 				E54665632A1F3D0500823ABA /* ScrollViewUI.storyboard in Resources */,
+				E578164E2A681ECD00DD7F63 /* FoodTableHeader.xib in Resources */,
 				E53774AF2A21BACA0062130E /* Location.storyboard in Resources */,
+				E578164D2A681ECD00DD7F63 /* DiscountSectionHeader.xib in Resources */,
+				E57816592A681ECD00DD7F63 /* RecommendationsClcVCell.xib in Resources */,
 				E54083D62A20F546006A0E93 /* DatePicker.storyboard in Resources */,
 				E546655D2A1F3D0500823ABA /* UITextField.storyboard in Resources */,
 			);
@@ -1241,11 +1372,13 @@
 				E5CFC90F2A1E402F00AA3248 /* UIButtonExtension.swift in Sources */,
 				E5EF227A2A4EE28B0034254C /* UploadVC.swift in Sources */,
 				E5AFC8B32A2497D30088613F /* SecondNavCVC.swift in Sources */,
+				E578165B2A681ECD00DD7F63 /* EnumForSections.swift in Sources */,
 				E5704A602A276045000A2373 /* WebViewVC.swift in Sources */,
 				E5AFC8BB2A24EFCD0088613F /* SegueDataPassVC.swift in Sources */,
 				E5EF228D2A4FE4270034254C /* AppCoordinator.swift in Sources */,
 				E5EF228B2A4FE3F80034254C /* Coordinator.swift in Sources */,
 				E516069D2A0B6DB6002E654C /* UIImageViewExtension.swift in Sources */,
+				E578165D2A681ECD00DD7F63 /* FoodModel.swift in Sources */,
 				E5CD55B62A167C4F0090BB81 /* JobHomeScreenTableCell.swift in Sources */,
 				E5D7D2482A08D07B004B8922 /* Validator.swift in Sources */,
 				E5EF22972A4FF9690034254C /* APIScreenCoordinatoor.swift in Sources */,
@@ -1262,12 +1395,15 @@
 				E5D2695A2A0A6DF200DD5184 /* BaseViewController.swift in Sources */,
 				E5EF22912A4FE5880034254C /* MainViewController.swift in Sources */,
 				E5D7D24C2A08D29E004B8922 /* UIStepperVC.swift in Sources */,
+				E578164F2A681ECD00DD7F63 /* CategoriesCell.swift in Sources */,
 				E5CD55B02A164EB60090BB81 /* JobScreenHomeVC.swift in Sources */,
 				E57816212A6801EC00DD7F63 /* InstagramStoryModel.swift in Sources */,
 				E5B8E54C2A14F7B70013E231 /* JobCollectionVC.swift in Sources */,
 				E5CD55B32A166CB50090BB81 /* JobHomeScreenCell.swift in Sources */,
 				E532840C29F7EA77005F8AF1 /* ViewController.swift in Sources */,
 				E57A35AD2A22458C007F8B88 /* LocationsModel.swift in Sources */,
+				E57816482A681ECD00DD7F63 /* DiscountSectionHeader.swift in Sources */,
+				E57816492A681ECD00DD7F63 /* DiscountClcVCell.swift in Sources */,
 				E57A35AB2A224208007F8B88 /* LocationHelper.swift in Sources */,
 				E557181929FBEFDA00705C56 /* TextViewVC.swift in Sources */,
 				E578161E2A68014300DD7F63 /* InstaCollectionVCell.swift in Sources */,
@@ -1282,8 +1418,10 @@
 				E51427EE2A0A91250069656F /* UISliderExtention.swift in Sources */,
 				E532840829F7EA77005F8AF1 /* AppDelegate.swift in Sources */,
 				E57909472A52ABCA001A0F93 /* UploadImageAF.swift in Sources */,
+				E57816522A681ECD00DD7F63 /* TableViewSectionHeader.swift in Sources */,
 				E585D7B529FA88E200CAEF40 /* UITextFieldVC.swift in Sources */,
 				E51F0AF329F7FA37009A660F /* UILabelViewController.swift in Sources */,
+				E57816552A681ECD00DD7F63 /* RecommendationsClcVCell.swift in Sources */,
 				E5EF22852A4F2E360034254C /* ImageDownloadHelper.swift in Sources */,
 				E5EF227E2A4EE30B0034254C /* uploadImageResponse.swift in Sources */,
 				E54083D82A20F55F006A0E93 /* DatePickerVC.swift in Sources */,
@@ -1292,6 +1430,8 @@
 				E517D6BC2A25E3AF0061C97A /* SignUpVC.swift in Sources */,
 				E546656B2A1F56E000823ABA /* UITabBarVC.swift in Sources */,
 				E5EF227C2A4EE2BF0034254C /* URLRequest+Extension.swift in Sources */,
+				E578165F2A681ECD00DD7F63 /* EnumForRecomandedSections.swift in Sources */,
+				E578165C2A681ECD00DD7F63 /* CategoriesModel.swift in Sources */,
 				E57816232A68024300DD7F63 /* InstaSegmentEnum.swift in Sources */,
 				E57909422A505F23001A0F93 /* AlamofireVC.swift in Sources */,
 				E5D269662A0A7CEB00DD5184 /* PHPickerVC.swift in Sources */,
@@ -1299,6 +1439,7 @@
 				E52407342A12278D006353BF /* HomeScreenCell.swift in Sources */,
 				E5EF22782A4EE27B0034254C /* imageUploadHelper.swift in Sources */,
 				E566C9022A1FC2A9009D8BA6 /* PickerVC.swift in Sources */,
+				E57816582A681ECD00DD7F63 /* FoodTableHeader.swift in Sources */,
 				E578161D2A68014300DD7F63 /* TableSectionHeader.swift in Sources */,
 				E53774B12A21BAE00062130E /* LocationVC.swift in Sources */,
 				E5710EEC2A139AB000E10408 /* ExpandableCell.swift in Sources */,
@@ -1308,6 +1449,7 @@
 				E517D6C02A25FFF00061C97A /* UserScreenVC.swift in Sources */,
 				E5E989B12A4AE3F60007AEC4 /* WebServiceMainVC.swift in Sources */,
 				E5710EEA2A139A9400E10408 /* ExpandableVC.swift in Sources */,
+				E57816532A681ECD00DD7F63 /* FoodTableViewCell.swift in Sources */,
 				E57816172A68014300DD7F63 /* TableViewHeader.swift in Sources */,
 				E5E989C82A4C362C0007AEC4 /* ApiManager.swift in Sources */,
 				E526E48C2A0E648400C6E597 /* TableViewCell.swift in Sources */,
@@ -1315,6 +1457,7 @@
 				E53774AC2A21B9F20062130E /* CLLocationVC.swift in Sources */,
 				E5E989B52A4B2A8E0007AEC4 /* UserModel.swift in Sources */,
 				E578161C2A68014300DD7F63 /* InstaTableViewCell.swift in Sources */,
+				E57816502A681ECD00DD7F63 /* RecomendScreenSectionHeader.swift in Sources */,
 				E555A67A2A18DEA30000F142 /* FeaturedJobModel.swift in Sources */,
 				E5C5B5A32A11FF660084F576 /* HomeScreenVC.swift in Sources */,
 				E54083D42A209114006A0E93 /* PickerViewEnum.swift in Sources */,
@@ -1329,13 +1472,16 @@
 				E5D2695C2A0A70EE00DD5184 /* TextViewExtension.swift in Sources */,
 				E5E989C62A4C0E6C0007AEC4 /* News.swift in Sources */,
 				E54083D22A208CBA006A0E93 /* PickerViewData.swift in Sources */,
+				E57816602A681ECD00DD7F63 /* FoodAppScreenVC.swift in Sources */,
 				E57A35A92A223FEA007F8B88 /* MapViewPicker.swift in Sources */,
 				E517D6BE2A25E3BE0061C97A /* LoginVC.swift in Sources */,
 				E531EE042A0513B8007F6A8E /* SwitchVC.swift in Sources */,
 				E53B1F6D2A28628700B3C4F5 /* CustomActivityIndicatorView.swift in Sources */,
 				E5CFC90D2A1E3DC000AA3248 /* ScrollScreenVC.swift in Sources */,
+				E57816622A681ECD00DD7F63 /* RecommendationsScreenVC.swift in Sources */,
 				E51427F12A0A951D0069656F /* AppConstants.swift in Sources */,
 				E585D7AF29F96ED000CAEF40 /* RadioButtonVC.swift in Sources */,
+				E57816572A681ECD00DD7F63 /* RecomendScreenTblVCell.swift in Sources */,
 				E585D7B329FA433700CAEF40 /* FrameBoundVC.swift in Sources */,
 				E52F36BF2A0E46B80022663A /* TableViewVC.swift in Sources */,
 				E5D269582A0A6B5F00DD5184 /* TextFieldExtension.swift in Sources */,
@@ -1350,8 +1496,10 @@
 				E5C5B5A12A11FE590084F576 /* Document.swift in Sources */,
 				E5B8E53C2A14D8290013E231 /* CollectionViewCell.swift in Sources */,
 				E57816182A68014300DD7F63 /* StatusCollectionVCell.swift in Sources */,
+				E578165A2A681ECD00DD7F63 /* RecomandationSectionModel.swift in Sources */,
 				E5E989C32A4C0BE20007AEC4 /* NewsTblvCell.swift in Sources */,
 				E5C5B59C2A0E9A0D0084F576 /* TextViewSelectionVC.swift in Sources */,
+				E578165E2A681ECD00DD7F63 /* RecomendationScreenModel.swift in Sources */,
 				E555A6782A18D5330000F142 /* JobHomeScreenEnum.swift in Sources */,
 				E5E7338E2A160568009DE927 /* JobSectionEnum.swift in Sources */,
 				E5454DB22A0921AF00A84098 /* CustomButton.swift in Sources */,
