@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E50D2D132A2B2BB500C37546 /* InstagramStoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50D2D122A2B2BB500C37546 /* InstagramStoryModel.swift */; };
 		E51427EE2A0A91250069656F /* UISliderExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51427ED2A0A91250069656F /* UISliderExtention.swift */; };
 		E51427F12A0A951D0069656F /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51427F02A0A951D0069656F /* AppConstants.swift */; };
 		E51606972A0B6112002E654C /* Enumeration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51606962A0B6112002E654C /* Enumeration.swift */; };
@@ -16,6 +17,19 @@
 		E517D6BC2A25E3AF0061C97A /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E517D6BB2A25E3AF0061C97A /* SignUpVC.swift */; };
 		E517D6BE2A25E3BE0061C97A /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E517D6BD2A25E3BE0061C97A /* LoginVC.swift */; };
 		E517D6C02A25FFF00061C97A /* UserScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E517D6BF2A25FFF00061C97A /* UserScreenVC.swift */; };
+		E51ED42E2A29CD76008BC21E /* StackViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51ED42D2A29CD76008BC21E /* StackViewVC.swift */; };
+		E51ED43B2A29E512008BC21E /* StatusCollectionVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51ED4392A29E512008BC21E /* StatusCollectionVCell.swift */; };
+		E51ED43C2A29E512008BC21E /* StatusCollectionVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E51ED43A2A29E512008BC21E /* StatusCollectionVCell.xib */; };
+		E51ED43E2A29E58B008BC21E /* InstagramProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E51ED43D2A29E58B008BC21E /* InstagramProfile.storyboard */; };
+		E51ED4402A29E834008BC21E /* InstagramProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51ED43F2A29E834008BC21E /* InstagramProfileVC.swift */; };
+		E51ED4442A29EB00008BC21E /* TableViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = E51ED4432A29EB00008BC21E /* TableViewHeader.xib */; };
+		E51ED4462A29EB19008BC21E /* TableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51ED4452A29EB19008BC21E /* TableViewHeader.swift */; };
+		E51ED4482A2A1C37008BC21E /* TableSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = E51ED4472A2A1C37008BC21E /* TableSectionHeader.xib */; };
+		E51ED44A2A2A1C49008BC21E /* TableSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51ED4492A2A1C49008BC21E /* TableSectionHeader.swift */; };
+		E51ED44D2A2A42A0008BC21E /* InstaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51ED44B2A2A42A0008BC21E /* InstaTableViewCell.swift */; };
+		E51ED44E2A2A42A0008BC21E /* InstaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E51ED44C2A2A42A0008BC21E /* InstaTableViewCell.xib */; };
+		E51ED4512A2A4356008BC21E /* InstaCollectionVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51ED44F2A2A4356008BC21E /* InstaCollectionVCell.swift */; };
+		E51ED4522A2A4356008BC21E /* InstaCollectionVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E51ED4502A2A4356008BC21E /* InstaCollectionVCell.xib */; };
 		E51F0AF329F7FA37009A660F /* UILabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E51F0AF229F7FA37009A660F /* UILabelViewController.swift */; };
 		E52407342A12278D006353BF /* HomeScreenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52407332A12278D006353BF /* HomeScreenCell.swift */; };
 		E526E48C2A0E648400C6E597 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E526E48B2A0E648400C6E597 /* TableViewCell.swift */; };
@@ -54,6 +68,7 @@
 		E54665652A1F3D0500823ABA /* JobScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E54665582A1F3D0500823ABA /* JobScreen.storyboard */; };
 		E546656B2A1F56E000823ABA /* UITabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E546656A2A1F56E000823ABA /* UITabBarVC.swift */; };
 		E546656D2A1F576900823ABA /* TabBarWithCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E546656C2A1F576900823ABA /* TabBarWithCodeVC.swift */; };
+		E553BC222A2B6107006B155B /* InstaSegmentEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E553BC212A2B6107006B155B /* InstaSegmentEnum.swift */; };
 		E555A6782A18D5330000F142 /* JobHomeScreenEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E555A6772A18D5330000F142 /* JobHomeScreenEnum.swift */; };
 		E555A67A2A18DEA30000F142 /* FeaturedJobModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E555A6792A18DEA30000F142 /* FeaturedJobModel.swift */; };
 		E557181929FBEFDA00705C56 /* TextViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E557181829FBEFDA00705C56 /* TextViewVC.swift */; };
@@ -142,6 +157,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E50D2D122A2B2BB500C37546 /* InstagramStoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramStoryModel.swift; sourceTree = "<group>"; };
 		E51427ED2A0A91250069656F /* UISliderExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISliderExtention.swift; sourceTree = "<group>"; };
 		E51427F02A0A951D0069656F /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		E51606962A0B6112002E654C /* Enumeration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enumeration.swift; sourceTree = "<group>"; };
@@ -151,6 +167,19 @@
 		E517D6BB2A25E3AF0061C97A /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 		E517D6BD2A25E3BE0061C97A /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		E517D6BF2A25FFF00061C97A /* UserScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserScreenVC.swift; sourceTree = "<group>"; };
+		E51ED42D2A29CD76008BC21E /* StackViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewVC.swift; sourceTree = "<group>"; };
+		E51ED4392A29E512008BC21E /* StatusCollectionVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusCollectionVCell.swift; sourceTree = "<group>"; };
+		E51ED43A2A29E512008BC21E /* StatusCollectionVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StatusCollectionVCell.xib; sourceTree = "<group>"; };
+		E51ED43D2A29E58B008BC21E /* InstagramProfile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = InstagramProfile.storyboard; sourceTree = "<group>"; };
+		E51ED43F2A29E834008BC21E /* InstagramProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramProfileVC.swift; sourceTree = "<group>"; };
+		E51ED4432A29EB00008BC21E /* TableViewHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewHeader.xib; sourceTree = "<group>"; };
+		E51ED4452A29EB19008BC21E /* TableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewHeader.swift; sourceTree = "<group>"; };
+		E51ED4472A2A1C37008BC21E /* TableSectionHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableSectionHeader.xib; sourceTree = "<group>"; };
+		E51ED4492A2A1C49008BC21E /* TableSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableSectionHeader.swift; sourceTree = "<group>"; };
+		E51ED44B2A2A42A0008BC21E /* InstaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaTableViewCell.swift; sourceTree = "<group>"; };
+		E51ED44C2A2A42A0008BC21E /* InstaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InstaTableViewCell.xib; sourceTree = "<group>"; };
+		E51ED44F2A2A4356008BC21E /* InstaCollectionVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaCollectionVCell.swift; sourceTree = "<group>"; };
+		E51ED4502A2A4356008BC21E /* InstaCollectionVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InstaCollectionVCell.xib; sourceTree = "<group>"; };
 		E51F0AF229F7FA37009A660F /* UILabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelViewController.swift; sourceTree = "<group>"; };
 		E52407332A12278D006353BF /* HomeScreenCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenCell.swift; sourceTree = "<group>"; };
 		E526E48B2A0E648400C6E597 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
@@ -193,6 +222,7 @@
 		E54665582A1F3D0500823ABA /* JobScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = JobScreen.storyboard; sourceTree = "<group>"; };
 		E546656A2A1F56E000823ABA /* UITabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabBarVC.swift; sourceTree = "<group>"; };
 		E546656C2A1F576900823ABA /* TabBarWithCodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarWithCodeVC.swift; sourceTree = "<group>"; };
+		E553BC212A2B6107006B155B /* InstaSegmentEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstaSegmentEnum.swift; sourceTree = "<group>"; };
 		E555A6772A18D5330000F142 /* JobHomeScreenEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobHomeScreenEnum.swift; sourceTree = "<group>"; };
 		E555A6792A18DEA30000F142 /* FeaturedJobModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedJobModel.swift; sourceTree = "<group>"; };
 		E557181829FBEFDA00705C56 /* TextViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewVC.swift; sourceTree = "<group>"; };
@@ -299,9 +329,53 @@
 			path = LoginSession;
 			sourceTree = "<group>";
 		};
+		E51ED42F2A29E221008BC21E /* InstagramProfileScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E51ED4422A29E879008BC21E /* CustomView */,
+				E51ED4412A29E866008BC21E /* ViewControllers */,
+				E51ED4342A29E3B4008BC21E /* Storybord */,
+			);
+			path = InstagramProfileScreen;
+			sourceTree = "<group>";
+		};
+		E51ED4342A29E3B4008BC21E /* Storybord */ = {
+			isa = PBXGroup;
+			children = (
+				E51ED43D2A29E58B008BC21E /* InstagramProfile.storyboard */,
+			);
+			path = Storybord;
+			sourceTree = "<group>";
+		};
+		E51ED4412A29E866008BC21E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E51ED43F2A29E834008BC21E /* InstagramProfileVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E51ED4422A29E879008BC21E /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				E51ED4392A29E512008BC21E /* StatusCollectionVCell.swift */,
+				E51ED43A2A29E512008BC21E /* StatusCollectionVCell.xib */,
+				E51ED4432A29EB00008BC21E /* TableViewHeader.xib */,
+				E51ED4452A29EB19008BC21E /* TableViewHeader.swift */,
+				E51ED4472A2A1C37008BC21E /* TableSectionHeader.xib */,
+				E51ED4492A2A1C49008BC21E /* TableSectionHeader.swift */,
+				E51ED44B2A2A42A0008BC21E /* InstaTableViewCell.swift */,
+				E51ED44C2A2A42A0008BC21E /* InstaTableViewCell.xib */,
+				E51ED44F2A2A4356008BC21E /* InstaCollectionVCell.swift */,
+				E51ED4502A2A4356008BC21E /* InstaCollectionVCell.xib */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
 		E53283FB29F7EA77005F8AF1 = {
 			isa = PBXGroup;
 			children = (
+				E51ED42F2A29E221008BC21E /* InstagramProfileScreen */,
 				E517D6B82A25E3780061C97A /* LoginSession */,
 				E546654D2A1F3D0500823ABA /* Storybords */,
 				E54C8FF82A18EC37005A05DE /* JobScreens */,
@@ -374,6 +448,7 @@
 				E5AFC8BA2A24EFCD0088613F /* SegueDataPassVC.swift */,
 				E5704A5F2A276045000A2373 /* WebViewVC.swift */,
 				E5704A612A27711E000A2373 /* HtmlLoadVC.swift */,
+				E51ED42D2A29CD76008BC21E /* StackViewVC.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -503,6 +578,7 @@
 				E5710EED2A13A08900E10408 /* Animals.swift */,
 				E57A35AC2A22458C007F8B88 /* LocationsModel.swift */,
 				E53B1F702A28B94100B3C4F5 /* HTMLString.swift */,
+				E50D2D122A2B2BB500C37546 /* InstagramStoryModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -528,6 +604,7 @@
 				E5709C6D2A13658500129DDE /* Color.swift */,
 				E57A35AA2A224208007F8B88 /* LocationHelper.swift */,
 				E52A28A72A265A810020101D /* UserDefaultsHelper.swift */,
+				E553BC212A2B6107006B155B /* InstaSegmentEnum.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -673,15 +750,21 @@
 				E5CD55B42A166CB50090BB81 /* JobHomeScreenCell.xib in Resources */,
 				E59E8F292A178B4600956D09 /* JobTblVHeader.xib in Resources */,
 				E5709C6A2A127CCC00129DDE /* Colors.xcassets in Resources */,
+				E51ED4482A2A1C37008BC21E /* TableSectionHeader.xib in Resources */,
+				E51ED4442A29EB00008BC21E /* TableViewHeader.xib in Resources */,
 				E5704A5E2A276009000A2373 /* WebView.storyboard in Resources */,
 				E546655F2A1F3D0500823ABA /* Main.storyboard in Resources */,
 				E546655E2A1F3D0500823ABA /* LaunchScreen.storyboard in Resources */,
+				E51ED44E2A2A42A0008BC21E /* InstaTableViewCell.xib in Resources */,
 				E5B8E5482A14F4AC0013E231 /* JobCollectionCell.xib in Resources */,
+				E51ED4522A2A4356008BC21E /* InstaCollectionVCell.xib in Resources */,
 				E54665622A1F3D0500823ABA /* HomeScreen.storyboard in Resources */,
 				E566C9002A1FC23D009D8BA6 /* PickerView.storyboard in Resources */,
 				E53774AA2A21B9BA0062130E /* CLLocation.storyboard in Resources */,
+				E51ED43C2A29E512008BC21E /* StatusCollectionVCell.xib in Resources */,
 				E54665602A1F3D0500823ABA /* FrameBound.storyboard in Resources */,
 				E54665612A1F3D0500823ABA /* UIButtons.storyboard in Resources */,
+				E51ED43E2A29E58B008BC21E /* InstagramProfile.storyboard in Resources */,
 				E53B1F6B2A28627800B3C4F5 /* CustomActivityIndicatorView.xib in Resources */,
 				E5709C6C2A1359BB00129DDE /* Font in Resources */,
 				E5704A642A277B75000A2373 /* ActivityIndicator.storyboard in Resources */,
@@ -727,6 +810,8 @@
 				E5AFC8B32A2497D30088613F /* SecondNavCVC.swift in Sources */,
 				E5704A602A276045000A2373 /* WebViewVC.swift in Sources */,
 				E5AFC8BB2A24EFCD0088613F /* SegueDataPassVC.swift in Sources */,
+				E51ED4402A29E834008BC21E /* InstagramProfileVC.swift in Sources */,
+				E51ED44D2A2A42A0008BC21E /* InstaTableViewCell.swift in Sources */,
 				E516069D2A0B6DB6002E654C /* UIImageViewExtension.swift in Sources */,
 				E5CD55B62A167C4F0090BB81 /* JobHomeScreenTableCell.swift in Sources */,
 				E5D7D2482A08D07B004B8922 /* Validator.swift in Sources */,
@@ -740,8 +825,10 @@
 				E5CD55B02A164EB60090BB81 /* JobScreenHomeVC.swift in Sources */,
 				E5B8E54C2A14F7B70013E231 /* JobCollectionVC.swift in Sources */,
 				E5CD55B32A166CB50090BB81 /* JobHomeScreenCell.swift in Sources */,
+				E51ED4512A2A4356008BC21E /* InstaCollectionVCell.swift in Sources */,
 				E532840C29F7EA77005F8AF1 /* ViewController.swift in Sources */,
 				E57A35AD2A22458C007F8B88 /* LocationsModel.swift in Sources */,
+				E51ED44A2A2A1C49008BC21E /* TableSectionHeader.swift in Sources */,
 				E57A35AB2A224208007F8B88 /* LocationHelper.swift in Sources */,
 				E557181929FBEFDA00705C56 /* TextViewVC.swift in Sources */,
 				E5DF70BD2A15E848007F4ABC /* BaseTableViewCell.swift in Sources */,
@@ -752,10 +839,12 @@
 				E5D7D24F2A08FD54004B8922 /* UIViewExtension.swift in Sources */,
 				E5709C6E2A13658500129DDE /* Color.swift in Sources */,
 				E51427EE2A0A91250069656F /* UISliderExtention.swift in Sources */,
+				E50D2D132A2B2BB500C37546 /* InstagramStoryModel.swift in Sources */,
 				E532840829F7EA77005F8AF1 /* AppDelegate.swift in Sources */,
 				E585D7B529FA88E200CAEF40 /* UITextFieldVC.swift in Sources */,
 				E51F0AF329F7FA37009A660F /* UILabelViewController.swift in Sources */,
 				E54083D82A20F55F006A0E93 /* DatePickerVC.swift in Sources */,
+				E51ED42E2A29CD76008BC21E /* StackViewVC.swift in Sources */,
 				E516069B2A0B6AED002E654C /* PHPickerHelper.swift in Sources */,
 				E5710EE42A138E0E00E10408 /* StatusEnum.swift in Sources */,
 				E517D6BC2A25E3AF0061C97A /* SignUpVC.swift in Sources */,
@@ -770,7 +859,9 @@
 				E517D6C02A25FFF00061C97A /* UserScreenVC.swift in Sources */,
 				E5710EEA2A139A9400E10408 /* ExpandableVC.swift in Sources */,
 				E526E48C2A0E648400C6E597 /* TableViewCell.swift in Sources */,
+				E51ED43B2A29E512008BC21E /* StatusCollectionVCell.swift in Sources */,
 				E57A35A72A221003007F8B88 /* MapViewVC.swift in Sources */,
+				E51ED4462A29EB19008BC21E /* TableViewHeader.swift in Sources */,
 				E53774AC2A21B9F20062130E /* CLLocationVC.swift in Sources */,
 				E555A67A2A18DEA30000F142 /* FeaturedJobModel.swift in Sources */,
 				E5C5B5A32A11FF660084F576 /* HomeScreenVC.swift in Sources */,
@@ -804,6 +895,7 @@
 				E555A6782A18D5330000F142 /* JobHomeScreenEnum.swift in Sources */,
 				E5E7338E2A160568009DE927 /* JobSectionEnum.swift in Sources */,
 				E5454DB22A0921AF00A84098 /* CustomButton.swift in Sources */,
+				E553BC222A2B6107006B155B /* InstaSegmentEnum.swift in Sources */,
 				E52A28A82A265A810020101D /* UserDefaultsHelper.swift in Sources */,
 				E5AFC8B12A24973D0088613F /* NavigationControlVC.swift in Sources */,
 				E5B8E5472A14F4AC0013E231 /* JobCollectionCell.swift in Sources */,

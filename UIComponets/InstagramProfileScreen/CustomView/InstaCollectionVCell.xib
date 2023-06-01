@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="InstaCollectionVCell" id="gTV-IL-0wX" customClass="InstaCollectionVCell" customModule="UIComponets" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="193" height="160"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="193" height="160"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vFx-66-k5m">
+                        <rect key="frame" x="0.0" y="59" width="193" height="101"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="instaHuman" translatesAutoresizingMaskIntoConstraints="NO" id="slo-hc-qND">
+                                <rect key="frame" x="0.0" y="0.0" width="193" height="101"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="101" id="A0Z-xg-4BP"/>
+                                    <constraint firstAttribute="width" constant="193" id="plA-CM-e5g"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="193" id="FDR-dx-zrG"/>
+                            <constraint firstItem="slo-hc-qND" firstAttribute="leading" secondItem="vFx-66-k5m" secondAttribute="leading" id="Kpl-8N-hzD"/>
+                            <constraint firstItem="slo-hc-qND" firstAttribute="top" secondItem="vFx-66-k5m" secondAttribute="top" id="Ufq-7j-SAz"/>
+                            <constraint firstAttribute="trailing" secondItem="slo-hc-qND" secondAttribute="trailing" id="VAz-zB-Sex"/>
+                            <constraint firstAttribute="bottom" secondItem="slo-hc-qND" secondAttribute="bottom" id="nKu-oe-Iex"/>
+                            <constraint firstAttribute="height" constant="101" id="ueq-Wp-Fp1"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="vFx-66-k5m" firstAttribute="leading" secondItem="ZTg-uK-7eu" secondAttribute="leading" id="JGF-Kd-61z"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="top" secondItem="vFx-66-k5m" secondAttribute="top" id="bNf-FZ-HGB"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="bottom" secondItem="vFx-66-k5m" secondAttribute="bottom" id="npb-dx-lug"/>
+                <constraint firstItem="ZTg-uK-7eu" firstAttribute="trailing" secondItem="vFx-66-k5m" secondAttribute="trailing" id="ooQ-JD-RMx"/>
+            </constraints>
+            <size key="customSize" width="193" height="160"/>
+            <connections>
+                <outlet property="imgPost" destination="slo-hc-qND" id="nTn-fV-nre"/>
+            </connections>
+            <point key="canvasLocation" x="142.74809160305344" y="6.3380281690140849"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="instaHuman" width="4684" height="4000"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
