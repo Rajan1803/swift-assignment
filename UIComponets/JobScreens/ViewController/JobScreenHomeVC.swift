@@ -66,7 +66,7 @@ extension JobScreenHomeVC: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tblViewJobHome.dequeueReusableCell(withIdentifier: Constants.Cell.JobHomeScreenTableCell, for: indexPath) as? JobHomeScreenTableCell else { return UITableViewCell() }
+        guard let cell = tblViewJobHome.dequeueReusableCell(withIdentifier: Constants.Cell.jobHomeScreenTableCell, for: indexPath) as? JobHomeScreenTableCell else { return UITableViewCell() }
         cell.setData(currentSection: indexPath.section)
         return cell
     }
@@ -76,7 +76,7 @@ extension JobScreenHomeVC: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        guard let headerView = tblViewJobHome.dequeueReusableHeaderFooterView(withIdentifier: Constants.Nib.JobTblVHeader) as? JobTblVHeader else {return UIView()}
+        guard let headerView = tblViewJobHome.dequeueReusableHeaderFooterView(withIdentifier: Constants.Nib.jobTblHeader) as? JobTblVHeader else {return UIView()}
         headerView.lblTblSectionHeader.text = JobTypes(rawValue: section)?.getHeaderTitle()
         return headerView
     }

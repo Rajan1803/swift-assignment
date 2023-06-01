@@ -40,7 +40,7 @@ class JobCollectionVC: BaseViewController {
         collectionViewJob.register(nibCell, forCellWithReuseIdentifier: Constants.Nib.jobCollectionCell)
         collectionViewJob.register(UINib(nibName: Constants.Nib.jobHeader, bundle: nil), forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: Constants.Nib.jobHeader)
         txtfSearch.borderStyle = .none
-        txtfSearch.setTextFieldLeftImage(padding: 20, image: UIImage(named: Constants.Img.Arrow))
+        txtfSearch.setTextFieldLeftImage(padding: 20, image: UIImage(named: Constants.Img.arrow))
         txtfSearch.setTextFieldRightImage(image: UIImage(named: Constants.Img.cross))
         txtfSearch.font = txtfSearch.font?.withSize(16)
     }

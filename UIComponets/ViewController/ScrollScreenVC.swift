@@ -21,7 +21,7 @@ class ScrollScreenVC: UIViewController {
     
     // MARK: - Set up
     private func setViews() {
-        btnSignUpFB.setImageToLeftOfButton(image: Constants.Img.FaceBookLogo)
+        btnSignUpFB.setImageToLeftOfButton(image: Constants.Img.faceBookLogo)
         btnSignUpGoogle.setImageToLeftOfButton(image: Constants.Img.googleLogo)
     }
     
