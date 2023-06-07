@@ -25,6 +25,9 @@ class HomeScreenVC: BaseViewController {
     @IBOutlet weak var tblVDocuments: UITableView!
     @IBOutlet weak var txtfSearch: UITextField!
     
+    // MARK: - Variables And Declarations
+    var visibleData = Document.data
+    
     // MARK: - Life cycle Method
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -48,6 +51,7 @@ class HomeScreenVC: BaseViewController {
         txtfSearch.clipsToBounds = true
         txtfSearch.backgroundColor = UIColor(named: Color.searchBar)
         txtfSearch.attributedPlaceholder = NSAttributedString(string: Constants.String.searchDocument, attributes: [.foregroundColor: UIColor(named: Color.placeholderTextColor)!])
+        txtfSearch.delegate = self
         tblVDocuments.backgroundColor = UIColor(named: Color.cellColor)
     }
   
@@ -57,12 +61,12 @@ class HomeScreenVC: BaseViewController {
 extension HomeScreenVC: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        Document.data.count
+        visibleData.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tblVDocuments.dequeueReusableCell(withIdentifier: Constants.Cell.homeScreenCell, for: indexPath) as? HomeScreenCell
-        cell?.setData(data: Document.data[indexPath.row])
+        cell?.setData(data: visibleData[indexPath.row])
         cell?.delegate = self
         return cell ?? HomeScreenCell()
         
@@ -87,9 +91,29 @@ extension HomeScreenVC: StatusBtnDelegate {
    
     func statusButtonClicked(cell: HomeScreenCell) {
         guard let indexPath = tblVDocuments.indexPath(for: cell) else {return}
-        Document.data[indexPath.row].status.switchStatus()
+        visibleData[indexPath.row].status.switchStatus()
         tblVDocuments.reloadRows(at: [indexPath], with: .automatic)
-        
+    }
+    
+}
+
+// MARK: Extension for HomeScreenVC
+extension HomeScreenVC: UITextFieldDelegate {
+    
+    func textFieldDidChangeSelection(_ textField: UITextField) {
+        performSelection(input: textField.text)
+    }
+    
+    func performSelection(input: String?) {
+        guard let inputString = input else { return }
+        if inputString.isEmpty {
+            visibleData = Document.data
+        } else {
+            visibleData = Document.data.filter {
+                $0.title.lowercased().contains(inputString.lowercased())
+            }
+            tblVDocuments.reloadData()
+        }
     }
     
 }

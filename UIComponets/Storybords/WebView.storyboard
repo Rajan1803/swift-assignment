@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Web ViewVC-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="WebViewVC" customModule="UIComponets" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc" customClass="CustomActivityIndicatorView" customModule="UIComponets" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" allowsBackForwardNavigationGestures="YES" customUserAgent="" findInteractionEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YBu-BB-8aH">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration" applicationNameForUserAgent="">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="YBu-BB-8aH" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" id="MtL-h9-cDd"/>
+                            <constraint firstItem="YBu-BB-8aH" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="TjA-y2-nLv"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="YBu-BB-8aH" secondAttribute="trailing" id="XXT-1V-4X1"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="YBu-BB-8aH" secondAttribute="bottom" id="hHO-k2-qmT"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="superView" destination="5EZ-qb-Rvc" id="hcB-5x-Ns1"/>
+                        <outlet property="webView" destination="YBu-BB-8aH" id="r2T-oe-MkA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-16" y="-49"/>
+        </scene>
+        <!--Html LoadVC-->
+        <scene sceneID="Sbf-BD-wce">
+            <objects>
+                <viewController id="N0N-8a-Cm4" customClass="HtmlLoadVC" customModule="UIComponets" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wBA-j4-AzF">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="czc-nh-Igw">
+                                <rect key="frame" x="0.0" y="228" width="393" height="590"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <searchBar contentMode="redraw" prompt="prompt" placeholder="search" showsSearchResultsButton="YES" showsBookmarkButton="YES" showsScopeBar="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8su-bh-6kC">
+                                <rect key="frame" x="0.0" y="59" width="393" height="137"/>
+                                <offsetWrapper key="searchTextPositionAdjustment" horizontal="0.0" vertical="0.0"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="search"/>
+                                <scopeButtonTitles>
+                                    <string>a</string>
+                                    <string>b</string>
+                                    <string>Title</string>
+                                </scopeButtonTitles>
+                                <connections>
+                                    <outlet property="delegate" destination="N0N-8a-Cm4" id="hMT-HG-5Qx"/>
+                                </connections>
+                            </searchBar>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="8w6-Ak-v94"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="czc-nh-Igw" firstAttribute="leading" secondItem="8w6-Ak-v94" secondAttribute="leading" id="1bR-HP-E2z"/>
+                            <constraint firstItem="czc-nh-Igw" firstAttribute="top" secondItem="8su-bh-6kC" secondAttribute="bottom" constant="32" id="3CH-qr-tRw"/>
+                            <constraint firstItem="8su-bh-6kC" firstAttribute="trailing" secondItem="czc-nh-Igw" secondAttribute="trailing" id="9Ad-Cq-YIx"/>
+                            <constraint firstItem="8su-bh-6kC" firstAttribute="top" secondItem="8w6-Ak-v94" secondAttribute="top" id="Dyc-S3-agC"/>
+                            <constraint firstItem="8su-bh-6kC" firstAttribute="leading" secondItem="czc-nh-Igw" secondAttribute="leading" id="bAd-K3-NvX"/>
+                            <constraint firstItem="8w6-Ak-v94" firstAttribute="bottom" secondItem="czc-nh-Igw" secondAttribute="bottom" id="eoP-rS-utd"/>
+                            <constraint firstItem="8w6-Ak-v94" firstAttribute="trailing" secondItem="czc-nh-Igw" secondAttribute="trailing" id="v5Y-5Y-DHN"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="searchBar" destination="8su-bh-6kC" id="iJi-F6-bhj"/>
+                        <outlet property="webView" destination="czc-nh-Igw" id="Qvc-Sj-ZgT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wey-lB-16v" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="651" y="-313"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
