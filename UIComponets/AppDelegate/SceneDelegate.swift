@@ -11,14 +11,13 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
     // MARK: - Variables And Declarations
     var window: UIWindow?
+    var appCoordinator: AppCoordinator?
     
     // MARK: - Life cycle Methods
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
-//        let window = UIWindow(windowScene: windowScene)
-//        self.window = window
-//        window.rootViewController = getRootController()
-//        window.makeKeyAndVisible()
+//        setCoordinator(scene)
+        
     }
     
     private func getRootController() -> UINavigationController {
@@ -57,5 +56,19 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // to restore the scene back to its current state.
     }
     
+     func setCoordinator(_ scene: UIScene) {
+            guard let windowScene = (scene as? UIWindowScene) else { return }
+            let appWindow = UIWindow(frame: windowScene.coordinateSpace.bounds)
+            appWindow.windowScene = windowScene
+
+            let navController = UINavigationController()
+            appCoordinator = AppCoordinator(navigationController: navController)
+            appCoordinator?.start()
+
+            appWindow.rootViewController = navController
+            appWindow.makeKeyAndVisible()
+
+            window = appWindow
+        }
 }
 

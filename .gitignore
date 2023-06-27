@@ -1,1 +1,6 @@
 *.xcuserstate
+UIComponets/Pods
+*.xcworkspacedata
+R.generated.swift
+*.xcbkptlist
+IDEWorkspaceChecks.plist

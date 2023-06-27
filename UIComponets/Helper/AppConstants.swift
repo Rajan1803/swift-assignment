@@ -57,6 +57,7 @@ struct Constants {
         static let loginVC = "LoginVC"
         static let userScreenVC = "UserScreenVC"
         static let signUpVC = "SignUpVC"
+        static let newsDetailVC = "NewsDetailVC"
         
     }
     
@@ -105,6 +106,7 @@ struct Constants {
         static let jobHeader = "JobHeader"
         static let jobHomeTblHeader = "JobTblVHeader"
         static let jobTblHeader = "JobTblVHeader"
+        static let newsID = "newsID"
         
     }
     
@@ -118,6 +120,7 @@ struct Constants {
         static let jobHomeScreenCell = "JobHomeScreenCell"
         static let jobHomeScreenTableCell = "JobHomeScreenTableCell"
         static let collectionCell = "Collectioncell"
+        static let newsTblvCell = "NewsTblvCell"
         
     }
     

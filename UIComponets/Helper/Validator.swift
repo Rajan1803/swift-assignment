@@ -19,6 +19,7 @@ class Validator {
         let postalcodeRegex = Constants.Regex.postalVarificationRegex
                let pinPredicate = NSPredicate(format: "SELF MATCHES %@", postalcodeRegex)
         return  pinPredicate.evaluate(with: pincode ?? "")
+        
     }
     
     func isEmailValid(email: String?) -> Bool {

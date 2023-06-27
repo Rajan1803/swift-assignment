@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wf6-zN-VR1">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Web Service MainVC-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="WebServiceMainVC" customModule="UIComponets" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0w8-SM-C5S">
+                                <rect key="frame" x="159" y="89" width="94" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="GetNews"/>
+                                <connections>
+                                    <action selector="btnGetNewsClicked:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="p7P-Zd-yJP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="0w8-SM-C5S" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="159" id="LGo-kv-RQv"/>
+                            <constraint firstItem="0w8-SM-C5S" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="30" id="n7o-MK-KXk"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="100" y="-55"/>
+        </scene>
+        <!--Download ImageVC-->
+        <scene sceneID="beh-DR-KnD">
+            <objects>
+                <viewController id="CiF-wN-ll0" customClass="DownloadImageVC" customModule="UIComponets" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="L7B-P4-0C6">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="pVp-8q-mlL">
+                                <rect key="frame" x="0.0" y="59" width="393" height="219"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8hi-WG-4gG">
+                                <rect key="frame" x="147" y="458" width="100" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Download"/>
+                                <connections>
+                                    <action selector="btnDownloadClicked:" destination="CiF-wN-ll0" eventType="touchUpInside" id="ah8-ug-yFM"/>
+                                </connections>
+                            </button>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Hzm-zH-JOL">
+                                <rect key="frame" x="0.0" y="328" width="393" height="4"/>
+                            </progressView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Irs-ZS-wbB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8hi-WG-4gG" firstAttribute="leading" secondItem="Irs-ZS-wbB" secondAttribute="leading" constant="147" id="79f-3J-ZSi"/>
+                            <constraint firstItem="Irs-ZS-wbB" firstAttribute="trailing" secondItem="Hzm-zH-JOL" secondAttribute="trailing" id="Dk3-fm-w0e"/>
+                            <constraint firstItem="Hzm-zH-JOL" firstAttribute="top" secondItem="pVp-8q-mlL" secondAttribute="bottom" constant="50" id="Skb-WU-KXM"/>
+                            <constraint firstItem="pVp-8q-mlL" firstAttribute="top" secondItem="Irs-ZS-wbB" secondAttribute="top" id="e5J-vK-1rz"/>
+                            <constraint firstItem="Hzm-zH-JOL" firstAttribute="leading" secondItem="Irs-ZS-wbB" secondAttribute="leading" id="exw-YD-nQg"/>
+                            <constraint firstItem="Irs-ZS-wbB" firstAttribute="trailing" secondItem="pVp-8q-mlL" secondAttribute="trailing" id="mqA-Bx-a6z"/>
+                            <constraint firstItem="8hi-WG-4gG" firstAttribute="top" secondItem="pVp-8q-mlL" secondAttribute="bottom" constant="180" id="nYI-JP-tIu"/>
+                            <constraint firstItem="Irs-ZS-wbB" firstAttribute="bottom" secondItem="8hi-WG-4gG" secondAttribute="bottom" constant="325" id="ogX-Q6-KuX"/>
+                            <constraint firstItem="Irs-ZS-wbB" firstAttribute="bottom" secondItem="pVp-8q-mlL" secondAttribute="bottom" constant="540" id="q4z-2Y-hDi"/>
+                            <constraint firstItem="pVp-8q-mlL" firstAttribute="leading" secondItem="Irs-ZS-wbB" secondAttribute="leading" id="uxU-uU-6On"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btnDownload" destination="8hi-WG-4gG" id="WP2-pR-eje"/>
+                        <outlet property="imgvDownloaded" destination="pVp-8q-mlL" id="izY-Qq-Adi"/>
+                        <outlet property="progressView" destination="Hzm-zH-JOL" id="srG-FW-LgV"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="29y-W1-dJu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="785" y="-56"/>
+        </scene>
+        <!--UploadVC-->
+        <scene sceneID="qQa-Lj-meQ">
+            <objects>
+                <viewController storyboardIdentifier="UploadVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="wf6-zN-VR1" customClass="UploadVC" customModule="UIComponets" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Iqp-3D-Mku">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kw1-gE-i7X">
+                                <rect key="frame" x="86" y="170" width="221" height="221"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="kw1-gE-i7X" secondAttribute="height" multiplier="1:1" id="WZl-Zt-JV4"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kaD-sc-E4j">
+                                <rect key="frame" x="86" y="441" width="221" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Choose Image"/>
+                                <connections>
+                                    <action selector="btnChooseClicked:" destination="wf6-zN-VR1" eventType="touchUpInside" id="rAt-Fa-VVM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jVA-vx-CXu">
+                                <rect key="frame" x="86" y="496" width="221" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Upload"/>
+                                <connections>
+                                    <action selector="btnUploadClicked:" destination="wf6-zN-VR1" eventType="touchUpInside" id="sp9-sD-E5a"/>
+                                </connections>
+                            </button>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ETI-yb-8j1">
+                                <rect key="frame" x="0.0" y="138" width="393" height="4"/>
+                            </progressView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O3U-v3-2va">
+                                <rect key="frame" x="86" y="735" width="221" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Download"/>
+                                <connections>
+                                    <action selector="btnDownloadClicked:" destination="wf6-zN-VR1" eventType="touchUpInside" id="BEs-xO-VRq"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kAa-GB-fZP">
+                                <rect key="frame" x="86" y="593" width="221" height="78"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="mxC-Fd-hA6"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="kaD-sc-E4j" firstAttribute="trailing" secondItem="kw1-gE-i7X" secondAttribute="trailing" id="2D1-Mx-Df9"/>
+                            <constraint firstItem="mxC-Fd-hA6" firstAttribute="bottom" secondItem="O3U-v3-2va" secondAttribute="bottom" constant="48" id="33M-Jj-Srn"/>
+                            <constraint firstItem="mxC-Fd-hA6" firstAttribute="trailing" secondItem="kw1-gE-i7X" secondAttribute="trailing" constant="86" id="3Uz-Rp-JCS"/>
+                            <constraint firstItem="jVA-vx-CXu" firstAttribute="top" secondItem="kaD-sc-E4j" secondAttribute="bottom" constant="20" id="3eV-GE-dXd"/>
+                            <constraint firstItem="ETI-yb-8j1" firstAttribute="top" secondItem="mxC-Fd-hA6" secondAttribute="top" constant="79" id="5i4-KG-ZaI"/>
+                            <constraint firstItem="O3U-v3-2va" firstAttribute="top" secondItem="kAa-GB-fZP" secondAttribute="bottom" constant="64" id="9hI-IP-wUR"/>
+                            <constraint firstItem="O3U-v3-2va" firstAttribute="trailing" secondItem="kAa-GB-fZP" secondAttribute="trailing" id="Ajf-IT-mRM"/>
+                            <constraint firstItem="ETI-yb-8j1" firstAttribute="leading" secondItem="mxC-Fd-hA6" secondAttribute="leading" id="DJI-GJ-2H8"/>
+                            <constraint firstItem="kAa-GB-fZP" firstAttribute="top" secondItem="jVA-vx-CXu" secondAttribute="bottom" constant="62" id="J7M-nb-bhB"/>
+                            <constraint firstItem="mxC-Fd-hA6" firstAttribute="trailing" secondItem="ETI-yb-8j1" secondAttribute="trailing" id="LE8-u9-Omi"/>
+                            <constraint firstItem="jVA-vx-CXu" firstAttribute="trailing" secondItem="kaD-sc-E4j" secondAttribute="trailing" id="YR8-XH-i98"/>
+                            <constraint firstItem="kw1-gE-i7X" firstAttribute="leading" secondItem="mxC-Fd-hA6" secondAttribute="leading" constant="86" id="ZU1-OY-a1i"/>
+                            <constraint firstItem="kAa-GB-fZP" firstAttribute="trailing" secondItem="jVA-vx-CXu" secondAttribute="trailing" id="a0h-yt-PqR"/>
+                            <constraint firstItem="O3U-v3-2va" firstAttribute="leading" secondItem="kAa-GB-fZP" secondAttribute="leading" id="gqE-fY-9Pj"/>
+                            <constraint firstItem="kaD-sc-E4j" firstAttribute="top" secondItem="kw1-gE-i7X" secondAttribute="bottom" constant="50" id="iTE-ov-7zr"/>
+                            <constraint firstItem="kAa-GB-fZP" firstAttribute="leading" secondItem="jVA-vx-CXu" secondAttribute="leading" id="odR-aj-7rY"/>
+                            <constraint firstItem="kaD-sc-E4j" firstAttribute="leading" secondItem="kw1-gE-i7X" secondAttribute="leading" id="qpI-Fc-XTe"/>
+                            <constraint firstItem="jVA-vx-CXu" firstAttribute="leading" secondItem="kaD-sc-E4j" secondAttribute="leading" id="u2i-al-w4X"/>
+                            <constraint firstItem="kw1-gE-i7X" firstAttribute="top" secondItem="ETI-yb-8j1" secondAttribute="bottom" constant="28" id="wup-xI-J9Q"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btnDownload" destination="O3U-v3-2va" id="SdZ-E4-DVa"/>
+                        <outlet property="imgDownloaded" destination="kAa-GB-fZP" id="yUY-Gw-hml"/>
+                        <outlet property="imgView" destination="kw1-gE-i7X" id="kDM-YK-Z2j"/>
+                        <outlet property="progressView" destination="ETI-yb-8j1" id="G03-fM-1H2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3wM-BX-d44" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="107.63358778625954" y="591.54929577464793"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
