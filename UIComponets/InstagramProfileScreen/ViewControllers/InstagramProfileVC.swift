@@ -10,7 +10,7 @@ import UIKit
 class InstagramProfileVC: UIViewController {
     
     // MARK: - Variables And Declarations
-    enum Constant {
+    private enum Constant {
         
         static let heightForRowAt: CGFloat = 800
         static let numberOfRowsInSection = 1
@@ -18,7 +18,7 @@ class InstagramProfileVC: UIViewController {
     }
     
     // MARK: - Variables And Declarations
-    var currentSegment = 0
+    private var currentSegment = 0
     
     // MARK: - IBOutlets
     @IBOutlet weak var tblView: UITableView!

@@ -10,13 +10,13 @@ import UIKit
 class StatusCollectionVCell: UICollectionViewCell {
 
     // constants used in this file
-    enum Constant {
+    private enum Constant {
         static let imgStatusBorderWidth = 3
     }
     
     // MARK: - IBOutlets
-    @IBOutlet weak var lblTitle: UILabel!
-    @IBOutlet weak var imgStatus: UIImageView!
+    @IBOutlet private weak var lblTitle: UILabel!
+    @IBOutlet private weak var imgStatus: UIImageView!
     
     // MARK: - Life cycle Methods
     override func awakeFromNib() {
@@ -31,7 +31,7 @@ class StatusCollectionVCell: UICollectionViewCell {
     }
     
     // set data
-    func setData(data: InstaStory) {
+    internal func setData(data: InstaStory) {
         self.imgStatus.image = data.image
         self.lblTitle.text = data.storyTitle
     }
