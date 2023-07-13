@@ -15,8 +15,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
     // MARK: - Life cycle Methods
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        guard let windowScene = (scene as? UIWindowScene) else { return }
-//        setCoordinator(scene)
+//        guard let windowScene = (scene as? UIWindowScene) else { return }
+        setCoordinator(scene)
         
     }
     

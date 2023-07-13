@@ -23,7 +23,7 @@ extension APIManager {
         }
         //"https://sample-videos.com/img/Sample-jpg-image-30mb.jpg"
         let url = RequestItemsType.downloadImage.url
-                let session = URLSession(configuration: .default, delegate: self, delegateQueue: .main)
+        let session = URLSession(configuration: .default, delegate: self, delegateQueue: .main)
         session.downloadTask(with: url).resume()
     }
 }

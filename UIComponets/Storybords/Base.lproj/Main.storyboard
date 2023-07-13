@@ -180,6 +180,9 @@
                                 <rect key="frame" x="20" y="461.33333333333331" width="374" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="UIDatePicker"/>
+                                <connections>
+                                    <segue destination="6WU-OK-k4c" kind="show" id="LRM-GG-xYz"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gG8-Gf-9pM">
                                 <rect key="frame" x="20" y="516.33333333333337" width="374" height="35"/>
@@ -1523,6 +1526,37 @@ Indigo Flight 6E 958
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ubx-XZ-Z42" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1792.753623188406" y="-145.3125"/>
+        </scene>
+        <!--Text Filed Date PickerVC-->
+        <scene sceneID="h1j-C8-hTF">
+            <objects>
+                <viewController id="6WU-OK-k4c" customClass="TextFiledDatePickerVC" customModule="UIComponets" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oJt-c5-U4g">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MEk-Jh-PcI">
+                                <rect key="frame" x="20" y="188" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="TiO-P8-aHh"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="MEk-Jh-PcI" firstAttribute="leading" secondItem="TiO-P8-aHh" secondAttribute="leading" constant="20" id="QKO-B1-ujc"/>
+                            <constraint firstItem="TiO-P8-aHh" firstAttribute="trailing" secondItem="MEk-Jh-PcI" secondAttribute="trailing" constant="20" id="qNO-hD-J4H"/>
+                            <constraint firstItem="MEk-Jh-PcI" firstAttribute="top" secondItem="TiO-P8-aHh" secondAttribute="top" constant="100" id="zBM-Ia-t8f"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="HGQ-iy-4Qh"/>
+                    <connections>
+                        <outlet property="txtfDate" destination="MEk-Jh-PcI" id="wJd-bj-erL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xfW-Yq-Uz6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="981" y="-2641"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>

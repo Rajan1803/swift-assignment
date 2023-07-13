@@ -56,7 +56,7 @@ class NewsVC: UIViewController, Storyboarded {
         })
         
         newsViewModel.onApiError.bind({  error in
-            print("error",error)
+            print("error",error ?? "error api call")
             
         })
         newsViewModel.getNewsData(parameters: parameters)
@@ -88,10 +88,11 @@ extension NewsVC: UITableViewDelegate,UITableViewDataSource, UIScrollViewDelegat
     
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
         print(indexPath.row)
-        print("",articles.count)
+        
         guard let page = parameters?["page"] as? Int, let pageSize = parameters?["pageSize"] as? Int else { return }
       
         if(indexPath.row >= (page*pageSize) - 5) {
+            
             parameters?["page"] =  parameters?["page"] as? Int ?? 0 + 1
             newsViewModel.getNewsData(parameters: parameters)
            
