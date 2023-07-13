@@ -16,7 +16,7 @@ class UIImageVC: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setImgGesture()
-        imgLocation.setAnimation(variadic: [UIImage(systemName: Constants.Img.circle)!,UIImage(systemName: Constants.Img.pencil)!,UIImage(systemName: Constants.Img.ractangePrortraitArrowRight)!], duration: 2, repeatCount: 5)
+        imgLocation.setAnimation(variadic: [UIImage(systemName: Constants.Img.circle) ?? UIImage(),UIImage(systemName: Constants.Img.pencil) ?? UIImage(),UIImage(systemName: Constants.Img.ractangePrortraitArrowRight) ?? UIImage()], duration: 2, repeatCount: 5)
     }
     
     // MARK: - Set up
@@ -68,13 +68,13 @@ extension UIImageVC: UIImagePickerControllerDelegate, UINavigationControllerDele
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         
         picker.dismiss(animated: true)
-        let videoURL = info[UIImagePickerController.InfoKey.mediaURL] as! URL
+        guard let videoURL = info[UIImagePickerController.InfoKey.mediaURL] as? URL else { return }
         print(videoURL)
         let player = AVPlayer(url: videoURL)
         let playerViewController = AVPlayerViewController()
         playerViewController.player = player
         present(playerViewController, animated: true) {
-            playerViewController.player!.play()
+            playerViewController.player?.play()
         }
     }
     // MARK: - FUNCTION

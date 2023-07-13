@@ -9,6 +9,7 @@ import UIKit
 
 class NewsDetailVC: UIViewController {
     
+     // MARK: - Variables And Declarations
     var article: Article?
     
     // MARK: - IBOutlets
@@ -24,6 +25,7 @@ class NewsDetailVC: UIViewController {
         
     }
     
+     // MARK: - Set up
     func setUpViews() {
         imgvNews.applyCornerRadius(radius: 20)
         guard let url = URL(string: article?.urlToImage ?? "") else {return }

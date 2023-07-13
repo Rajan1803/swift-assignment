@@ -46,11 +46,11 @@ class HomeScreenVC: BaseViewController {
         imgUser.applyCornerRadius(radius: Int(imgUser.frame.size.height)/2)
         btnNotification.applyCornerRadius(radius: Int(btnNotification.frame.height) / 2)
         btnFilter.applyCornerRadius(radius: Int(btnFilter.frame.height) / 2)
-        txtfSearch.setTextFieldLeftImage(padding: 40, image: UIImage(named: Constants.Img.search)!)
+        txtfSearch.setTextFieldLeftImage(padding: 40, image: UIImage(named: Constants.Img.search) ?? UIImage())
         txtfSearch.applyCornerRadius(radius: TableViewConstants.radius)
         txtfSearch.clipsToBounds = true
         txtfSearch.backgroundColor = UIColor(named: Color.searchBar)
-        txtfSearch.attributedPlaceholder = NSAttributedString(string: Constants.String.searchDocument, attributes: [.foregroundColor: UIColor(named: Color.placeholderTextColor)!])
+        txtfSearch.attributedPlaceholder = NSAttributedString(string: Constants.String.searchDocument, attributes: [.foregroundColor: UIColor(named: Color.placeholderTextColor) ?? UIImage()])
         txtfSearch.delegate = self
         tblVDocuments.backgroundColor = UIColor(named: Color.cellColor)
     }

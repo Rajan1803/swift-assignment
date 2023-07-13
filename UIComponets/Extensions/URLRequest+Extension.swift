@@ -66,6 +66,7 @@ extension URLRequest {
 
 extension Data {
     mutating func append(_ s: String) {
-        self.append(s.data(using: .utf8)!)
+        self.append((s.data(using: .utf8) ?? Data()))
+                    
     }
 }

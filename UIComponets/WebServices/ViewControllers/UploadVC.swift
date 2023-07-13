@@ -44,11 +44,8 @@ class UploadVC: UIViewController, Storyboarded {
         })
     }
     
-    // function to get image from server
     func getImage() {
-
         downloadImageViewModel.downloadImage()
-
     }
     
     // MARK: - Actions

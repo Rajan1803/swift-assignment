@@ -50,5 +50,4 @@ class DownloadImageVC: UIViewController {
 
     }
     
-    
 }
