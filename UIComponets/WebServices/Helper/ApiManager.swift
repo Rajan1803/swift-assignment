@@ -198,6 +198,7 @@ enum MethodType: String {
 extension RequestItemsType: EndPointType {
     
     //Bundle.main.object(forInfoDictionaryKey: "BaseURL")
+    //https://upload.wikimedia.org/wikipedia/commons/6/6a/PNG_Test.png
     var baseURL: String {
         switch self {
         case .getNews:
@@ -205,7 +206,7 @@ extension RequestItemsType: EndPointType {
         case .uploadImage:
             return "api.imgbb.com"
         case .downloadImage:
-            return "sample-videos.com"
+            return "upload.wikimedia.org"
         case .dogImage:
             return "img.freepik.com"
         }
@@ -231,7 +232,7 @@ extension RequestItemsType: EndPointType {
         case .uploadImage:
            return ""
         case .downloadImage:
-            return "/img"
+            return "/wikipedia"
         case .dogImage:
            return "/premium-photo"
         }
@@ -244,7 +245,7 @@ extension RequestItemsType: EndPointType {
         case .uploadImage:
             return "/upload"
         case .downloadImage:
-            return "/Sample-jpg-image-30mb.jpg"
+            return "/commons/6/6a/PNG_Test.png"
         case .dogImage:
             return "/golden-retriever-lying-panting-isolated-white_191971-16974.jpg"
         }

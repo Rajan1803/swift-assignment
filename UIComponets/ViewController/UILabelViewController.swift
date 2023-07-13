@@ -46,7 +46,10 @@ class UILabelViewController: BaseViewController {
 
     // MARK: - Set up
     fileprivate func attributedStringLabel() {
-        var attrString = try! AttributedString(markdown: "terms and condition")
+        
+        
+        var attrString = try? AttributedString(markdown: "terms and condition")
+        guard var attrString else { return }
         let range = attrString.range(of: "terms")
         let conditionRange = attrString.range(of: "condition")
         if let range , let conditionRange {

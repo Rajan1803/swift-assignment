@@ -58,13 +58,18 @@ extension JobCollectionVC: UICollectionViewDelegateFlowLayout , UICollectionView
         guard let cell = collectionViewJob.dequeueReusableCell(withReuseIdentifier: Constants.Nib.jobCollectionCell, for: indexPath) as? JobCollectionCell else {
             return UICollectionViewCell()
         }
-        
-        switch Sections(rawValue: indexPath.section) {
-        case .recommended:  cell.setData(data: JobModel.dictionaryOfJobs[Constants.dictionaryKeys.recomendedJobs]![indexPath.row])
-        case .populer: cell.setData(data: JobModel.dictionaryOfJobs[Constants.dictionaryKeys.populerJobs]![indexPath.row])
-        case .none: print("invalid")
-        
+
+        if let recommendedJobs = JobModel.dictionaryOfJobs[Constants.dictionaryKeys.recomendedJobs] ,let populerJobs = JobModel.dictionaryOfJobs[Constants.dictionaryKeys.populerJobs] {
+            switch Sections(rawValue: indexPath.section) {
+                
+            case .recommended:  cell.setData(data: recommendedJobs[indexPath.row])
+            case .populer: cell.setData(data: populerJobs[indexPath.row])
+            case .none: print("invalid")
+            
+            }
         }
+        
+       
         return cell
     }
     

@@ -46,7 +46,7 @@ extension CollectionVC: UICollectionViewDelegate, UICollectionViewDataSource, UI
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: Constants.Cell.collectionCell, for: indexPath) as? CollectionViewCell
-        cell?.setData(image: imageArray[indexPath.row]!, name: nameArray[indexPath.row ])
+        cell?.setData(image: imageArray[indexPath.row], name: nameArray[indexPath.row ])
         return cell ?? UICollectionViewCell()
     }
     
