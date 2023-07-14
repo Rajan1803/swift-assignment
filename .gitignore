@@ -4,3 +4,5 @@ UIComponets/Pods
 R.generated.swift
 *.xcbkptlist
 IDEWorkspaceChecks.plist
+NewsApp/News/Pods
+NewsApp/News/News.xcodeproj/xcuserdata
