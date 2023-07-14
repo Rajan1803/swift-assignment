@@ -6,12 +6,13 @@
 //
 
 import UIKit
-//import Reachability
 
 struct Person: Codable {
     var name: String
     var age: Int
 }
+
+// THIS VIEW CONTROLLER IS JUST TO UNDERSTAND JSONDecoder ,JSONEndocer, JSONSerialization
 class WebServiceMainVC: UIViewController {
 
     // MARK: - Variables And Declarations
@@ -84,7 +85,7 @@ class WebServiceMainVC: UIViewController {
                  
                  guard let httpResponse = response as? HTTPURLResponse,
                        (200...299).contains(httpResponse.statusCode) else {
-                     print("Error with the response, unexpected status code: ",response)
+                     print("Error with the response, unexpected status code: ",response as Any)
                    return
                  }
             

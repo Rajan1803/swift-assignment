@@ -8,14 +8,14 @@
 import Foundation
 import UIKit
 
-
+//MARK: upload Image View Model
 class UploadImgAFVM {
     
+     // MARK: - Variables And Declarations
     var onComplition = Dynamic<Data?>(nil)
     var onError =  Dynamic<Error?>(nil)
     
     func uploadImage(image: UIImage?) {
-        
         APIManager.shared.uploadImageAF(image: image){[weak self] result in
             switch result {
             case .success(let success):

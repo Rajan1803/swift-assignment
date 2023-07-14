@@ -15,16 +15,10 @@ class UploadImageViewModel {
     
     //function to upload image
     func uploadImage(imageView: UIImageView) {
-
-
         APIManager.shared.uploadImaggeUsingBinary(imageView: imageView, progress: { [weak self] progress in
             guard let self else {return }
             self.progress.value = progress
         })
-
-
-        }
-        
-        
     }
+}
 

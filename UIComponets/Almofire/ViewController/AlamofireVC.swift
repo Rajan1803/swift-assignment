@@ -11,15 +11,20 @@ import Kingfisher
 
 class AlamofireVC: UIViewController {
 
+     // MARK: - Variables And Declarations
     var uploadImageAFViewModel = UploadImgAFVM()
     
+    // MARK: - IBOutlets
     @IBOutlet weak var imgview: UIImageView!
+    
+    // MARK: - Life cycle Method
     override func viewDidLoad() {
         super.viewDidLoad()
         
         setUpViews()
     }
     
+     // MARK: - Set up
     func setUpViews() {
         let url =  RequestItemsType.dogImage.url
         imgview.kf.setImage(with: url)

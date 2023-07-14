@@ -14,7 +14,7 @@ class CollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var imgView: UIImageView!
     
     // MARK: - Set up
-    func setData(image: UIImage,name: String){
+    func setData(image: UIImage?,name: String){
         imgView.image = image
         lblName.text = name
         backgroundColor = .green
