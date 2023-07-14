@@ -91,8 +91,6 @@ class APIManager: NSObject {
         }
         
         AF.request(url, parameters: parameters).response { response in
-            response.response?.statusCode
-            
             
             guard let statusCode = response.response?.statusCode else {
                 complisionHadler(.failure(ApiError.requestFail))

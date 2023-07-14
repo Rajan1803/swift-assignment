@@ -17,11 +17,12 @@ class UploadImgAFVM {
     
     func uploadImage(image: UIImage?) {
         APIManager.shared.uploadImageAF(image: image){[weak self] result in
+            guard let self else {return }
             switch result {
             case .success(let success):
-                self?.onComplition.value = success
+                self.onComplition.value = success
             case .failure(let failure):
-                self?.onError.value = failure
+                self.onError.value = failure
             }
 
         }
