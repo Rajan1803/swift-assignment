@@ -7,7 +7,7 @@
 
 import UIKit
 
-class TextFiledDatePickerVC: UIViewController {
+class TextFiledDatePickerVC: BaseViewController {
 
     // MARK: - IBOutlets
     @IBOutlet weak var txtfDate: UITextField!

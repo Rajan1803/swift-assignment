@@ -38,6 +38,16 @@ struct Constants {
         static let message = "Message"
         static let bookmark = "bookmark"
         static let category = "Category"
+        static let natureEight = "natureEight"
+        static let natureFive = "natureFive"
+        static let natureFour = "natureFour"
+        static let natureNine = "natureNine"
+        static let natureOne = "natureOne"
+        static let natureSeven = "natureSeven"
+        static let natureSix = "natureSix"
+        static let natureTen = "natureTen"
+        static let natureThree = "natureThree"
+        static let natureTwo = "natureTwo"
         
     }
     
@@ -88,6 +98,9 @@ struct Constants {
         static let pageControl = "pageControl"
         static let isLogedIn = "isLogedIn"
         static let dataSegue = "dataSegue"
+        static let editProfile = "Edit Profile"
+        static let doneButtonTitle = "Done"
+        static let facebook = "facebook"
         
     }
     
@@ -107,6 +120,10 @@ struct Constants {
         static let jobHomeTblHeader = "JobTblVHeader"
         static let jobTblHeader = "JobTblVHeader"
         static let newsID = "newsID"
+        static let tableViewHeader = "TableViewHeader"
+        static let statusCollectionVCell = "StatusCollectionVCell"
+        static let tableSectionHeader = "TableSectionHeader"
+        static let instaCollectionVCell = "InstaCollectionVCell"
         
     }
     
@@ -121,6 +138,8 @@ struct Constants {
         static let jobHomeScreenTableCell = "JobHomeScreenTableCell"
         static let collectionCell = "Collectioncell"
         static let newsTblvCell = "NewsTblvCell"
+        static let statusCollectionVCell = "StatusCollectionVCell"
+        static let instaTableViewCell = "InstaTableViewCell"
         
     }
     

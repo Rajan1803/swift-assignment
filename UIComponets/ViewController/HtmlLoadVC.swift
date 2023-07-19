@@ -9,7 +9,7 @@ import UIKit
 import MapKit
 import WebKit
 
-class HtmlLoadVC: UIViewController {
+class HtmlLoadVC: BaseViewController {
 
     // MARK: - IBOutlets
     @IBOutlet weak var searchBar: UISearchBar!

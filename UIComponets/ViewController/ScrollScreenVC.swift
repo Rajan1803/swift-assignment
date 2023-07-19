@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ScrollScreenVC: UIViewController {
+class ScrollScreenVC: BaseViewController {
 
     // MARK: - IBOutlets
     @IBOutlet weak var btnSignUpGoogle: UIButton!

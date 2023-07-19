@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="TableSectionHeader" id="iN0-l3-epB" customClass="TableSectionHeader" customModule="UIComponets" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="70"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TNC-bx-0O1">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="70"/>
+                    <subviews>
+                        <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="CpD-Km-mnD">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="71"/>
+                            <segments>
+                                <segment title="" image="segmentFistImage"/>
+                                <segment title="" image="reels"/>
+                                <segment title="" image="tags"/>
+                            </segments>
+                            <connections>
+                                <action selector="segmentValueChanged:" destination="iN0-l3-epB" eventType="valueChanged" id="8pt-9X-cxA"/>
+                            </connections>
+                        </segmentedControl>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="CpD-Km-mnD" secondAttribute="trailing" id="PIC-cH-930"/>
+                        <constraint firstItem="CpD-Km-mnD" firstAttribute="top" secondItem="TNC-bx-0O1" secondAttribute="top" id="WHn-1w-eSL"/>
+                        <constraint firstAttribute="bottom" secondItem="CpD-Km-mnD" secondAttribute="bottom" id="p9i-QA-YII"/>
+                        <constraint firstItem="CpD-Km-mnD" firstAttribute="leading" secondItem="TNC-bx-0O1" secondAttribute="leading" id="z9n-GG-KAy"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="TNC-bx-0O1" secondAttribute="trailing" id="4SI-5O-Nag"/>
+                <constraint firstAttribute="top" secondItem="TNC-bx-0O1" secondAttribute="top" id="SuR-Pp-GbM"/>
+                <constraint firstItem="TNC-bx-0O1" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="XQn-xh-7jz"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="TNC-bx-0O1" secondAttribute="bottom" id="iox-aM-Md1"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="contentView" destination="TNC-bx-0O1" id="pwh-sB-dj8"/>
+                <outlet property="segmentControl" destination="CpD-Km-mnD" id="MUA-fm-bff"/>
+            </connections>
+            <point key="canvasLocation" x="104.58015267175573" y="-25.35211267605634"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="reels" width="20" height="21"/>
+        <image name="segmentFistImage" width="23" height="23"/>
+        <image name="tags" width="24" height="24"/>
+    </resources>
+</document>
