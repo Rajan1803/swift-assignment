@@ -33,7 +33,7 @@ class ScrollViewPaggingVC: BaseViewController {
     }
     
     // MARK: - Set up
-    func setUpViews() {
+    private func setUpViews() {
         scrollView.delegate = self
         pageControl.numberOfPages = Constant.numberOfPages
         scrollView.isPagingEnabled = true

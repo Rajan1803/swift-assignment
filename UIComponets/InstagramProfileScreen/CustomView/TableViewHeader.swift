@@ -10,16 +10,16 @@ import UIKit
 class TableViewHeader: UIView {
 
     // MARK: - IBOutlets
-    @IBOutlet weak var imageContainer: UIView!
-    @IBOutlet weak var imgProfile: UIImageView!
-    @IBOutlet weak var txtVBio: UITextView!
-    @IBOutlet weak var collectionView: UICollectionView!
-    @IBOutlet weak var btnContact: UIButton!
-    @IBOutlet weak var btnInsight: UIButton!
-    @IBOutlet weak var btnPromotion: UIButton!
-    @IBOutlet weak var btnEditProfile: UIButton!
-    @IBOutlet weak var containerView: UIView!
-    @IBOutlet weak var lblPostCount: UILabel!
+    @IBOutlet private weak var imageContainer: UIView!
+    @IBOutlet private weak var imgProfile: UIImageView!
+    @IBOutlet private weak var txtVBio: UITextView!
+    @IBOutlet private weak var collectionView: UICollectionView!
+    @IBOutlet private weak var btnContact: UIButton!
+    @IBOutlet private weak var btnInsight: UIButton!
+    @IBOutlet private weak var btnPromotion: UIButton!
+    @IBOutlet private weak var btnEditProfile: UIButton!
+    @IBOutlet private weak var containerView: UIView!
+    @IBOutlet private weak var lblPostCount: UILabel!
     
     // MARK: - FUNCTION
     class func instanceFromNib() -> UIView {
@@ -35,6 +35,10 @@ class TableViewHeader: UIView {
         header.imgProfile.applyCornerRadius(radius: Int(header.imgProfile.frame.height) / 2 )
         
         return header
+    }
+    
+    @objc func btnChangeProfileClicked(_ sender: UIButton) {
+        print("helo")
     }
     
     // MARK: - IBActions

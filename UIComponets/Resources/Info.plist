@@ -22,7 +22,7 @@
 					<key>UISceneDelegateClassName</key>
 					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
 					<key>UISceneStoryboardFile</key>
-					<string>InstagramProfile</string>
+					<string>FoodAppScreen</string>
 				</dict>
 			</array>
 		</dict>
