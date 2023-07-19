@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ScrollViewPaggingVC: UIViewController {
+class ScrollViewPaggingVC: BaseViewController {
 
     private enum Constant {
             static let numberOfPages = 20

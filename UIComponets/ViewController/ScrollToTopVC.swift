@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ScrollToTopVC: UIViewController {
+class ScrollToTopVC: BaseViewController {
 
     // MARK: - IBOutlets
     @IBOutlet weak var scrollView: UIScrollView!

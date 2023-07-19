@@ -7,7 +7,7 @@
 
 import UIKit
 
-class CollectionVC: UIViewController {
+class CollectionVC: BaseViewController {
 
     // MARK: - Enum for collection constants
     private enum CollectionConstants {

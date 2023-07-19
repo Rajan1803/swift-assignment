@@ -7,7 +7,7 @@
 
 import UIKit
 
-class PickerVC: UIViewController {
+class PickerVC: BaseViewController {
     
     // MARK: - IBOutlets
     @IBOutlet weak var lblName: UILabel!

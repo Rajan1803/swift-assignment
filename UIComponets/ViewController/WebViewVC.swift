@@ -8,7 +8,7 @@
 import UIKit
 import WebKit
 
-class WebViewVC: UIViewController {
+class WebViewVC: BaseViewController {
 
     // MARK: - Constants used in this file
     enum Constant {

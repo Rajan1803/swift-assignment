@@ -7,7 +7,7 @@
 
 import UIKit
 
-class GetStartedVC: UIViewController {
+class GetStartedVC: BaseViewController {
 
     // MARK: - Life cycle Methods
     override func viewDidLoad() {

@@ -73,6 +73,21 @@
 		E5710EEA2A139A9400E10408 /* ExpandableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5710EE92A139A9400E10408 /* ExpandableVC.swift */; };
 		E5710EEC2A139AB000E10408 /* ExpandableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5710EEB2A139AB000E10408 /* ExpandableCell.swift */; };
 		E5710EEE2A13A08900E10408 /* Animals.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5710EED2A13A08900E10408 /* Animals.swift */; };
+		E57816142A68014300DD7F63 /* InstagramProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57816062A68014200DD7F63 /* InstagramProfileVC.swift */; };
+		E57816152A68014300DD7F63 /* InstagramProfile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E57816082A68014200DD7F63 /* InstagramProfile.storyboard */; };
+		E57816162A68014300DD7F63 /* InstaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E578160A2A68014200DD7F63 /* InstaTableViewCell.xib */; };
+		E57816172A68014300DD7F63 /* TableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E578160B2A68014200DD7F63 /* TableViewHeader.swift */; };
+		E57816182A68014300DD7F63 /* StatusCollectionVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E578160C2A68014200DD7F63 /* StatusCollectionVCell.swift */; };
+		E57816192A68014300DD7F63 /* InstaCollectionVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E578160D2A68014200DD7F63 /* InstaCollectionVCell.xib */; };
+		E578161A2A68014300DD7F63 /* TableViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = E578160E2A68014200DD7F63 /* TableViewHeader.xib */; };
+		E578161B2A68014300DD7F63 /* TableSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = E578160F2A68014200DD7F63 /* TableSectionHeader.xib */; };
+		E578161C2A68014300DD7F63 /* InstaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57816102A68014200DD7F63 /* InstaTableViewCell.swift */; };
+		E578161D2A68014300DD7F63 /* TableSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57816112A68014200DD7F63 /* TableSectionHeader.swift */; };
+		E578161E2A68014300DD7F63 /* InstaCollectionVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57816122A68014200DD7F63 /* InstaCollectionVCell.swift */; };
+		E578161F2A68014300DD7F63 /* StatusCollectionVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E57816132A68014200DD7F63 /* StatusCollectionVCell.xib */; };
+		E57816212A6801EC00DD7F63 /* InstagramStoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57816202A6801EC00DD7F63 /* InstagramStoryModel.swift */; };
+		E57816232A68024300DD7F63 /* InstaSegmentEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57816222A68024300DD7F63 /* InstaSegmentEnum.swift */; };
+		E57816252A68037800DD7F63 /* StackViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57816242A68037800DD7F63 /* StackViewVC.swift */; };
 		E579093D2A505ED5001A0F93 /* Alamofire.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E579093C2A505ED5001A0F93 /* Alamofire.storyboard */; };
 		E57909422A505F23001A0F93 /* AlamofireVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57909412A505F23001A0F93 /* AlamofireVC.swift */; };
 		E57909472A52ABCA001A0F93 /* UploadImageAF.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57909462A52ABCA001A0F93 /* UploadImageAF.swift */; };
@@ -155,7 +170,6 @@
 		E5EF228D2A4FE4270034254C /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EF228C2A4FE4270034254C /* AppCoordinator.swift */; };
 		E5EF228F2A4FE4BB0034254C /* MainScreenCoordinatoor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EF228E2A4FE4BB0034254C /* MainScreenCoordinatoor.swift */; };
 		E5EF22912A4FE5880034254C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EF22902A4FE5880034254C /* MainViewController.swift */; };
-		E5EF22932A4FE7410034254C /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EF22922A4FE7410034254C /* R.generated.swift */; };
 		E5EF22952A4FF39D0034254C /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EF22942A4FF39D0034254C /* Storyboard.swift */; };
 		E5EF22972A4FF9690034254C /* APIScreenCoordinatoor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EF22962A4FF9690034254C /* APIScreenCoordinatoor.swift */; };
 		F7547D6EBF4D00F41F90A954 /* Pods_UIComponets_UIComponetsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4D25EAB6C955BC6DB0651A /* Pods_UIComponets_UIComponetsUITests.framework */; };
@@ -256,6 +270,21 @@
 		E5710EE92A139A9400E10408 /* ExpandableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableVC.swift; sourceTree = "<group>"; };
 		E5710EEB2A139AB000E10408 /* ExpandableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandableCell.swift; sourceTree = "<group>"; };
 		E5710EED2A13A08900E10408 /* Animals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animals.swift; sourceTree = "<group>"; };
+		E57816062A68014200DD7F63 /* InstagramProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramProfileVC.swift; sourceTree = "<group>"; };
+		E57816082A68014200DD7F63 /* InstagramProfile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = InstagramProfile.storyboard; sourceTree = "<group>"; };
+		E578160A2A68014200DD7F63 /* InstaTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstaTableViewCell.xib; sourceTree = "<group>"; };
+		E578160B2A68014200DD7F63 /* TableViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewHeader.swift; sourceTree = "<group>"; };
+		E578160C2A68014200DD7F63 /* StatusCollectionVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusCollectionVCell.swift; sourceTree = "<group>"; };
+		E578160D2A68014200DD7F63 /* InstaCollectionVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InstaCollectionVCell.xib; sourceTree = "<group>"; };
+		E578160E2A68014200DD7F63 /* TableViewHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewHeader.xib; sourceTree = "<group>"; };
+		E578160F2A68014200DD7F63 /* TableSectionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableSectionHeader.xib; sourceTree = "<group>"; };
+		E57816102A68014200DD7F63 /* InstaTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstaTableViewCell.swift; sourceTree = "<group>"; };
+		E57816112A68014200DD7F63 /* TableSectionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableSectionHeader.swift; sourceTree = "<group>"; };
+		E57816122A68014200DD7F63 /* InstaCollectionVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstaCollectionVCell.swift; sourceTree = "<group>"; };
+		E57816132A68014200DD7F63 /* StatusCollectionVCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StatusCollectionVCell.xib; sourceTree = "<group>"; };
+		E57816202A6801EC00DD7F63 /* InstagramStoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramStoryModel.swift; sourceTree = "<group>"; };
+		E57816222A68024300DD7F63 /* InstaSegmentEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstaSegmentEnum.swift; sourceTree = "<group>"; };
+		E57816242A68037800DD7F63 /* StackViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackViewVC.swift; sourceTree = "<group>"; };
 		E579093C2A505ED5001A0F93 /* Alamofire.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Alamofire.storyboard; sourceTree = "<group>"; };
 		E57909412A505F23001A0F93 /* AlamofireVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireVC.swift; sourceTree = "<group>"; };
 		E57909462A52ABCA001A0F93 /* UploadImageAF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadImageAF.swift; sourceTree = "<group>"; };
@@ -338,7 +367,6 @@
 		E5EF228C2A4FE4270034254C /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		E5EF228E2A4FE4BB0034254C /* MainScreenCoordinatoor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenCoordinatoor.swift; sourceTree = "<group>"; };
 		E5EF22902A4FE5880034254C /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
-		E5EF22922A4FE7410034254C /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 		E5EF22942A4FF39D0034254C /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
 		E5EF22962A4FF9690034254C /* APIScreenCoordinatoor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIScreenCoordinatoor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -408,7 +436,7 @@
 		E53283FB29F7EA77005F8AF1 = {
 			isa = PBXGroup;
 			children = (
-				E5EF22922A4FE7410034254C /* R.generated.swift */,
+				E57816042A68014200DD7F63 /* InstagramProfileScreen */,
 				E579093B2A503731001A0F93 /* Almofire */,
 				E5EF22892A4FE3CD0034254C /* Coordinator */,
 				E5EF227F2A4EF2400034254C /* Dynamics */,
@@ -444,6 +472,7 @@
 		E532840629F7EA77005F8AF1 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				E57816242A68037800DD7F63 /* StackViewVC.swift */,
 				E5C5B5A62A11FFB70084F576 /* Cell */,
 				E5454DB12A0921AF00A84098 /* CustomButton.swift */,
 				E585D7B429FA88E200CAEF40 /* UITextFieldVC.swift */,
@@ -590,6 +619,49 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		E57816042A68014200DD7F63 /* InstagramProfileScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E57816052A68014200DD7F63 /* ViewControllers */,
+				E57816072A68014200DD7F63 /* Storybord */,
+				E57816092A68014200DD7F63 /* CustomView */,
+			);
+			path = InstagramProfileScreen;
+			sourceTree = "<group>";
+		};
+		E57816052A68014200DD7F63 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E57816062A68014200DD7F63 /* InstagramProfileVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E57816072A68014200DD7F63 /* Storybord */ = {
+			isa = PBXGroup;
+			children = (
+				E57816082A68014200DD7F63 /* InstagramProfile.storyboard */,
+			);
+			path = Storybord;
+			sourceTree = "<group>";
+		};
+		E57816092A68014200DD7F63 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				E578160A2A68014200DD7F63 /* InstaTableViewCell.xib */,
+				E578160B2A68014200DD7F63 /* TableViewHeader.swift */,
+				E578160C2A68014200DD7F63 /* StatusCollectionVCell.swift */,
+				E578160D2A68014200DD7F63 /* InstaCollectionVCell.xib */,
+				E578160E2A68014200DD7F63 /* TableViewHeader.xib */,
+				E578160F2A68014200DD7F63 /* TableSectionHeader.xib */,
+				E57816102A68014200DD7F63 /* InstaTableViewCell.swift */,
+				E57816112A68014200DD7F63 /* TableSectionHeader.swift */,
+				E57816122A68014200DD7F63 /* InstaCollectionVCell.swift */,
+				E57816132A68014200DD7F63 /* StatusCollectionVCell.xib */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
 		E579093B2A503731001A0F93 /* Almofire */ = {
 			isa = PBXGroup;
 			children = (
@@ -654,6 +726,7 @@
 		E5C5B59F2A11FE310084F576 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E57816202A6801EC00DD7F63 /* InstagramStoryModel.swift */,
 				E54083D12A208CBA006A0E93 /* PickerViewData.swift */,
 				E5C5B5A02A11FE590084F576 /* Document.swift */,
 				E5710EE32A138E0E00E10408 /* StatusEnum.swift */,
@@ -678,6 +751,7 @@
 		E5D7D2462A08D04D004B8922 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				E57816222A68024300DD7F63 /* InstaSegmentEnum.swift */,
 				E5D7D2472A08D07B004B8922 /* Validator.swift */,
 				E51427F02A0A951D0069656F /* AppConstants.swift */,
 				E51606962A0B6112002E654C /* Enumeration.swift */,
@@ -875,6 +949,7 @@
 			buildConfigurationList = E532842E29F7EA79005F8AF1 /* Build configuration list for PBXNativeTarget "UIComponets" */;
 			buildPhases = (
 				7CEC2178AAD70D45E8EEB313 /* [CP] Check Pods Manifest.lock */,
+				E5CE20592A67F7590007FF63 /* ShellScript */,
 				E532840029F7EA77005F8AF1 /* Sources */,
 				E532840129F7EA77005F8AF1 /* Frameworks */,
 				E532840229F7EA77005F8AF1 /* Resources */,
@@ -979,21 +1054,27 @@
 			files = (
 				E5E989C42A4C0BE20007AEC4 /* NewsTblvCell.xib in Resources */,
 				E5CD55B42A166CB50090BB81 /* JobHomeScreenCell.xib in Resources */,
+				E578161A2A68014300DD7F63 /* TableViewHeader.xib in Resources */,
 				E59E8F292A178B4600956D09 /* JobTblVHeader.xib in Resources */,
 				E5709C6A2A127CCC00129DDE /* Colors.xcassets in Resources */,
 				E5704A5E2A276009000A2373 /* WebView.storyboard in Resources */,
 				E546655F2A1F3D0500823ABA /* Main.storyboard in Resources */,
 				E546655E2A1F3D0500823ABA /* LaunchScreen.storyboard in Resources */,
 				E5B8E5482A14F4AC0013E231 /* JobCollectionCell.xib in Resources */,
+				E57816192A68014300DD7F63 /* InstaCollectionVCell.xib in Resources */,
 				E579093D2A505ED5001A0F93 /* Alamofire.storyboard in Resources */,
+				E57816152A68014300DD7F63 /* InstagramProfile.storyboard in Resources */,
 				E54665622A1F3D0500823ABA /* HomeScreen.storyboard in Resources */,
 				E566C9002A1FC23D009D8BA6 /* PickerView.storyboard in Resources */,
 				E5E989CD2A4C5A7F0007AEC4 /* DownloadImage.storyboard in Resources */,
 				E53774AA2A21B9BA0062130E /* CLLocation.storyboard in Resources */,
+				E578161F2A68014300DD7F63 /* StatusCollectionVCell.xib in Resources */,
 				E54665602A1F3D0500823ABA /* FrameBound.storyboard in Resources */,
+				E57816162A68014300DD7F63 /* InstaTableViewCell.xib in Resources */,
 				E5E989BE2A4C0A7D0007AEC4 /* News.storyboard in Resources */,
 				E54665612A1F3D0500823ABA /* UIButtons.storyboard in Resources */,
 				E53B1F6B2A28627800B3C4F5 /* CustomActivityIndicatorView.xib in Resources */,
+				E578161B2A68014300DD7F63 /* TableSectionHeader.xib in Resources */,
 				E5709C6C2A1359BB00129DDE /* Font in Resources */,
 				E5704A642A277B75000A2373 /* ActivityIndicator.storyboard in Resources */,
 				E5AFC8AF2A2497120088613F /* UINavigationControl.storyboard in Resources */,
@@ -1128,6 +1209,25 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E5CE20592A67F7590007FF63 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1158,16 +1258,19 @@
 				E5E989B32A4B134A0007AEC4 /* User.swift in Sources */,
 				E53774A82A2107D60062130E /* TextFiledDatePickerVC.swift in Sources */,
 				E5CFC9112A1E4C7F00AA3248 /* ScrollViewPaggingVC.swift in Sources */,
+				E57816142A68014300DD7F63 /* InstagramProfileVC.swift in Sources */,
 				E5D2695A2A0A6DF200DD5184 /* BaseViewController.swift in Sources */,
 				E5EF22912A4FE5880034254C /* MainViewController.swift in Sources */,
 				E5D7D24C2A08D29E004B8922 /* UIStepperVC.swift in Sources */,
 				E5CD55B02A164EB60090BB81 /* JobScreenHomeVC.swift in Sources */,
+				E57816212A6801EC00DD7F63 /* InstagramStoryModel.swift in Sources */,
 				E5B8E54C2A14F7B70013E231 /* JobCollectionVC.swift in Sources */,
 				E5CD55B32A166CB50090BB81 /* JobHomeScreenCell.swift in Sources */,
 				E532840C29F7EA77005F8AF1 /* ViewController.swift in Sources */,
 				E57A35AD2A22458C007F8B88 /* LocationsModel.swift in Sources */,
 				E57A35AB2A224208007F8B88 /* LocationHelper.swift in Sources */,
 				E557181929FBEFDA00705C56 /* TextViewVC.swift in Sources */,
+				E578161E2A68014300DD7F63 /* InstaCollectionVCell.swift in Sources */,
 				E5DF70BD2A15E848007F4ABC /* BaseTableViewCell.swift in Sources */,
 				E531EE0C2A055A49007F6A8E /* ExtendFunctionsVC.swift in Sources */,
 				E59E8F2B2A178CCA00956D09 /* JobTblViewHeader.swift in Sources */,
@@ -1182,7 +1285,6 @@
 				E585D7B529FA88E200CAEF40 /* UITextFieldVC.swift in Sources */,
 				E51F0AF329F7FA37009A660F /* UILabelViewController.swift in Sources */,
 				E5EF22852A4F2E360034254C /* ImageDownloadHelper.swift in Sources */,
-				E5EF22932A4FE7410034254C /* R.generated.swift in Sources */,
 				E5EF227E2A4EE30B0034254C /* uploadImageResponse.swift in Sources */,
 				E54083D82A20F55F006A0E93 /* DatePickerVC.swift in Sources */,
 				E516069B2A0B6AED002E654C /* PHPickerHelper.swift in Sources */,
@@ -1190,12 +1292,14 @@
 				E517D6BC2A25E3AF0061C97A /* SignUpVC.swift in Sources */,
 				E546656B2A1F56E000823ABA /* UITabBarVC.swift in Sources */,
 				E5EF227C2A4EE2BF0034254C /* URLRequest+Extension.swift in Sources */,
+				E57816232A68024300DD7F63 /* InstaSegmentEnum.swift in Sources */,
 				E57909422A505F23001A0F93 /* AlamofireVC.swift in Sources */,
 				E5D269662A0A7CEB00DD5184 /* PHPickerVC.swift in Sources */,
 				E57FF9512A1515C70030E30A /* JobHeaderRV.swift in Sources */,
 				E52407342A12278D006353BF /* HomeScreenCell.swift in Sources */,
 				E5EF22782A4EE27B0034254C /* imageUploadHelper.swift in Sources */,
 				E566C9022A1FC2A9009D8BA6 /* PickerVC.swift in Sources */,
+				E578161D2A68014300DD7F63 /* TableSectionHeader.swift in Sources */,
 				E53774B12A21BAE00062130E /* LocationVC.swift in Sources */,
 				E5710EEC2A139AB000E10408 /* ExpandableCell.swift in Sources */,
 				E5E989CF2A4C5EAB0007AEC4 /* DownloadImageVC.swift in Sources */,
@@ -1204,11 +1308,13 @@
 				E517D6C02A25FFF00061C97A /* UserScreenVC.swift in Sources */,
 				E5E989B12A4AE3F60007AEC4 /* WebServiceMainVC.swift in Sources */,
 				E5710EEA2A139A9400E10408 /* ExpandableVC.swift in Sources */,
+				E57816172A68014300DD7F63 /* TableViewHeader.swift in Sources */,
 				E5E989C82A4C362C0007AEC4 /* ApiManager.swift in Sources */,
 				E526E48C2A0E648400C6E597 /* TableViewCell.swift in Sources */,
 				E57A35A72A221003007F8B88 /* MapViewVC.swift in Sources */,
 				E53774AC2A21B9F20062130E /* CLLocationVC.swift in Sources */,
 				E5E989B52A4B2A8E0007AEC4 /* UserModel.swift in Sources */,
+				E578161C2A68014300DD7F63 /* InstaTableViewCell.swift in Sources */,
 				E555A67A2A18DEA30000F142 /* FeaturedJobModel.swift in Sources */,
 				E5C5B5A32A11FF660084F576 /* HomeScreenVC.swift in Sources */,
 				E54083D42A209114006A0E93 /* PickerViewEnum.swift in Sources */,
@@ -1237,11 +1343,13 @@
 				E5EF228F2A4FE4BB0034254C /* MainScreenCoordinatoor.swift in Sources */,
 				E532840A29F7EA77005F8AF1 /* SceneDelegate.swift in Sources */,
 				E5AFC8B52A2497E60088613F /* ThirdNavCVC.swift in Sources */,
+				E57816252A68037800DD7F63 /* StackViewVC.swift in Sources */,
 				E5D7D2512A0911A0004B8922 /* UIImageVC.swift in Sources */,
 				E53B1F712A28B94100B3C4F5 /* HTMLString.swift in Sources */,
 				E531EE062A052F78007F6A8E /* UIPageControlVC.swift in Sources */,
 				E5C5B5A12A11FE590084F576 /* Document.swift in Sources */,
 				E5B8E53C2A14D8290013E231 /* CollectionViewCell.swift in Sources */,
+				E57816182A68014300DD7F63 /* StatusCollectionVCell.swift in Sources */,
 				E5E989C32A4C0BE20007AEC4 /* NewsTblvCell.swift in Sources */,
 				E5C5B59C2A0E9A0D0084F576 /* TextViewSelectionVC.swift in Sources */,
 				E555A6782A18D5330000F142 /* JobHomeScreenEnum.swift in Sources */,
