@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SignUpVC: UIViewController {
+class SignUpVC: BaseViewController {
     
     // MARK: - Life cycle Methods
     override func viewDidLoad() {

@@ -7,7 +7,7 @@
 
 import UIKit
 
-class DatePickerVC: UIViewController {
+class DatePickerVC: BaseViewController {
 
     // MARK: - IBOutlets
     @IBOutlet weak var datePicker: UIDatePicker!

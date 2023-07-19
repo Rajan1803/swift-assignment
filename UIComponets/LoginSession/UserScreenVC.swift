@@ -7,7 +7,7 @@
 
 import UIKit
 
-class UserScreenVC: UIViewController {
+class UserScreenVC: BaseViewController {
    
     // Customize StatusBar
     override var preferredStatusBarStyle: UIStatusBarStyle{
