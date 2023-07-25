@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="JobCollectionCell" id="gTV-IL-0wX" customClass="JobCollectionCell" customModule="UIComponets" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="156" height="164"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="156" height="164"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="77o-ZO-HkB">
+                        <rect key="frame" x="0.0" y="0.0" width="156" height="164"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Vector" translatesAutoresizingMaskIntoConstraints="NO" id="iGt-vm-IWz">
+                                <rect key="frame" x="58" y="24" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="8V8-Ch-lM8"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UX Designer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r7i-9g-CaH">
+                                <rect key="frame" x="37.333333333333336" y="82.333333333333329" width="81.333333333333314" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dribbble" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NoV-XU-azg">
+                                <rect key="frame" x="54" y="103.33333333333333" width="48.333333333333343" height="14.333333333333329"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" name="SeeAllLblColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$80,000/y" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="46i-42-hBG">
+                                <rect key="frame" x="49" y="125.66666666666667" width="58.333333333333343" height="14.333333333333329"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" name="CellColor"/>
+                        <constraints>
+                            <constraint firstItem="r7i-9g-CaH" firstAttribute="centerX" secondItem="iGt-vm-IWz" secondAttribute="centerX" id="Hma-va-mqw"/>
+                            <constraint firstItem="iGt-vm-IWz" firstAttribute="width" secondItem="77o-ZO-HkB" secondAttribute="width" multiplier="0.25641" id="I7C-qZ-l7C"/>
+                            <constraint firstItem="iGt-vm-IWz" firstAttribute="top" secondItem="77o-ZO-HkB" secondAttribute="top" constant="24" id="ImU-Mp-kWk"/>
+                            <constraint firstItem="46i-42-hBG" firstAttribute="centerX" secondItem="NoV-XU-azg" secondAttribute="centerX" id="NwC-7J-baM"/>
+                            <constraint firstItem="iGt-vm-IWz" firstAttribute="centerX" secondItem="77o-ZO-HkB" secondAttribute="centerX" id="SYr-Rl-1Hs"/>
+                            <constraint firstItem="NoV-XU-azg" firstAttribute="top" secondItem="r7i-9g-CaH" secondAttribute="bottom" constant="4" id="U6A-gc-VU6"/>
+                            <constraint firstAttribute="height" constant="164" id="WzA-qD-dR4"/>
+                            <constraint firstItem="NoV-XU-azg" firstAttribute="centerX" secondItem="r7i-9g-CaH" secondAttribute="centerX" id="XWv-Ti-mC7"/>
+                            <constraint firstAttribute="width" constant="156" id="ckj-Cf-Uhr"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="r7i-9g-CaH" secondAttribute="trailing" constant="10" id="jee-1Z-5IV"/>
+                            <constraint firstItem="r7i-9g-CaH" firstAttribute="top" relation="greaterThanOrEqual" secondItem="iGt-vm-IWz" secondAttribute="bottom" constant="5" id="n7V-NO-4i9"/>
+                            <constraint firstItem="r7i-9g-CaH" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="77o-ZO-HkB" secondAttribute="leading" constant="10" id="ofs-kd-OtA"/>
+                            <constraint firstItem="46i-42-hBG" firstAttribute="top" secondItem="NoV-XU-azg" secondAttribute="bottom" constant="8" id="s0j-qN-Cww"/>
+                            <constraint firstAttribute="bottom" secondItem="46i-42-hBG" secondAttribute="bottom" constant="24" id="u5n-JF-fd8"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="77o-ZO-HkB" secondAttribute="trailing" id="KCz-0J-Fpo"/>
+                <constraint firstItem="77o-ZO-HkB" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="UaA-Kf-sFX"/>
+                <constraint firstItem="77o-ZO-HkB" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="XN7-QL-JDR"/>
+                <constraint firstAttribute="bottom" secondItem="77o-ZO-HkB" secondAttribute="bottom" id="j1R-j6-Akl"/>
+            </constraints>
+            <size key="customSize" width="149" height="138"/>
+            <connections>
+                <outlet property="collectionInnerView" destination="77o-ZO-HkB" id="MBN-ON-tWo"/>
+                <outlet property="imgCompanyLogo" destination="iGt-vm-IWz" id="2ms-J5-8IZ"/>
+                <outlet property="lblCompanyName" destination="NoV-XU-azg" id="htK-1k-gIQ"/>
+                <outlet property="lblJobTitle" destination="r7i-9g-CaH" id="YdI-H1-NbG"/>
+                <outlet property="lblSalary" destination="46i-42-hBG" id="a2I-Nl-uKd"/>
+            </connections>
+            <point key="canvasLocation" x="143.5114503816794" y="19.718309859154932"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Vector" width="40" height="40"/>
+        <namedColor name="CellColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="SeeAllLblColor">
+            <color red="0.63599997758865356" green="0.63999998569488525" blue="0.66299998760223389" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
